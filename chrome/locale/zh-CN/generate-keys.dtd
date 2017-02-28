@@ -1,0 +1,8 @@
+<!ENTITY window.title "Lazarus: 生成加密密钥">
+<!ENTITY generatekeys.description "为了您的安全，Lazarus 要求所有表单数据必须加密之后才能保存到本地的 Lazarus 数据库。生成加密密钥仅需很短的时间，然后需要您登陆到 Firefox 的软件安全设备。在生成加密密钥前，Lazarus 将无法保存您的表单。">
+<!ENTITY generatekeys.description.extra "立即生成加密密钥吗？">
+<!ENTITY generatekeys.generating "正在生成密钥，请稍候...（这可能需要约30秒才能完成）">
+<!ENTITY keys.generated "加密密钥生成成功。">
+<!ENTITY key.generation.error "抱歉，某处出现了问题导致我们无法在本机上生成加密密钥。\n请报告此错误给 lazarus@interclue.com">
+<!ENTITY key.generation.cancelled "Lazarus 将被禁用，直到您选择生成加密密钥？">
+<!ENTITY password.not.entered "必须有主密码以生成加密密钥！">

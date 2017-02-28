@@ -1,0 +1,19 @@
+<!ENTITY window.title "Lazarus: Text Recovery">
+<!ENTITY copy.to.clipboard "Copy and Close">
+
+<!ENTITY cutCmd.label "Cut">
+<!ENTITY copyCmd.label "Copy">
+<!ENTITY pasteCmd.label "Paste">
+<!ENTITY undoCmd.label "Undo">
+<!ENTITY deleteCmd.label "Delete">
+<!ENTITY selectAllCmd.label "Select All">
+
+<!ENTITY cutCmd.accesskey "T">
+<!ENTITY copyCmd.accesskey "C">
+<!ENTITY pasteCmd.accesskey "P">
+<!ENTITY undoCmd.accesskey "U">
+<!ENTITY deleteCmd.accesskey "D">
+<!ENTITY selectAllCmd.accesskey "A">
+
+<!ENTITY htmlView "HTML view">
+<!ENTITY textView "Source view">

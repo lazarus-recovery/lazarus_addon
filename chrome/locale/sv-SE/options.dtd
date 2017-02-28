@@ -1,0 +1,143 @@
+<!-- initial window size in pixels -->
+<!ENTITY window.width "555">
+<!ENTITY window.height "470">
+<!ENTITY window.title "Lazarus: Inställningar">
+<!ENTITY welcome.pane.title "Välkommen">
+<!ENTITY general.pane.title "Allmänt">
+<!ENTITY database.pane.title "Databas">
+<!ENTITY minutes "minuter">
+<!ENTITY hours "timmar">
+<!ENTITY days "dagar">
+<!ENTITY weeks "veckor">
+<!ENTITY welcome.title "Lazarus: Formuläråterställning">
+<!ENTITY welcome.message "Lazarus är utformat för att köras diskret i bakgrunden. Men, så en dag när du har spenderat 30 minuter med att
+
+
+
+
+
+
+    fylla i ett viktigt formulär, så kraschar servern just som du skickar in det. Det är då Lazarus kommer med sitt trollspö.
+
+
+
+    Högerklicka bara på formuläret och välj &quot;Återskapa formulär&quot;, så återställs alla fälten till det tillstånd de var i precis innan du skickade dem.">
+<!ENTITY saveSearchForms.label "Spara sökformulär">
+<!ENTITY saveSearchForms.description "Att avmarkera detta alternativ förhindrar att den sparade formulärdatabasen fylls med data från sökformulär.
+
+
+
+
+
+
+Sökformulär behöver som regel inte sparas eftersom söktermer ofta ändras och förlorade sökningar enkelt kan göras om. 
+
+
+
+Avancerade sökformulär (formulär med fler än 1 textfält och/eller flera andra alternativ) kommer fortfarande att sparas.">
+<!ENTITY savePasswordFields.label "Spara lösenord">
+<!ENTITY savePasswordFields.description "Att spara lösenord rekommenderas inte eftersom det gör att vemsomhelst med fysisk tillgång 
+
+
+
+
+
+
+    till din dator åtkomst till lösenord som du har angivit på webbsidor. 
+
+
+
+    Att spara lösenord rekommenderas inte.">
+<!ENTITY replaceCreditCardNumbers.label "Ersätt kreditkortsnummer">
+<!ENTITY replaceCreditCardNumbers.description "Som standard kommer Lazarus att ersätta kreditkortsnummer (alla strängar med 13-16 siffror i rad) med nollor för att förhindra att någon med 
+
+
+
+
+
+
+	fysisk tillgång till din dator får tag i den kreditkortsinformation som du kanske har angivit på webbsidor. Om du avmarkerar detta alternativ, så kommer Lazarus inte längre att ersätta siffrorna, utan istället spara och återställa dem precis som all annan text.">
+<!ENTITY saveHiddenFields.label "Spara dolda fält">
+<!ENTITY saveHiddenFields.description "Dolda fält används ofta av webbplatser för att lagra sessionsinformation. 
+
+
+
+
+
+
+    Denna information kan möjliggöra för en användare med fysisk tillgång till din dator att automatiskt logga in i ditt namn. 
+
+
+
+    Att spara dolda fält rekommenderas inte.">
+<!ENTITY disableSearch.label "Inaktivera sökindexering">
+<!ENTITY disableSearch.description "Inaktivera indexering av din sparade data">
+<!ENTITY disableSearch.description.link "Varför skulle någon göra det? ">
+<!ENTITY expireSavedForms.label "Ta bort sparade formulär efter">
+<!ENTITY expireSavedForms.description "Formulärinformation sparas till en databas så att de kan hämtas också efter en webbläsarkrasch. 
+
+
+
+
+
+
+    Hur länge skall formulärinformationen behållas?">
+<!ENTITY showInStatusbar.label "Visa ikon i statusfältet">
+<!ENTITY showInStatusbar.description "Vill du ha Lazarus-ikonen i ditt statusfält?">
+<!ENTITY showContextMenuIcons.label "Visa ikoner i snabbmenyn">
+<!ENTITY showContextMenuIcons.description "Vill du att Lazarus menyobjekt i högerklicksmenyn skall ha ikoner bredvid sig?">
+<!ENTITY showDonateNotification.label "Visa återställningsavisering">
+<!ENTITY showDonateNotification.description "Skall vi påminna dig om att du kan donera till Lazarus när ett stort formulär återställs?">
+<!ENTITY checkForUpdates.label "Sök efter uppdateringar">
+<!ENTITY checkForUpdates.description "Vill du att Lazarus automatiskt skall söka efter nya versioner?">
+<!ENTITY checkForUpdatesBeta.label "Sök efter nya betaversioner">
+<!ENTITY checkForUpdatesBeta.description "Skall vi även söka efter nya betaversioner?">
+<!ENTITY removeForms.title "Ta bort alla sparade formulär">
+<!ENTITY removeForms.description "Ta bort alla sparade formulär och text från databasen">
+<!ENTITY removeForms.confirm "Är du säker på att du vill ta bort ALLA sparade formulär?\nDenna åtgärd kan inte ångras!">
+<!ENTITY removeForms.complete "Formulär borttagna.">
+<!ENTITY removeTemplates.title "Ta bort alla sparade mallar">
+<!ENTITY removeTemplates.description "Ta bort alla sparade mallar från databasen">
+<!ENTITY removeTemplates.confirm "Är du säker på att du vill ta bort ALLA sparade mallar?\nDenna åtgärd kan inte ångras!">
+<!ENTITY removeTemplates.complete "Mallar borttagna.">
+<!ENTITY cleanDatabase.title "Rensa databasen">
+<!ENTITY cleanDatabase.description "Ta bort tomma poster från databasen, och rensa i databasens filstruktur. OBS: Detta kan ta en liten stund (~30 sekunder) att slutföra">
+<!ENTITY restoreDatabase.title "Återställ databasen från säkerhetskopia">
+<!ENTITY restoreDatabase.description "Återställ databasen från den senast kända säkerhetskopian. Ledsen, men denna åtgärd kräver att webbläsaren startas om.">
+<!ENTITY deleteDatabase.title "Ta bort databasen">
+<!ENTITY deleteDatabase.description "Ta bort Lazarus databasfil från ditt filsystem! Denna åtgärd kräver att webbläsaren startas om.">
+<!ENTITY security.pane.title "Säkerhet">
+<!ENTITY useFormTextForSubmenuItems "Visa text i menyn">
+<!ENTITY useTimeForSubmenuItems "Visa spartid i menyn">
+<!ENTITY showFormTextInSubMenu.description "Vill du att undermenyobjekten skall visa den första textraden från det sparade formuläret eller 
+
+
+
+
+
+
+    föredrar du att visa tiden då formuläret sparades?">
+<!ENTITY usePassword.label "Kräv ett lösenord för att återskapa formulär">
+<!ENTITY backupDatabase.label "Behåll en säkerhetskopia av databasen ">
+<!ENTITY changePassword "Byt lösenord">
+<!ENTITY changePassword.description "Det bästa sättet att säkra din privata formulärinformation är att ange ett
+
+
+
+
+
+
+    Lazarus-lösenord. Lösenordet kommer att behöva anges en gång per webbläsarsession, den första gången du försöker återställa ett formulär.">
+<!ENTITY changePassword.description.extra "Alla formulär kommer fortsätta att sparas vare sig du har angivit ditt lösenord eller inte">
+<!ENTITY resetPassword "Återställ lösenord">
+<!ENTITY textManager.title "Sök i Lazarus">
+<!ENTITY textManager.description "Sök och återställ data även om originalformuläret/-sidan inte längre kan nås">
+<!ENTITY enableInPrivateBrowsingMode.label "Aktivera Lazarus i Privat surfning-läget">
+<!ENTITY enableInPrivateBrowsingMode.description "Vissa användare kör alltid Firefox i Privat surfning-läget, men vill ha det skydd som Lazarus ger genom att spara deras användardata på ett säkert sätt.
+
+
+
+
+
+
+För dessa användare erbjuder vi alternativet att aktivera Lazarus också i Privat surfning-läget. Vi rekommenderar starkt att du använder ett Lazarus-lösenord om du aktiverar detta alternativ.">

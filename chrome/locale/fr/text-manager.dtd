@@ -1,0 +1,11 @@
+<!ENTITY done "Effectué">
+<!ENTITY delete.label "Supprimer la sélection">
+<!ENTITY text.created "Créé">
+<!ENTITY text.recover "Rétablir">
+<!ENTITY text.text "Texte">
+<!ENTITY text.url "URL">
+<!ENTITY window.title "Lazarus : recherche">
+<!ENTITY search.label "Rechercher">
+<!ENTITY search.clear.label "Effacer">
+<!ENTITY search.description "Veuillez prendre note : les recherches ne donneront des résultats cohérents que si elles s'effectuent à partir de MOTS COMPLETS ou de PHRASES COMPLÈTES (cela est dû au chiffrement utilisé sur l'index de recherche)">
+<!ENTITY search.disabled.description "La recherche est actuellement désactivée. Pour activer à nouveau la recherche, décochez la case à cocher « Désactiver la recherche de texte » dans les options de sécurité de Lazarus.">

@@ -1,0 +1,6 @@
+<!ENTITY window.title "Lazarus: 反安裝選項">
+<!ENTITY uninstallInfo "Lazarus: 反安裝選項">
+<!ENTITY removeUserSettings "移除使用者設定">
+<!ENTITY removeSavedForms "移除已儲存的表單">
+<!ENTITY ok "確定">
+<!ENTITY unable.to.remove.db "Lazarus 把表單存在您設定檔資料夾中的 lazarus.sqlite 檔案。由於 Firefox 的限制，我們沒有辦法在反安裝的過程中刪除這個檔案，所有的表單將會從這個資料庫檔案中被移除，但是這個空白的檔案將仍然會存在於您的設定檔資料夾裡面。在 Lazarus 被完全移除之後就可以安全的刪除這個檔案了。">

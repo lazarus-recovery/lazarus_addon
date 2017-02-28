@@ -1,0 +1,8 @@
+<!ENTITY window.title "Lazarus : Générer les clés de chiffrement">
+<!ENTITY generatekeys.description "Pour votre sécurité, Lazarus demande à ce que toute donnée de formulaire soit chiffrée avant d'être enregistrée dans la base de données locale Lazarus. La génération des clés de chiffrement peut prendre un peu de temps et nécessite que vous ayez indiqué le mot de passe principal de Firefox. Lazarus ne pourra enregistrer vos formulaires tant que vous n'aurez pas généré les clés.">
+<!ENTITY generatekeys.description.extra "Générer les clés de chiffrement maintenant ?">
+<!ENTITY generatekeys.generating "Veuillez patienter, cela peut prendre 30 secondes. Génération des clés…">
+<!ENTITY keys.generated "Les clés de chiffrement ont été générées avec succès.">
+<!ENTITY key.generation.error "Désolé, quelque chose c'est mal passé et nous n'avons pu générer de clés de chiffrement sur cette machine.\nVeuillez signaler cette erreur à lazarus@interclue.com">
+<!ENTITY key.generation.cancelled "Lazarus restera désactivée jusqu'à ce que les clés de chiffrement auront été générées ?">
+<!ENTITY password.not.entered "Le mot de passe principal est nécessaire pour générer les clés de chiffrement !">

@@ -1,0 +1,16 @@
+<!ENTITY window.title "Lazarus: 文字救援">
+<!ENTITY copy.to.clipboard "複製並關閉">
+<!ENTITY cutCmd.label "剪下">
+<!ENTITY copyCmd.label "複製">
+<!ENTITY pasteCmd.label "貼上">
+<!ENTITY undoCmd.label "還原">
+<!ENTITY deleteCmd.label "刪除">
+<!ENTITY selectAllCmd.label "全選">
+<!ENTITY cutCmd.accesskey "T">
+<!ENTITY copyCmd.accesskey "C">
+<!ENTITY pasteCmd.accesskey "P">
+<!ENTITY undoCmd.accesskey "U">
+<!ENTITY deleteCmd.accesskey "D">
+<!ENTITY selectAllCmd.accesskey "A">
+<!ENTITY htmlView "HTML 檢視">
+<!ENTITY textView "來源格式檢視">

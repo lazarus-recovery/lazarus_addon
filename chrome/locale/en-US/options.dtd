@@ -1,0 +1,108 @@
+
+<!-- initial window size in pixels --> 
+<!ENTITY window.width "555"> 
+<!ENTITY window.height "470">
+<!ENTITY window.title "Lazarus: Form Recovery: Options">
+
+<!ENTITY welcome.pane.title "Welcome">
+<!ENTITY general.pane.title "General">
+<!ENTITY database.pane.title "Database">
+
+<!ENTITY minutes "minutes">
+<!ENTITY hours "hours">
+<!ENTITY days "days">
+<!ENTITY weeks "weeks">
+
+
+<!ENTITY welcome.title "Lazarus: Form Recovery">
+<!ENTITY welcome.message "Lazarus is designed to run unobtrusively in the background. Then one day you'll spend 30 minutes 
+    filling in an important form, and the server will go down just before you submit it. That's where Lazarus works its magic.
+    Just right click the form and hit 'Recover Form' and all the fields will be restored to the state they were in just before you sent them.">
+
+<!ENTITY saveSearchForms.label "Save search forms">
+<!ENTITY saveSearchForms.description "Unchecking this option prevents the saved form database from being filled up with data from search forms.
+Saving search forms is generally not of use, as search terms change often, and lost searches are easily re-entered. 
+Advanced search forms (forms with more than 1 text field and/or many other options) will still be saved.">
+    
+<!ENTITY savePasswordFields.label "Save passwords">
+<!ENTITY savePasswordFields.description "Saving passwords is not recommended as it allows anyone with physical access 
+    to your computer access to passwords you have entered into web pages. 
+    Saving passwords is not recommended.">
+		
+<!ENTITY replaceCreditCardNumbers.label "Replace credit card numbers">
+<!ENTITY replaceCreditCardNumbers.description "By default Lazarus will replace credit card numbers (any string of 13-16 digits in a row) with zeros to prevent anyone who has 
+	physical access to your computer from gaining any credit card details you might have entered into web pages. If you uncheck this option Lazarus will no longer replace the numbers, but will save and restore them like any other text.">
+
+<!ENTITY saveHiddenFields.label "Save hidden fields">
+<!ENTITY saveHiddenFields.description "Hidden fields are often used by sites to store session information. 
+	This information could allow a user with physical access to your computer to be automatically logged in as you. 
+	Saving hidden fields is not recommended.">
+
+
+<!ENTITY disableSearch.label "Disable search indexing">
+<!ENTITY disableSearch.description "Disable indexing of your saved data">
+<!ENTITY disableSearch.description.link "Why would anyone do this? ">
+
+
+<!ENTITY expireSavedForms.label "Remove saved forms after">
+<!ENTITY expireSavedForms.description "Form details are saved to a database so they can be retrieved even after a browser crash. 
+    How long should the form details be kept for?">
+
+<!ENTITY showInStatusbar.label "Show icon in statusbar">
+<!ENTITY showInStatusbar.description "Do you want the Lazarus icon in your statusbar?">
+
+<!ENTITY showContextMenuIcons.label "Show icons in context menu">
+<!ENTITY showContextMenuIcons.description "Do you want the Lazarus menuitems in the right click menu to have icons next to them?">
+
+<!ENTITY showDonateNotification.label "Show restore notification">
+<!ENTITY showDonateNotification.description "Should we remind you that you can donate to Lazarus whenever a large form is restored?">
+
+<!ENTITY checkForUpdates.label "Check for updates">
+<!ENTITY checkForUpdates.description "Do you want Lazarus to check for new versions automatically?">
+
+<!ENTITY checkForUpdatesBeta.label "Check for new beta versions">
+<!ENTITY checkForUpdatesBeta.description "We can also check for new beta versions?">
+
+<!ENTITY removeForms.title "Remove all saved forms">
+<!ENTITY removeForms.description "Delete all saved forms and text from the database">
+<!ENTITY removeForms.confirm "Are you sure you want to remove ALL saved forms?\nThis action can not be undone!">
+<!ENTITY removeForms.complete "Forms removed.">
+
+<!ENTITY removeTemplates.title "Remove all saved templates">
+<!ENTITY removeTemplates.description "Delete all saved templates from the database">
+<!ENTITY removeTemplates.confirm "Are you sure you want to remove ALL saved templates?\nThis action can not be undone!">
+<!ENTITY removeTemplates.complete "Templates removed.">
+
+<!ENTITY cleanDatabase.title "Clean The Database">
+<!ENTITY cleanDatabase.description "Remove empty records from the database, and clean up the database file structure. NOTE: this can take some time (~30 seconds) to complete">
+
+<!ENTITY restoreDatabase.title "Restore Database from Backup">
+<!ENTITY restoreDatabase.description "Restore the database from the last know backup. Sorry, but this action requires a browser restart :(">
+
+<!ENTITY deleteDatabase.title "Delete The Database">
+<!ENTITY deleteDatabase.description "Delete the Lazarus database file from your file system! This action requires a browser restart :(">
+
+<!ENTITY security.pane.title "Security">
+<!ENTITY useFormTextForSubmenuItems "Show text in menu">
+<!ENTITY useTimeForSubmenuItems "Show saved time in menu">
+
+<!ENTITY showFormTextInSubMenu.description "Do you want the submenu items to show the first line of text from the saved form or 
+    would you prefer to show the time the form was saved.">
+
+<!ENTITY usePassword.label "Require a password to restore forms">
+<!ENTITY backupDatabase.label "Keep a backup of the database ">
+
+<!ENTITY changePassword "Change Password">
+<!ENTITY changePassword.description "The best way to secure your private form information is to set a
+    Lazarus Password. The password will need to be entered once per browser session, the first time you try to restore a form.">
+<!ENTITY changePassword.description.extra "All forms will continue to be saved whether or not you have entered your password">
+<!ENTITY resetPassword "Reset Password">
+
+<!ENTITY textManager.title "Search Lazarus">
+<!ENTITY textManager.description "Search and recover data even if the original form/page is no longer available">
+
+<!ENTITY enableInPrivateBrowsingMode.label "Enable Lazarus in Private Browsing Mode">
+<!ENTITY enableInPrivateBrowsingMode.description "Some users always run Firefox in Private Browsing Mode but want to have the protection of Lazarus saving their user data securely.
+For these users we offer the option of enabling Lazarus whilst you are in Private Browsing Mode. We strongly recommend using a Lazarus password if you enable this option.">
+
+    

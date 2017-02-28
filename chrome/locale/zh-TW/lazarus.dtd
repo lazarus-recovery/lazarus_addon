@@ -1,0 +1,37 @@
+<!ENTITY lazarus.restoreform.contextmenuitem.label "表單復原">
+<!ENTITY lazarus.restoretext.contextmenuitem.label "恢復文字">
+<!ENTITY lazarus.enterpassword.contextmenuitem.label "Lazarus: 表單救援: 登入…">
+<!ENTITY lazarus.logout.contextmenuitem.label "登出">
+<!ENTITY lazarus.statusbar.menuitem.options.label "選項…">
+<!ENTITY lazarus.statusbar.menuitem.options.tooltip "調整您的 Lazarus 選項">
+<!ENTITY lazarus.statusbar.menuitem.textmanager.label "搜尋 Lazarus…">
+<!ENTITY lazarus.statusbar.menuitem.textmanager.tooltip "在資料庫中搜尋遺失的文字">
+<!ENTITY lazarus.statusbar.menuitem.website.label "開啟網站">
+<!ENTITY lazarus.statusbar.menuitem.website.tooltip "開啟 Lazarus 網站">
+<!ENTITY lazarus.statusbar.menuitem.faq.label "F.A.Q.">
+<!ENTITY lazarus.statusbar.menuitem.faq.tooltip "常見問題">
+<!ENTITY lazarus.statusbar.menuitem.donate.label "贊助">
+<!ENTITY lazarus.statusbar.menuitem.donate.tooltip "幫助我們讓 Lazarus 變的更好。今天就捐助！">
+<!ENTITY lazarus.statusbar.menuitem.about.label "關於 Lazarus">
+<!ENTITY lazarus.statusbar.menuitem.about.tooltip "版本資訊">
+<!ENTITY lazarus.statusbar.menuitem.enablefordomain.label "於這個網站啟用 Lazarus">
+<!ENTITY lazarus.statusbar.menuitem.enablefordomain.tooltip "於這個網站重新啟用 Lazarus">
+<!ENTITY lazarus.statusbar.menuitem.disablefordomain.label "於這個網站停用 Lazarus">
+<!ENTITY lazarus.statusbar.menuitem.disablefordomain.tooltip "防止 Lazarus 在這個網站儲存任何資訊">
+<!ENTITY lazarus.statusbar.menuitem.logout.label "登出">
+<!ENTITY lazarus.statusbar.menuitem.logout.tooltip "登出">
+<!ENTITY lazarus.statusbar.image.tooltip "Lazarus 選項…">
+<!ENTITY lazarus.saveform.contextmenuitem.label "將表單儲存成範本…">
+<!ENTITY lazarus.saveform.contextmenuitem.tooltip "將目前的表單狀態儲存成範本">
+<!ENTITY lazarus.domaindisabled.contextmenuitem.label "已於這個網站停用 Lazarus">
+<!ENTITY lazarus.domaindisabled.contextmenuitem.tooltip "已於這個網站停用 Lazarus">
+<!ENTITY lazarus.privatebrowsing.contextmenuitem.label "Lazarus 已被停用">
+<!ENTITY lazarus.privatebrowsing.contextmenuitem.tooltip "隱私瀏覽模式中，Lazarus 已被停用">
+<!ENTITY lazarus.icon.tooltip.enabled "點一下來開啟選項對話窗。點擊滑鼠右鍵取得更多資訊">
+<!ENTITY lazarus.icon.tooltip.disabledfordomain "Lazarus 已於這個網域中停用。按一下於這個網域重新啟用 Lazarus">
+<!ENTITY lazarus.icon.tooltip.disabled "Lazarus 已被停用！點一下以初始化軟體安全裝置">
+<!ENTITY lazarus.icon.tooltip.privatebrowsing "Lazarus 已於隱私瀏覽模式中停用!">
+<!ENTITY lazarus.icon.tooltip.passwordrequired "需要密阿以還原標單。點一下以輸入密碼">
+<!ENTITY lazarus.icon.tooltip.generatingkeys "正在產生加密金鑰…">
+<!ENTITY lazarus.update.stable.available "新版的 Lazarus 已釋出。點一下來下載">
+<!ENTITY lazarus.update.beta.available "新的測試版本 Lazarus 已釋出。點一下來下載">

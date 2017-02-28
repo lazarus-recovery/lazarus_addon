@@ -1,0 +1,12 @@
+<!ENTITY window.title "Lazarus: Gestor de Formulários">
+<!ENTITY window.width "640">
+<!ENTITY window.height "480">
+<!ENTITY done "Concluído">
+<!ENTITY delete.label "Apagar Itens Seleccionados">
+<!ENTITY filter.label "Filtro">
+<!ENTITY filter.clear.label "Limpar">
+<!ENTITY form.created "Criado">
+<!ENTITY form.url "Localização do formulário">
+<!ENTITY form.savetype "Tipo">
+<!ENTITY form.autofill "Preenchimento automático">
+<!ENTITY form.recover "Recuperar">

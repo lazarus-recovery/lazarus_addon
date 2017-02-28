@@ -1,0 +1,16 @@
+<!ENTITY window.title "Lazarus: 文本恢复">
+<!ENTITY copy.to.clipboard "复制并关闭">
+<!ENTITY cutCmd.label "剪切">
+<!ENTITY copyCmd.label "复制">
+<!ENTITY pasteCmd.label "粘贴">
+<!ENTITY undoCmd.label "撤销">
+<!ENTITY deleteCmd.label "删除">
+<!ENTITY selectAllCmd.label "选择全部">
+<!ENTITY cutCmd.accesskey "T">
+<!ENTITY copyCmd.accesskey "C">
+<!ENTITY pasteCmd.accesskey "P">
+<!ENTITY undoCmd.accesskey "U">
+<!ENTITY deleteCmd.accesskey "D">
+<!ENTITY selectAllCmd.accesskey "A">
+<!ENTITY htmlView "HTML 视图">
+<!ENTITY textView "源代码视图">

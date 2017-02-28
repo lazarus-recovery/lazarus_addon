@@ -1,0 +1,16 @@
+<!ENTITY window.title "Lazarus: Textwiederherstellun">
+<!ENTITY copy.to.clipboard "Kopieren und schließen">
+<!ENTITY cutCmd.label "Ausschneiden">
+<!ENTITY copyCmd.label "Kopieren">
+<!ENTITY pasteCmd.label "Einfügen">
+<!ENTITY undoCmd.label "Rückgängig">
+<!ENTITY deleteCmd.label "Löschen">
+<!ENTITY selectAllCmd.label "Alle auswählen">
+<!ENTITY cutCmd.accesskey "A">
+<!ENTITY copyCmd.accesskey "K">
+<!ENTITY pasteCmd.accesskey "E">
+<!ENTITY undoCmd.accesskey "R">
+<!ENTITY deleteCmd.accesskey "L">
+<!ENTITY selectAllCmd.accesskey "l">
+<!ENTITY htmlView "HTML-Ansicht">
+<!ENTITY textView "Quellcodeansicht">

@@ -1,0 +1,64 @@
+<!-- initial window size in pixels -->
+<!ENTITY window.width "530">
+<!ENTITY window.height "470">
+<!ENTITY window.title "Lazarus: Recuperação de Formulários: Opções">
+<!ENTITY welcome.pane.title "Bem-vindo">
+<!ENTITY general.pane.title "Geral">
+<!ENTITY database.pane.title "Base de Dados">
+<!ENTITY minutes "minutos">
+<!ENTITY hours "horas">
+<!ENTITY days "dias">
+<!ENTITY weeks "semanas">
+<!ENTITY welcome.title "Lazarus: Recuperação de Formulários">
+<!ENTITY welcome.message "O Lazarus foi concebido para correr discretamente em background. Até que um dia, depois de gastar 30 minutos a preencher um formulário importante, o servidor vai abaixo exactamente no momento antes de submetê-lo. É aí que o Lazarus mostra a sua magia. Basta fazer clique com o botão direito no formulário e seleccionar 'Recuperar Formulário', e todos os campos são restaurados para o estado em que se encontravam antes de serem submetidos.">
+<!ENTITY saveSearchForms.label "Guardar Formulários de Busca">
+<!ENTITY saveSearchForms.description "Se deixar esta opção desactivada, evita que a base de dados fique demasiado preenchida com dados de formulários de busca. Guardar os formulários de busca é habitualmente desaconselhado, pois os termos a pesquisar mudam frequentemente, e é fácil reintroduzir buscas que foram perdidas. Os formulários de busca avançada (formulários com mais de um campo de texto e/ou outras opções) continuam a ser gravados.">
+<!ENTITY savePasswordFields.label "Guardar senhas">
+<!ENTITY savePasswordFields.description "Guardar as senhas não é recomendado, uma vez que permite que alguém com acesso físico ao seu computador conheça as senhas que entrou para aceder a páginas web. Activar a opção «Gravar senhas» é por isso desaconselhado.">
+<!ENTITY replaceCreditCardNumbers.label "Substituir números de cartão de crédito">
+<!ENTITY replaceCreditCardNumbers.description "Por omissão, o Lazarus substitui os números de cartão de crédito (uma cadeia de 13 a 16 caracteres sucessivos) por zeros, para impedir que alguém que aceda fisicamente ao seu computador possa obter dados do cartão de crédito que tenha introduzido em páginas web. Se desmarcar esta opção, o Lazarus deixará de substituir os números, gravando e recuperando os dados como qualquer outro campo de texto.">
+<!ENTITY saveHiddenFields.label "Guardar campos ocultos">
+<!ENTITY saveHiddenFields.description "Os campos ocultos são por vezes usados para armazenar informação sobre a sessão. Esta informação pode permitir que um utilizador com acesso físico ao seu computador se autentique assumindo a sua identidade. Activar a opção «Guardar campos ocultos» é por isso desaconselhado.">
+<!ENTITY disableSearch.label "Desactivar indexação de busca">
+<!ENTITY disableSearch.description "Desactivar a indexação dos dados armazenados">
+<!ENTITY disableSearch.description.link "Por que alguém desejaria fazer isto?">
+<!ENTITY expireSavedForms.label "Apagar formulários depois de">
+<!ENTITY expireSavedForms.description "A informação dos formulários é armazenada numa base de dados para que possa ser recuperada depois de um crash do browser. Por quanto tempo deve essa informação ficar guardada?">
+<!ENTITY showInStatusbar.label "Mostrar ícone na barra de estado">
+<!ENTITY showInStatusbar.description "Deseja que o ícone do Lazarus apareça na barra de estado?">
+<!ENTITY showContextMenuIcons.label "Mostrar ícones no menu contextual">
+<!ENTITY showContextMenuIcons.description "Deseja que os itens do menu contextual (activado pelo botão direito do rato) mostrem os respectivos ícones?">
+<!ENTITY showDonateNotification.label "Mostrar notificação de recuperação">
+<!ENTITY showDonateNotification.description "Deveremos lembrá-lo de que pode fazer uma doação ao Lazarus sempre que é recuperado um formulário de grandes dimensões?">
+<!ENTITY checkForUpdates.label "Procurar por actualizações">
+<!ENTITY checkForUpdates.description "Deseja que o Lazarus procure automaticamente por versões actualizadas?">
+<!ENTITY checkForUpdatesBeta.label "Procurar por novas versões beta">
+<!ENTITY checkForUpdatesBeta.description "Deseja também que o Lazarus procure automaticamente por novas versões beta?">
+<!ENTITY removeForms.title "Apagar todos os formulários gravados">
+<!ENTITY removeForms.description "Apaga todos os formulários armazenados na base de dados">
+<!ENTITY removeForms.confirm "Tem a certeza de que deseja apagar TODOS os formulários armazenados?\nEsta acção não pode ser cancelada!">
+<!ENTITY removeForms.complete "Formulários apagados.">
+<!ENTITY removeTemplates.title "Apagar todos os modelos gravados">
+<!ENTITY removeTemplates.description "Apaga todos os modelos da base de dados">
+<!ENTITY removeTemplates.confirm "Tem a certeza de que deseja apagar TODOS os modelos armazenados?\nEsta acção não pode ser cancelada!">
+<!ENTITY removeTemplates.complete "Modelos apagados.">
+<!ENTITY cleanDatabase.title "Limpar a Base de Dados">
+<!ENTITY cleanDatabase.description "Apaga registos vazios da base de dados, e limpa a respectiva estrutura. NOTA: Esta operação pode demorar algum tempo (aprox. 30 segundos).">
+<!ENTITY restoreDatabase.title "Recuperar Base de Dados a partir do Backup">
+<!ENTITY restoreDatabase.description "Recuperar a base de dados a partir do backp mais recente. Lamentamos, mas esta acção exige que reinicie o browser. :(">
+<!ENTITY deleteDatabase.title "Apagar a Base de Dados">
+<!ENTITY deleteDatabase.description "Apagar do sistema a base de dados do Lazarus! Esta acção exige que reinicie o browser :(">
+<!ENTITY security.pane.title "Segurança">
+<!ENTITY useFormTextForSubmenuItems "Usar texto nos itens do menu">
+<!ENTITY useTimeForSubmenuItems "Usar tempo nos itens do menu">
+<!ENTITY showFormTextInSubMenu.description "Deseja que os itens do submenu mostrem a primeira linha de texto do formulário armazenado ou prefere que mostrem a hora em que o formulário foi gravado?">
+<!ENTITY usePassword.label "Necessária uma senha para recuperar formulários">
+<!ENTITY backupDatabase.label "Conservar um documento de recuperação (backup) da base de dados">
+<!ENTITY changePassword "Alterar Senha">
+<!ENTITY changePassword.description "A melhor forma de garantir a privacidade da informação dos seus formulários é criar uma Senha do Lazarus. A senha deve ser introduzida uma vez por cada nova sessão do browser, da primeira vez que tente recuperar um formulário.">
+<!ENTITY changePassword.description.extra "Todos os formulários continuarão a ser gravados, quer introduza ou não a sua senha">
+<!ENTITY resetPassword "Reiiniciar Senha">
+<!ENTITY textManager.title "Busca no Lazarus">
+<!ENTITY textManager.description "Procurar e recuperar dados mesmo que o formulário ou página originais já não estejam disponíveis">
+<!ENTITY enableInPrivateBrowsingMode.label "Activar o Lazarus no modo de Navegação Privada">
+<!ENTITY enableInPrivateBrowsingMode.description "Alguns utilizadores usam o Firefox sempre em Modo de Navegação Privada, mas ao mesmo tempo desejam a protecção do Lazarus para que possam gravar os seus dados de forma segura. Para estes utilizadores, fornecemos a possibilidade de activar o Lazarus quando estão no Modo de Navegação Privada. Recomendamos vivamente que usem uma senha do Lazarus caso activem esta opção.">

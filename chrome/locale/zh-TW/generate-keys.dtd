@@ -1,0 +1,8 @@
+<!ENTITY window.title "Lazarus: 產生加密金鑰">
+<!ENTITY generatekeys.description "為了您的安全，Lazarus 要求所有表單資料必須在儲存進本機資料庫前先進行加密。可能需要一些時間產生加密金鑰，而且您必須要已經登入 Firefox 的軟體安裝裝置。在產生金鑰之前，Lazarus 將無法儲存您的表單。">
+<!ENTITY generatekeys.description.extra "立刻產生加密金鑰?">
+<!ENTITY generatekeys.generating "請稍帶，可能需要 30 秒才能完成。正在產生金鑰…">
+<!ENTITY keys.generated "成功產生加密金鑰。">
+<!ENTITY key.generation.error "抱歉，有些東西不對勁，我們無法在此電腦產經加密金鑰。\n請將此問題回報給 lazarus@interclue.com">
+<!ENTITY key.generation.cancelled "直到您選擇要產生加密金鑰，Lazarus 將會被停用。">
+<!ENTITY password.not.entered "需要主控密碼來產生加密金鑰!">

@@ -1,0 +1,8 @@
+<!ENTITY window.title "Lazarus: Gerar Chaves de Encriptação">
+<!ENTITY generatekeys.description "Para garantir a sua segurança, o Lazarus requer que todos os dados de formulário sejam cifrados antes de gravados na sua base de dados local. Gerar as chaves de encriptação é uma acção que demora algum tempo, e que exige que esteja autenticado no Dispositivo de Segurança de Software do Firefox. O Lazarus não conseguirá gravar os seus formulários enquanto as chaves não forem geradas.">
+<!ENTITY generatekeys.description.extra "Gerar agora as chaves de encriptação?">
+<!ENTITY generatekeys.generating "Por favor aguarde, esta tarefa pode demorar cerca de 30 segundos. A gerar chaves…">
+<!ENTITY keys.generated "Chaves de encriptação geradas com sucesso.">
+<!ENTITY key.generation.error "Lamentamos, ocorreu algo inesperado e não foi possível gerar as chaves de encriptação nesta máquina.\nPor favor submeta o erro para lazarus@interclue.com">
+<!ENTITY key.generation.cancelled "Pretende que o Lazarus seja desactivado até que pretenda gerar as chaves de encriptação?">
+<!ENTITY password.not.entered "Necessária a Senha Mestra para gerar as chaves de encriptação!">

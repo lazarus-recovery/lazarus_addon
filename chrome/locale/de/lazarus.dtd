@@ -1,0 +1,43 @@
+<!ENTITY lazarus.restoreform.contextmenuitem.label "Formular wiederherstellen">
+<!ENTITY lazarus.restoretext.contextmenuitem.label "Text wiederherstellen">
+<!ENTITY lazarus.enterpassword.contextmenuitem.label "Lazarus: Form Recovery: Anmeldung…">
+<!ENTITY lazarus.logout.contextmenuitem.label "Abmelden">
+<!ENTITY lazarus.statusbar.menuitem.options.label "Einstellungen...">
+<!ENTITY lazarus.statusbar.menuitem.options.tooltip "Passen Sie Ihre Lazarus-Einstellungen an">
+<!ENTITY lazarus.statusbar.menuitem.textmanager.label "Lazarus durchsuchen…">
+<!ENTITY lazarus.statusbar.menuitem.textmanager.tooltip "Nach verlorengegangenem Text in der Datenbank suchen">
+<!ENTITY lazarus.statusbar.menuitem.website.label "Website besuchen">
+<!ENTITY lazarus.statusbar.menuitem.website.tooltip "Besuchen Sie die Lazarus-Website">
+<!ENTITY lazarus.statusbar.menuitem.faq.label "FAQ">
+<!ENTITY lazarus.statusbar.menuitem.faq.tooltip "Häufig gestellte Fragen">
+<!ENTITY lazarus.statusbar.menuitem.donate.label "Spenden">
+<!ENTITY lazarus.statusbar.menuitem.donate.tooltip "Helfen Sie uns Lazarus zu verbessern. Spenden Sie heute!">
+<!ENTITY lazarus.statusbar.menuitem.about.label "Über Lazarus">
+<!ENTITY lazarus.statusbar.menuitem.about.tooltip "Versionsinformationen">
+<!ENTITY lazarus.statusbar.menuitem.enablefordomain.label "Lazarus für diese Website aktivieren">
+<!ENTITY lazarus.statusbar.menuitem.enablefordomain.tooltip "Lazarus für diese Website reaktivieren">
+<!ENTITY lazarus.statusbar.menuitem.disablefordomain.label "Lazarus für diese Website deaktivieren">
+<!ENTITY lazarus.statusbar.menuitem.disablefordomain.tooltip "Hindert Lazarus daran Formulare dieser Website zu speichern">
+<!ENTITY lazarus.statusbar.menuitem.logout.label "Abmelden">
+<!ENTITY lazarus.statusbar.menuitem.logout.tooltip "Abmelden">
+<!ENTITY lazarus.statusbar.image.tooltip "Lazarus Einstellungen...">
+<!ENTITY lazarus.saveform.contextmenuitem.label "Formular als Vorlage speichern...">
+<!ENTITY lazarus.saveform.contextmenuitem.tooltip "Aktuellen Zustand dieses Formulars als Vorlage speichern">
+<!ENTITY lazarus.domaindisabled.contextmenuitem.label "Lazarus wurde für diese Website deaktiviert">
+<!ENTITY lazarus.domaindisabled.contextmenuitem.tooltip "Lazarus wurde für diese Website deaktiviert">
+<!ENTITY lazarus.privatebrowsing.contextmenuitem.label "Lazarus ist deaktiviert">
+<!ENTITY lazarus.privatebrowsing.contextmenuitem.tooltip "Lazarus ist im Private-Browsing-Modus deaktiviert">
+<!ENTITY lazarus.icon.tooltip.enabled "Hier klicken, um das Einstellungen-Dialogfenster zu öffnen. 
+
+
+Rechts-klicken für weitere Informationen">
+<!ENTITY lazarus.icon.tooltip.disabledfordomain "Lazarus ist für diese Domäne deaktiviert. Hier klicken, um Lazarus für diese Domäne zu reaktivieren">
+<!ENTITY lazarus.icon.tooltip.disabled "Lazarus ist deaktiviert! 
+
+
+Hier klicken, um Software-Sicherheitsmodul zu initialisieren">
+<!ENTITY lazarus.icon.tooltip.privatebrowsing "Lazarus ist im Private-Browsing-Modus deaktiviert!">
+<!ENTITY lazarus.icon.tooltip.passwordrequired "Passwort erforderlich, um Formulare wiederherzustellen. Hier klicken, um Passwort einzugeben">
+<!ENTITY lazarus.icon.tooltip.generatingkeys "Chiffrierschlüssel werden erzeugt…">
+<!ENTITY lazarus.update.stable.available "Eine neue Version von Lazarus wurde veröffentlicht. Hier klicken, um Download zu starten">
+<!ENTITY lazarus.update.beta.available "Eine neue BETA-Version von Lazarus wurde veröffentlicht. Hier klicken, um Download zu starten">

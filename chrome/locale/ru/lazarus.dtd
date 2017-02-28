@@ -1,0 +1,37 @@
+<!ENTITY lazarus.restoreform.contextmenuitem.label "Восстановить форму">
+<!ENTITY lazarus.restoretext.contextmenuitem.label "Восстановить текст">
+<!ENTITY lazarus.enterpassword.contextmenuitem.label "Lazarus: Form Recovery: Вход в систему…">
+<!ENTITY lazarus.logout.contextmenuitem.label "Выход из системы">
+<!ENTITY lazarus.statusbar.menuitem.options.label "Настройки…">
+<!ENTITY lazarus.statusbar.menuitem.options.tooltip "Внести правки в настройки Lazarus">
+<!ENTITY lazarus.statusbar.menuitem.textmanager.label "Поиск в Lazarus…">
+<!ENTITY lazarus.statusbar.menuitem.textmanager.tooltip "Поиск потерянного текста в базе данных">
+<!ENTITY lazarus.statusbar.menuitem.website.label "Посетить веб-сайт">
+<!ENTITY lazarus.statusbar.menuitem.website.tooltip "Посетить веб-сайт Lazarus">
+<!ENTITY lazarus.statusbar.menuitem.faq.label "ЧаВо">
+<!ENTITY lazarus.statusbar.menuitem.faq.tooltip "Часто задаваемые вопросы">
+<!ENTITY lazarus.statusbar.menuitem.donate.label "Пожертвовать">
+<!ENTITY lazarus.statusbar.menuitem.donate.tooltip "Помогите нам сделать Lazarus лучше. Пожертвуйте сегодня!">
+<!ENTITY lazarus.statusbar.menuitem.about.label "О Lazarus">
+<!ENTITY lazarus.statusbar.menuitem.about.tooltip "Информация о версии">
+<!ENTITY lazarus.statusbar.menuitem.enablefordomain.label "Разрешить Lazarus на этом сайте">
+<!ENTITY lazarus.statusbar.menuitem.enablefordomain.tooltip "Снова разрешает Lazarus для этого сайта">
+<!ENTITY lazarus.statusbar.menuitem.disablefordomain.label "Заблокировать Lazarus на этом сайте">
+<!ENTITY lazarus.statusbar.menuitem.disablefordomain.tooltip "Не допускает сохранение Lazarus любых форм на этом сайте">
+<!ENTITY lazarus.statusbar.menuitem.logout.label "Выход из системы">
+<!ENTITY lazarus.statusbar.menuitem.logout.tooltip "Выход из системы">
+<!ENTITY lazarus.statusbar.image.tooltip "Настройки Lazarus…">
+<!ENTITY lazarus.saveform.contextmenuitem.label "Сохранить форму как шаблон…">
+<!ENTITY lazarus.saveform.contextmenuitem.tooltip "Сохраняет текущее состояние этой формы в качестве шаблона">
+<!ENTITY lazarus.domaindisabled.contextmenuitem.label "Lazarus был заблокирован для этого сайта">
+<!ENTITY lazarus.domaindisabled.contextmenuitem.tooltip "Lazarus был заблокирован для этого сайта">
+<!ENTITY lazarus.privatebrowsing.contextmenuitem.label "Lazarus заблокирован">
+<!ENTITY lazarus.privatebrowsing.contextmenuitem.tooltip "Lazarus блокируется в режиме приватного просмотра">
+<!ENTITY lazarus.icon.tooltip.enabled "Щёлкните, чтобы открыть диалоговое окно настроек. Дополнительная информация — щелчок правой кнопкой.">
+<!ENTITY lazarus.icon.tooltip.disabledfordomain "Lazarus заблокирован для этого домена. Щёлкните, чтобы снова разрешить Lazarus для этого домена">
+<!ENTITY lazarus.icon.tooltip.disabled "Lazarus заблокирован!">
+<!ENTITY lazarus.icon.tooltip.privatebrowsing "Lazarus блокируется в режиме приватного просмотра!">
+<!ENTITY lazarus.icon.tooltip.passwordrequired "Для восстановления форм требуется пароль. Щёлкните, чтобы ввести пароль">
+<!ENTITY lazarus.icon.tooltip.generatingkeys "Генерация ключей шифрования…">
+<!ENTITY lazarus.update.stable.available "Выпущена новая версия Lazarus. Щёлкните, чтобы загрузить её">
+<!ENTITY lazarus.update.beta.available "Выпущена новая бета версия Lazarus. Щёлкните, чтобы загрузить её">

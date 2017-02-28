@@ -1,0 +1,4 @@
+<!ENTITY lazarus.templatesave.title "Lazarus: Spara formulär som mall">
+<!ENTITY lazarus.templatesave.save "Spara">
+<!ENTITY lazarus.templatesave.instructions "Ange ett namn för denna mall">
+<!ENTITY template.autofill.label "Fyll automatiskt i detta formulär när denna sida läses in">

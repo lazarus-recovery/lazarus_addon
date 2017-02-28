@@ -1,0 +1,11 @@
+<!ENTITY done "Done">
+<!ENTITY delete.label "Delete Selected">
+<!ENTITY text.created "Created">
+<!ENTITY text.recover "Recover">
+<!ENTITY text.text "Text">
+<!ENTITY text.url "Url">
+<!ENTITY window.title "Lazarus: Search">
+<!ENTITY search.label "Search">
+<!ENTITY search.clear.label "Clear">
+<!ENTITY search.description "Please Note: Searches will only give relevant results when COMPLETE WORDS or COMPLETE PHRASES are searched for (This is due to the encryption used on the search index)">
+<!ENTITY search.disabled.description "Searching is currently disabled. To re-enable searching uncheck the 'Disable Text Search' checkbox in the Lazarus Security Options">

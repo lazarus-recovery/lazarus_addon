@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://lazarus/skin/about.css" type="text/css"?>
+<!DOCTYPE dialog SYSTEM "chrome://lazarus/locale/about.dtd">
+<dialog title="&about; lazarus" orient="vertical" autostretch="always" onload="onLoad()" buttons="accept" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script type="text/javascript" src="lazarus-config.js"/>
+<script type="text/javascript" src="about.js"/>
+<script type="text/javascript" src="common.js"/>
+
+<groupbox align="center" orient="horizontal">
+<vbox>
+    <hbox>
+        <image src="chrome://lazarus/skin/lazarus-32.png" />
+        <text value="&app.fullname;" style="font-weight: bold; font-size: x-large;"/>
+    </hbox>
+    <hbox>
+        <text value="&version; "/>
+        <text id="lazarus-version" value="1.0.0"/>
+    </hbox>
+    <separator/>
+    <text value="&createdBy;" style="font-weight: bold;"/>
+    <label class="text-link" href="http://interclue.com/" value="Karl Dearden - interclue.com" />
+    <separator/>
+    <text value="&iconsBy;" style="font-weight: bold;"/>
+    <label class="text-link" href="http://dryicons.com/" value="Aesthetica Icon Set - dryicons.com" />
+    <label class="text-link" href="http://famfamfam.com/" value="Silk Icons by Mark James - famfamfam.com" />
+    <separator/>
+    <text value="&translations;" style="font-weight: bold;"/>
+    <label class="text-link" href="http://www.babelzilla.org/forum/index.php?showuser=9444" value="Atlanx" />
+    <label class="text-link" href="http://www.babelzilla.org/forum/index.php?showuser=9605" value="dedalusjmmr" />
+    <label class="text-link" href="http://www.babelzilla.org/forum/index.php?showuser=6554" value="erglo" />
+    <label class="text-link" href="http://www.babelzilla.org/forum/index.php?showuser=155" value="jojaba" />
+    <label class="text-link" href="http://www.babelzilla.org/forum/index.php?showuser=12983" value="Lakrits" />
+    <label class="text-link" href="http://www.babelzilla.org/forum/index.php?showuser=7849" value="milupo" />
+    <label class="text-link" href="http://www.babelzilla.org/forum/index.php?showuser=7338" value="petercpg" />
+    <label class="text-link" href="http://www.babelzilla.org/forum/index.php?showuser=388" value="PiVV" />
+</vbox>
+</groupbox>
+</dialog>

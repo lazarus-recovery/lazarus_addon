@@ -1,0 +1,4 @@
+<!ENTITY lazarus.templatesave.title "Lazarus : enregistrer le formulaire comme modèle">
+<!ENTITY lazarus.templatesave.save "Enregistrer">
+<!ENTITY lazarus.templatesave.instructions "Veuillez indiquer un nom pour ce modèle">
+<!ENTITY template.autofill.label "Remplir automatiquement ce formulaire lors du chargement de cette page">

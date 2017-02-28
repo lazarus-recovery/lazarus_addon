@@ -1,0 +1,4 @@
+<!ENTITY lazarus.templatesave.title "Lazarus: Gravar o Formulário como Modelo">
+<!ENTITY lazarus.templatesave.save "Gravar">
+<!ENTITY lazarus.templatesave.instructions "Introduza um nome para este modelo">
+<!ENTITY template.autofill.label "Preencher automaticamente este formulário quando esta página for carregada">

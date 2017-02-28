@@ -1,0 +1,1027 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: MmC30pUHtFRwm7poJhnZaA==
+SHA1-Digest: pROgS3HpnfcmCLx3VeCea+97m6U=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tCiZttD2fypB7TipJvPCjA==
+SHA1-Digest: l8Bu+IQx4kRfjveheE0dJEMcWxY=
+
+Name: changelog.txt
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: v1ioDqfVyr5dYFaJwu1ReQ==
+SHA1-Digest: ib3vDlprhY/8k3mh+k9LTgBvFb4=
+
+Name: lazarus@interclue.com
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9MNGgtMFQqYxZQZxB0yJWg==
+SHA1-Digest: Ap3gfn1VJI4sWbxia0LbcU1I9DY=
+
+Name: chrome/content/about.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: I5PEtub0KumPYXAiZd9PCQ==
+SHA1-Digest: Pmtlklf73VvkXLO1sPUknJIkaic=
+
+Name: chrome/content/about.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1Am/xGb7zvxmJE8CvdONHg==
+SHA1-Digest: 7aMW4OWbXe3c+vHtSVSFTtodGVQ=
+
+Name: chrome/content/clipboard.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GRvGUpczZ+mxwobP65VFoA==
+SHA1-Digest: PhO3XHdDvlKCj2Zsl/7uYOhZjLo=
+
+Name: chrome/content/common-dialog-overlay.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oXCFcM+1QONXXUDfmhUdzg==
+SHA1-Digest: gcUsrIoSlAPEmYzILDI7mNgpjrw=
+
+Name: chrome/content/common-dialog-overlay.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LGKOd1hKsN5+/47/00321Q==
+SHA1-Digest: MGfKsjUOtmEOy0N36bH9VccVHrg=
+
+Name: chrome/content/common.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9Mp8v4yRYKRShj9kRQWbFw==
+SHA1-Digest: zOcyVrgtaudRsHAb5A/EPtDcWQg=
+
+Name: chrome/content/crypto.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: m3MJ/bt7vfiuOBiS4zVd8Q==
+SHA1-Digest: 5nOdIrVa1TM7l+ZPfn1PZc1B/cU=
+
+Name: chrome/content/debug.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NPAgjQfKQu0oo0VfHElX1A==
+SHA1-Digest: D3/L5x/lkoNswmlq3uVkbl5Q2LA=
+
+Name: chrome/content/event.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Yvw5IzPBXSJvbHNuj8q6Nw==
+SHA1-Digest: HEnJHgFZRHvKZejOCWnCjGIoTbI=
+
+Name: chrome/content/file.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 74YmqBnAOVSng+bMvtOoQQ==
+SHA1-Digest: 9IEfnzeht9hKDDlmQZGHoO0zU/c=
+
+Name: chrome/content/firefox-overlay.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qejN+03Lw3Z6zx0gqRIebA==
+SHA1-Digest: djCjSo6gO43st3jZTsXxLUSkZYU=
+
+Name: chrome/content/generate-keys.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Cc9iKaUqmMUgeWDtuWtopQ==
+SHA1-Digest: TX315h7ETrnneWz0Eq9K3SLu1aw=
+
+Name: chrome/content/generate-keys.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sf8wRoZ+7vs7x2Q6nKk6Bg==
+SHA1-Digest: BXZMDZ1jX56Qvkw8n3N8+ZTJDJY=
+
+Name: chrome/content/init.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +6g5dk5csWzf6EWUe/rt7g==
+SHA1-Digest: sWH22XID6/RTz4hOq3+4dX27X8c=
+
+Name: chrome/content/lazarus-config.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kjeob6+RoOExGf11UL22yQ==
+SHA1-Digest: 6eqPyKSfCWl9qQC/cJDgc+gDdq8=
+
+Name: chrome/content/lazarus-updates.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oZJljOZueBGmrQbgojWRwg==
+SHA1-Digest: tVqzaSSquzkVW5KR+7XTvsaQ8a0=
+
+Name: chrome/content/lazarus.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LIY4X4hQhfQcHu0Esw/zvw==
+SHA1-Digest: 7LRhuaKg/czzGE4STA2uvhhKtqQ=
+
+Name: chrome/content/options.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: U+9uYOilt6C0fcIsPcPGlg==
+SHA1-Digest: 8Ktc4bJQF449XxFsFvKfZtDyJlw=
+
+Name: chrome/content/options.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +0PHDsphDlwcszC9366C/A==
+SHA1-Digest: IPvgeo+AWeL/OTch2hwOkNvnedI=
+
+Name: chrome/content/password-reset.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +yFFZJel4jaOBj8tnN354g==
+SHA1-Digest: P6ZnQ+c3OTdJqJ7NPPXPWueb6rw=
+
+Name: chrome/content/password-reset.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XwXojsI+MYLKx6Nibhy6bg==
+SHA1-Digest: N6s174yqVzdFb5iOMk47EQsRJik=
+
+Name: chrome/content/password.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8cuveOcmDjGO2yn5A839KA==
+SHA1-Digest: MHqYYOUEX12tMfTgxbwMRW4bhtk=
+
+Name: chrome/content/password.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zbn/z2k1hPNvWHB96tvC3g==
+SHA1-Digest: HdNnUiZYxHHZhWbSfVymkF/A8kE=
+
+Name: chrome/content/preferences-overlay.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eW/snq8ovmiQLHFtByHEBA==
+SHA1-Digest: gfzox8NvSoYxBDgFGGNFzI1aMas=
+
+Name: chrome/content/preferences-overlay.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oYpWhXQPs+b0wBFhB/PGAQ==
+SHA1-Digest: qrsJmxDqW2HNAtrypP3T1IchMT8=
+
+Name: chrome/content/preferences-sanitize-overlay.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: G3QpSUWWld4PNwvUw/cD5Q==
+SHA1-Digest: Pmyo6Cur4yTuPtXU0x5FeF7CJe0=
+
+Name: chrome/content/preferences-sanitize-overlay.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4lylGJJcPDw+Jh6159zBjw==
+SHA1-Digest: QT7p2dklL7bP6vaeq0sEK/kVwkI=
+
+Name: chrome/content/recover-form.html
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +S8JXFMxytTrGSE6L+KijA==
+SHA1-Digest: 3UqtvsZhFCsMzA6ylnbEVXeujNk=
+
+Name: chrome/content/sanitize-overlay.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 014g9GTkZkVe4xnfoR2kXg==
+SHA1-Digest: di4aq47L6QsGGWv6WRAMT8u8G8I=
+
+Name: chrome/content/sanitize-overlay.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Xw392Xds3Z++NSBfF2z1VQ==
+SHA1-Digest: UVPPga4kqBEHHohHXWuv46ENDHk=
+
+Name: chrome/content/sqlite.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GEHXQK42s0tfD0lTDCthMg==
+SHA1-Digest: QOsFtJYd7Rrflya64TBfkEN2Ydk=
+
+Name: chrome/content/template-save.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: tKy2UqLDHmOayouRUcNTFA==
+SHA1-Digest: CGM+4aADoT2gD/Yc8Dz7raBr/YQ=
+
+Name: chrome/content/template-save.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: U0QayYOY+utWPTS2sss/7w==
+SHA1-Digest: zAQVf6AUCixnBGe/1DyuQFvSLCA=
+
+Name: chrome/content/text-manager.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: OHuDSHo35ohRvXGZAlOj9g==
+SHA1-Digest: cZYWkOTn3P0yCt55kYkdqsWhLSo=
+
+Name: chrome/content/text-manager.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jbdk8lIRTUUKbeDZcuYqzQ==
+SHA1-Digest: Lsvq2Z68dYHqjiVwV1FHL47Q8sg=
+
+Name: chrome/content/text-recover.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yDTLNUZY06vNf11hJKfA3g==
+SHA1-Digest: l1ki6k1vgq7ydeO1t+wCn0MvYEc=
+
+Name: chrome/content/text-recover.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LGhpPtBv07ucO9qMv6NzQg==
+SHA1-Digest: bA8lt0eNvK6Gupcf04ylGXWlGyU=
+
+Name: chrome/content/uninstall.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qm4IFB0tiTfSqp4gxaqJbA==
+SHA1-Digest: bMCod8UH7vXWMBwhHeDeqQ236PE=
+
+Name: chrome/content/uninstall.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: CwboEFHkh2a0fCiqp/NrUQ==
+SHA1-Digest: q60sFJhkZROVFXenIZUqtAkRS0Q=
+
+Name: chrome/content/update-expires-time.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wdPT2qemXiMjpp0ZVP6n1Q==
+SHA1-Digest: YRPa9VqscvJCYxOkGY+yxCAX5Uw=
+
+Name: chrome/content/update-expires.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8Pdyn8v81U8/YY1vtjOpkQ==
+SHA1-Digest: CF8n1lp+lUar4c0SA3y1xsx0Z7M=
+
+Name: chrome/content/update-expires.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: T5iTfkUDODxsyRL08nXtDg==
+SHA1-Digest: 7tqvtDitDozwR0DwBQ3JfZbXusk=
+
+Name: chrome/content/xul-tree.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VCwARR2102SkZ1AxQKdYNQ==
+SHA1-Digest: pxnzXQTVsc4dhC/nYwzDvYmzD3Y=
+
+Name: chrome/locale/cs/about.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9cCc26NYmSjs/JhhTwiAmg==
+SHA1-Digest: NQjA65VnmhxsVMzVLx+S7zu6qmA=
+
+Name: chrome/locale/cs/form-manager.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 67dpMxLO0sqdxAtc/8Otpw==
+SHA1-Digest: q6yELG85+TYVvSm123wLSE2FOiQ=
+
+Name: chrome/locale/cs/generate-keys.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: f3VTlicIygbGbQ5o0xUrSQ==
+SHA1-Digest: 9Qj3lJ08llg3dxTUGHmJpHo4Ufk=
+
+Name: chrome/locale/cs/lazarus.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: W+E7P51UrAAS79BSv1CCvw==
+SHA1-Digest: W2Q3pGOXxhUowasllxwnY7VO8yo=
+
+Name: chrome/locale/cs/lazarus.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QmPqqSiYL4gn9ZNGD3kzKg==
+SHA1-Digest: u5pPHwiRGHXQSRmWlwNVKNpfcU8=
+
+Name: chrome/locale/cs/options.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /FHmG5vAesS5l8mgVBXLZw==
+SHA1-Digest: EO/65Q5lM3jtfQ36EhvL47mAA8o=
+
+Name: chrome/locale/cs/password-reset.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /Id2LrnXFhLQh1DEPuVi+Q==
+SHA1-Digest: PaJWIoZonvcQMSolHurUgq5KUnQ=
+
+Name: chrome/locale/cs/password.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bo0U3uKxVananFKqkLgdpQ==
+SHA1-Digest: ai3APxa4dtsq5A2vupwfs1x84NI=
+
+Name: chrome/locale/cs/sanitize.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wPs42EfgJ25gX9TVLKs0Jw==
+SHA1-Digest: X43j5LoFv/fHDpEcumCSmwuSZmI=
+
+Name: chrome/locale/cs/template-save.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +4rSQnzhSm5aXR0Wuv5QdA==
+SHA1-Digest: k1i1DRYB4ODUMXPWu7dFgXrAsLw=
+
+Name: chrome/locale/cs/text-manager.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: TdywIuLox5GNyJ5UY8Cymw==
+SHA1-Digest: VdJD6YTy88VLCxOIyU6WySoV+V4=
+
+Name: chrome/locale/cs/text-recover.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pw+tCFVYtCT3QAW4DTPSdg==
+SHA1-Digest: Jxi2thNM0TNdX1ycTFa/bwmWrPk=
+
+Name: chrome/locale/cs/uninstall.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +YgSOtLa737TZMCNj6yC+w==
+SHA1-Digest: AInjEq0HiXNcLkb2/9hXu7XcVqM=
+
+Name: chrome/locale/de/about.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WF77Toe1oytzz+0XK51AtQ==
+SHA1-Digest: YDDQol4rGctLKN0SY+ikd3d9Tsw=
+
+Name: chrome/locale/de/form-manager.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XSPPpsETCZTkimgyVlaRyg==
+SHA1-Digest: KpQzjBk5Lzb07HztILCW7PAvwbI=
+
+Name: chrome/locale/de/generate-keys.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: F57SlTypBuOheORcN0uqOw==
+SHA1-Digest: VKsjaztl9VnQqKNMLEIMgDM408s=
+
+Name: chrome/locale/de/lazarus.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yc+wPRXWKRKCnPfqffigiw==
+SHA1-Digest: ytTDLsXfceJ70gp9MJKjor6rCgo=
+
+Name: chrome/locale/de/lazarus.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: MwfXVdXm7K5W6lgW4TbLVA==
+SHA1-Digest: oTgHJ98VIqd6WguwN7ooe7vHUOs=
+
+Name: chrome/locale/de/options.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: OguCNLONzYCUYAxNog3rsA==
+SHA1-Digest: 7Z5krGj/x/+JPPX3yr7wLVsWIsE=
+
+Name: chrome/locale/de/password-reset.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JUyE01U1xyUM7cRyeCI7pQ==
+SHA1-Digest: zk/pbRbiaaPr1B5AUuBct39dSPk=
+
+Name: chrome/locale/de/password.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qYe/SPP7dz8QdNSMXYl+XQ==
+SHA1-Digest: w2BTw9Draak7bKZ6WdfqA5qiU/U=
+
+Name: chrome/locale/de/sanitize.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: iqM6e1F775AmTkspeZMCVA==
+SHA1-Digest: kMX5eedK8HiArjnXof+DxL2jkGc=
+
+Name: chrome/locale/de/template-save.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qEnmg8jMYugJpXsz6ZPOUA==
+SHA1-Digest: Q9PguTrBiKQUHQ2OUqj5M7FtW9M=
+
+Name: chrome/locale/de/text-manager.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jNtNj6sANyvvZcr8JOQaIw==
+SHA1-Digest: zI7zOw/RPdLXg4Ma8sVJiCdGPmE=
+
+Name: chrome/locale/de/text-recover.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9BgCyj10SHkhglNyou3FAw==
+SHA1-Digest: IvJrlcNfGLyQgp9NZkmOeI6A050=
+
+Name: chrome/locale/de/uninstall.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 80G0Qd5wwkVem8raiU6cEg==
+SHA1-Digest: fsEzx5aEONWxmwoL3PNeoU2bx6Y=
+
+Name: chrome/locale/en-US/about.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zfypsK+aDMtozTA1UJ4yww==
+SHA1-Digest: cn+VvFzHMuz2eutvWaO6N03jT7I=
+
+Name: chrome/locale/en-US/form-manager.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4L6TjKbTqrrB8Q96xURo2Q==
+SHA1-Digest: PwxhPF3z9ourn0ce8LE6m1KJ1Pc=
+
+Name: chrome/locale/en-US/generate-keys.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: blHDKrObjxqBYgqy//K9IA==
+SHA1-Digest: a0W/P3Xvy/1PU9BrNOG1RMsHFZA=
+
+Name: chrome/locale/en-US/lazarus.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 40AJqY0VBJaXM2tI5jOZVQ==
+SHA1-Digest: yfUPu2bZptqZTunYgYZ/XG6D3Ys=
+
+Name: chrome/locale/en-US/lazarus.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SEEAkMWAGgaWQbhThOBZmw==
+SHA1-Digest: pOlTrF2vAHMsEAreiz4WbcVMjVo=
+
+Name: chrome/locale/en-US/options.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: UV6z6nAAbeY6bOFGMob5mQ==
+SHA1-Digest: V37/abnioo158ABxjb7KOlMf5wc=
+
+Name: chrome/locale/en-US/password-reset.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: IdktW48K4f5/IVyksmXCuw==
+SHA1-Digest: qi9ju2plLTlXeXxerxn4Bwpw3oA=
+
+Name: chrome/locale/en-US/password.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: u+yoUQ1diVCj9i8IYud4hQ==
+SHA1-Digest: xr4yZvpjN5u0K88mN2MnjRmiBr8=
+
+Name: chrome/locale/en-US/sanitize.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DK1g1PmAvGXA2mph9QH11Q==
+SHA1-Digest: Y5xqjfJfOd6Z7q1DhIXGeX0jJvA=
+
+Name: chrome/locale/en-US/template-save.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fZa6sLGT3hw1wciA3ym06g==
+SHA1-Digest: cewhn593qcE17f/QYE/eCk2mA2w=
+
+Name: chrome/locale/en-US/text-manager.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QDhjmbzm/NjnPBF48PZRbg==
+SHA1-Digest: 9jzG7xkBOQcgnGQ1nwQ5D6EXy7Y=
+
+Name: chrome/locale/en-US/text-recover.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FPf94ctA3/AjOPPdEA638Q==
+SHA1-Digest: buMvs3bpthf86hdrvW6rMNptEzc=
+
+Name: chrome/locale/en-US/uninstall.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QR3DfiVK8A981kQ7De/jkA==
+SHA1-Digest: t+jqaDYL4LJzq1SBHq6UiVI+kwQ=
+
+Name: chrome/locale/fr/about.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QLWUA9xjExXIQ2/7qLpjCg==
+SHA1-Digest: pEGxYRCXdZ64bLwlZ8YGvrajCZs=
+
+Name: chrome/locale/fr/form-manager.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: epXUx2mjMyoHV4VXay9Mew==
+SHA1-Digest: Nb7q/ipehNKgrg6dzgejtCxfXwE=
+
+Name: chrome/locale/fr/generate-keys.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: c5aja2ATKJGuiGewha9v4Q==
+SHA1-Digest: Lj9QNBYDHzzP3nC+KE4NQUYP8tM=
+
+Name: chrome/locale/fr/lazarus.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fWKwchPTaly4Yhi6JR1FIQ==
+SHA1-Digest: DrSjSUWkiPf/dZ66ocV1/x6I91E=
+
+Name: chrome/locale/fr/lazarus.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RV/AiWRtSwu9qi7No7Yukg==
+SHA1-Digest: oaia8ZPWb+bM4DM4m5GpRkKOTGc=
+
+Name: chrome/locale/fr/options.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FrPY8L4NU7Xks2+sl/mj+g==
+SHA1-Digest: fEBVlZ/sLrYDmERe261G1DBzpO4=
+
+Name: chrome/locale/fr/password-reset.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LReJeovmdj4gG4bH3g+b9A==
+SHA1-Digest: hkkP+1AvzZlFv8LI/f+PWwT5DOs=
+
+Name: chrome/locale/fr/password.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: HgRrXt9HYOWWLtcEgXWlxQ==
+SHA1-Digest: louIW5tJNC6MHnfsibBZRdcVyYk=
+
+Name: chrome/locale/fr/sanitize.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eXEJEVLm6UKqRKfkPQB3ZA==
+SHA1-Digest: cj4lHmLa2WkaOIc2tJToQeTqJSk=
+
+Name: chrome/locale/fr/template-save.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: x6jc3XZEqOGVz8N85mEKOg==
+SHA1-Digest: DXogTCem6aFnwhefACCpADojETI=
+
+Name: chrome/locale/fr/text-manager.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pOas2gbXcokMB5BSt8u1hA==
+SHA1-Digest: mcTc0EGAJD72S80264SRWbhDYFY=
+
+Name: chrome/locale/fr/text-recover.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ZD0neaAIbl7gXADg2G9Lgg==
+SHA1-Digest: xmG6FEfQ7vNQaKeWemI3y3KhLnQ=
+
+Name: chrome/locale/fr/uninstall.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gV+R3L2GZCk3zaVK08Q2Sg==
+SHA1-Digest: r+1bDiagJcHUIniKRJMYnJaK85g=
+
+Name: chrome/locale/pt-PT/about.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JqYJ1OahvvmdYTvXFPw8RA==
+SHA1-Digest: HyfV9UxJMVenRgVrWPrcUPpG1Sk=
+
+Name: chrome/locale/pt-PT/form-manager.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1oHIApEpAwweGsh2FBC3Fw==
+SHA1-Digest: gwJvq75NS/GZFJRGsboD5AMeWYs=
+
+Name: chrome/locale/pt-PT/generate-keys.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pS9G7g7Mt4gttTK8NQ8bvQ==
+SHA1-Digest: pzLLCuwZw3VnDfYiMTEwxSCKO4Y=
+
+Name: chrome/locale/pt-PT/lazarus.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gvb/I3fm75/z+DqNkrjaXw==
+SHA1-Digest: teewumKHlEEvkqGwa3kFkg5Bs3c=
+
+Name: chrome/locale/pt-PT/lazarus.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Zl0W9+7BoYB2cIBYmrgqGg==
+SHA1-Digest: MeGZptvuzUp6QeqIYs1NPQ7m5f0=
+
+Name: chrome/locale/pt-PT/options.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RXvaCUe5lFKyjYCHfQW6Wg==
+SHA1-Digest: ZPTc9bqt93Yhz+Rp2motTB4+l68=
+
+Name: chrome/locale/pt-PT/password-reset.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RLaS8q0iUz1z/VjMWb7XfA==
+SHA1-Digest: DCmT4+FvnOb07wqoX6oRVUE00c0=
+
+Name: chrome/locale/pt-PT/password.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WOQNRY/wGF2elNSeAqJSrw==
+SHA1-Digest: 9A81OtqVsdLu7oJv17DllnaGyR0=
+
+Name: chrome/locale/pt-PT/sanitize.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: REqHN14fH7Vp15lwOv0GhQ==
+SHA1-Digest: mD4R/NeDq5BQ2FzIOVOxBbNtv/g=
+
+Name: chrome/locale/pt-PT/template-save.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: reJBGfaWeX9xW2V6uarkrQ==
+SHA1-Digest: se1mifY8iyFpin61dFb8MDMhUoM=
+
+Name: chrome/locale/pt-PT/text-manager.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FmMPqxQ57kWRMlQu9YiH4Q==
+SHA1-Digest: OLPn+4oTBVT2bOh9aelfBAxvjfc=
+
+Name: chrome/locale/pt-PT/text-recover.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5lm3CAH7KtRjbJFUJL1hhw==
+SHA1-Digest: +SVTNHluQuLki26+slh7VwB4IeE=
+
+Name: chrome/locale/pt-PT/uninstall.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: LqeoGKEWxHo9OTMPiSTflA==
+SHA1-Digest: hznm6ymMb7ImQBmNxAlAQwjNmKY=
+
+Name: chrome/locale/ru/about.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: P06ABP5Mn8P4EUxNY/t9bw==
+SHA1-Digest: ctMw6mnS/O4qRSLShha9Sqd+Ns0=
+
+Name: chrome/locale/ru/form-manager.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bNo71G/ygFk5OI04bGwa3w==
+SHA1-Digest: zdmO/HzrHcRCJVcK/QO0Z9xUVoQ=
+
+Name: chrome/locale/ru/generate-keys.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8L5T3oO+0P+2Aw5F7v/7aQ==
+SHA1-Digest: FEEp0t53bl+gjFK9VzGnbrLS1wY=
+
+Name: chrome/locale/ru/lazarus.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oxkqQJE5KL5wD9XE591Kmw==
+SHA1-Digest: f4xLKq1SNAxNl4m6fudfpxocg2s=
+
+Name: chrome/locale/ru/lazarus.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qGXRR59wjB82S49Bry+s/Q==
+SHA1-Digest: Auh+BXcTgAjb+8ymrfpkkcWmAmU=
+
+Name: chrome/locale/ru/options.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: HSWdsIH2ejJF94hIknc/7g==
+SHA1-Digest: qS9JdvAJMWodvUMEmhUi4y9vRcA=
+
+Name: chrome/locale/ru/password-reset.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jN1gLFIQeVa+APCFuVY82w==
+SHA1-Digest: C0K7OQquxd2PRdoQ7pEbeT8m3YI=
+
+Name: chrome/locale/ru/password.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jrIMg3ZG30FMrvvM6tLRYQ==
+SHA1-Digest: tT4DJhWVip7mC3eQ2oEyLvPwaIE=
+
+Name: chrome/locale/ru/sanitize.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mqzgNCptW6dgynR727TIsg==
+SHA1-Digest: WorxvFuqq2jlHLpZhAtuXpX6xxw=
+
+Name: chrome/locale/ru/template-save.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xc1za5mEifNPD1OWVEhRHg==
+SHA1-Digest: tAhfoPlS+SS4u2C8Kzm4eYe/snU=
+
+Name: chrome/locale/ru/text-manager.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Knbg6ApI6qObjQwImHLjrg==
+SHA1-Digest: Vl6TBtiOR2HCJnSm2/4f1NLYxzg=
+
+Name: chrome/locale/ru/text-recover.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: UkR0QDORg0q+I1oayh6D0A==
+SHA1-Digest: oYUfPidYYy4ynI88UGBfOAvm09U=
+
+Name: chrome/locale/ru/uninstall.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: knrbjgzTnp9Pmndi5qHiJw==
+SHA1-Digest: TpJNu+h09rRVqAWvQ7F0jVHbyfA=
+
+Name: chrome/locale/sv-SE/about.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4c+0OH5NfxW8yumQ542CbA==
+SHA1-Digest: /99RzgiKU6rB4vYJ8OWKKksUsPk=
+
+Name: chrome/locale/sv-SE/form-manager.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SiopPH+b+ll1Vvq0Ub/GVw==
+SHA1-Digest: UaX3zXS2IA3+8lKVy6ub291U8Hg=
+
+Name: chrome/locale/sv-SE/generate-keys.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bEML5xWsfK9h2Auv/hytQw==
+SHA1-Digest: 1cTScykGOIMHQCCpCy6VYqNZYTg=
+
+Name: chrome/locale/sv-SE/lazarus.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: a602TnypAg0NxiIYqEHIJQ==
+SHA1-Digest: a0gOchb2VGXvV+KTHN01ySTruss=
+
+Name: chrome/locale/sv-SE/lazarus.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0xExrd7WotLVEKtB8+B6og==
+SHA1-Digest: 6CWdkXJ+GI5RBooHL2eLri3UupA=
+
+Name: chrome/locale/sv-SE/options.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: c9rwX7B7AG+9iA62TN81KA==
+SHA1-Digest: CP2c0oWdxOIbC8Uk6svROAY2WBs=
+
+Name: chrome/locale/sv-SE/password-reset.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WV4tsytNZYwHyPUp5wpxCg==
+SHA1-Digest: G7hmBw60jzi8VnYSQJbSH7Wom4M=
+
+Name: chrome/locale/sv-SE/password.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: L8wYeOAi7c6pZdyVSPtYJg==
+SHA1-Digest: QDNzP5PCjijl7+ZS2KI2ameU6gE=
+
+Name: chrome/locale/sv-SE/sanitize.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VSlTeikB9qhWiG3Nyn75gQ==
+SHA1-Digest: paZab4g3CRmx3hUIxF68NZGQdJU=
+
+Name: chrome/locale/sv-SE/template-save.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: h++5+t4ze4+3XsFfJWdY/Q==
+SHA1-Digest: PRLm2EF531FbveF3SAlSZa4sY8Q=
+
+Name: chrome/locale/sv-SE/text-manager.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yI22PXlFA8cnhyPHqRpZWw==
+SHA1-Digest: 8TaJ8kcyrUnVEhTQe7dQ8ep8WCg=
+
+Name: chrome/locale/sv-SE/text-recover.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2wWMjAHMUG6yTNp53WN4+A==
+SHA1-Digest: TV9YaTdoz2COPqFfzeDoAGcGOlQ=
+
+Name: chrome/locale/sv-SE/uninstall.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: yntD525JWMDZJunDz+4vig==
+SHA1-Digest: FwX3x1YhCFKNR6RjzNnoZ5566Yg=
+
+Name: chrome/locale/zh-CN/about.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WRhIc/xsEg2RPIqNcxculw==
+SHA1-Digest: NzSIoKxjwYr+jIO+A1BGyfEYHPE=
+
+Name: chrome/locale/zh-CN/form-manager.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Psb68yhQKNMwN3yT22jx0w==
+SHA1-Digest: uW3bv602xTckr5EnP80zgVmNxeg=
+
+Name: chrome/locale/zh-CN/generate-keys.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: o0IpGfjK+tBYWJP0plAW9Q==
+SHA1-Digest: H5RbL60NX6WvzzhfIOtxTqyQSt4=
+
+Name: chrome/locale/zh-CN/lazarus.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 87RzOSF789mPVlcw7See9w==
+SHA1-Digest: 8FG7aoLYaUSjbH2dM9Lm1CtLeVc=
+
+Name: chrome/locale/zh-CN/lazarus.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Msr75skvf0m6yrBkbJAsCQ==
+SHA1-Digest: jd/DtSHoRCLGZgLUeVjcE9dWhuA=
+
+Name: chrome/locale/zh-CN/options.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7mBQRvuIn7WI2UZZCjahhg==
+SHA1-Digest: b259E2azJLi7LqzZXYxJGum4FgA=
+
+Name: chrome/locale/zh-CN/password-reset.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rr9HvkjEFfDNkp1c11zjmw==
+SHA1-Digest: lzwuxQd9iaRWHOCRu6e7l8fDzak=
+
+Name: chrome/locale/zh-CN/password.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Bre9jQUFV7zt/sE1PxBfzg==
+SHA1-Digest: SMt/XtXLBoTSeUQpJwrlpKyQ8KA=
+
+Name: chrome/locale/zh-CN/sanitize.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gZIgHoayUewegKJCM/jkgQ==
+SHA1-Digest: Kl/A80aUrHP+eyfMHDBrAW+Bsj8=
+
+Name: chrome/locale/zh-CN/template-save.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 39ym2itE0fW3DThyj/Rl5A==
+SHA1-Digest: sNMXlscWDX22wVjoOn1g0YAIT+w=
+
+Name: chrome/locale/zh-CN/text-manager.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: defOkR9g8+dzY+GaTe1qyA==
+SHA1-Digest: wBlgI07uSaaKpHSxestb+XRfvfU=
+
+Name: chrome/locale/zh-CN/text-recover.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gEs3tdlhlT4Iy7t+Mg2mgQ==
+SHA1-Digest: E6877UMtLFUlhFwKcF91KLepG5w=
+
+Name: chrome/locale/zh-CN/uninstall.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QDN1Ye1N+n9mZkLh1kY3Tg==
+SHA1-Digest: LPBCgLQ6RNX4J/tWF6sp79Yf2pg=
+
+Name: chrome/locale/zh-TW/about.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qo7fU1jgRHnzXa0fXD7tkQ==
+SHA1-Digest: gk2eLeZEhCAaAYXAUT+eaLSQCcI=
+
+Name: chrome/locale/zh-TW/form-manager.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Yvyt8aSw8+2jZjZbcLwC6Q==
+SHA1-Digest: dejC8orGxUQdkuntLnjYE9TElc8=
+
+Name: chrome/locale/zh-TW/generate-keys.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 2m13BEKSpy/G/pwr9QEh7w==
+SHA1-Digest: CYPt+Yajk5SKqxOMHqDkiyF1Orw=
+
+Name: chrome/locale/zh-TW/lazarus.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ektP0Vxf8mRbfKa5ztQLdQ==
+SHA1-Digest: PFgk3SehQvxe8PawrXxpApzGnAM=
+
+Name: chrome/locale/zh-TW/lazarus.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: iWgL6o2ccJu0fY1SgyFcTA==
+SHA1-Digest: wfcwlMayPQuMdYHfR02SApxgWqw=
+
+Name: chrome/locale/zh-TW/options.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: L42vdW8kyxlKYqfz4jDG5Q==
+SHA1-Digest: haLPrpTIgNhmnthN1i/wvxPlc/g=
+
+Name: chrome/locale/zh-TW/password-reset.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: L71oSODJkuZd2KbNGgWWwQ==
+SHA1-Digest: L2q+SrlmLPSCtCmWy569CNgE9QI=
+
+Name: chrome/locale/zh-TW/password.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: J/aDO6fKKYj9YZIEcBkGKw==
+SHA1-Digest: kAyfYkgc90lRa6OtoZdMPpnEGQA=
+
+Name: chrome/locale/zh-TW/sanitize.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0+A+0mwb1L0QVbuR32obag==
+SHA1-Digest: GlWKE0mvyFTtg/0hDSHOOZaqJyo=
+
+Name: chrome/locale/zh-TW/template-save.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: TpeKMEbdKoSggA176tzc7g==
+SHA1-Digest: wr/OSTSztAprrPHZ3nE+cqNoZ5g=
+
+Name: chrome/locale/zh-TW/text-manager.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: pnPG32kzzJ7dpKdFbgrFAA==
+SHA1-Digest: Q9iP6sat4HdU+U0/vuIVeqHVtN0=
+
+Name: chrome/locale/zh-TW/text-recover.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zBqJXC198Ta7X9pRizyL3w==
+SHA1-Digest: BkXnsO7nVEEgpNCSt0+dEuYCJ1I=
+
+Name: chrome/locale/zh-TW/uninstall.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: M+rIf29A4j0klzhCNdA+sA==
+SHA1-Digest: 0H9gxI8ZcI9yy6exZ5ZOqqVXZhQ=
+
+Name: chrome/skin/about.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: R6un7A78fYUpetcbEaUq8Q==
+SHA1-Digest: bcilkBBTJiCwp/1gNsSoBdWXabo=
+
+Name: chrome/skin/about.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ni/BUpQ3ya3jUyzlP9uJ5g==
+SHA1-Digest: IOjSXd35IG6ACNM7b5FSbN4k5os=
+
+Name: chrome/skin/checkbox-checked.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YBpggSdHlw+fntVwGmMzaA==
+SHA1-Digest: X4uwu4CnUIIUbmCaFd/sbMT26Cs=
+
+Name: chrome/skin/checkbox-unchecked.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zZr2b5gcpR7jduf6E53JQw==
+SHA1-Digest: vQP23ga/vufO2C2xUKtHFEWs3v0=
+
+Name: chrome/skin/database-32.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SPF8oOGWExx1bSsHCR9j1A==
+SHA1-Digest: 086vbhKTab6bdz3IRXedthmJ4+w=
+
+Name: chrome/skin/debug-32.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: lbdlFmkOz+oNCly8G54IzQ==
+SHA1-Digest: 4TwtY0GSjhdNQ/UOQcsx53gMiPQ=
+
+Name: chrome/skin/donate.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4tSmWLnHRh9c03mRiDlZQg==
+SHA1-Digest: TXg0m8KTxwSIX4a9pa3oa/ftFVU=
+
+Name: chrome/skin/faq.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: l+19MBfwRKewm+AFi8U0hA==
+SHA1-Digest: n79Mr7rUKxeyvat332hs2L2U3IQ=
+
+Name: chrome/skin/firefox-overlay.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: zLXCSJQ4hMiHKuSCiExfTg==
+SHA1-Digest: dA00mQAVpijFtoKV2o3LHU2YJ9Q=
+
+Name: chrome/skin/general-options-32.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: OdgmIiaovXm99CFZNpnXIg==
+SHA1-Digest: Ho7Tp2GjGyzfqZkkYT3+Hn84x+8=
+
+Name: chrome/skin/generate-keys.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Z5om+DEtiGOMQ2ZYPu7wAw==
+SHA1-Digest: GJjZEP+I3jAnpnjnEq9qm7zxazo=
+
+Name: chrome/skin/lazarus-32.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VIYbfpGGutnn64FF8X8G0g==
+SHA1-Digest: 21LFz74nTag2GJGCqBLR15D/TmI=
+
+Name: chrome/skin/lazarus-disable.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BXctyv/d/xuPSAr36/+6Hg==
+SHA1-Digest: iSbkyS73ahPgjX1AV7+j9XWNCQQ=
+
+Name: chrome/skin/lazarus-disabled.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Y4nLCTmq4IB+XtdRMYiqEw==
+SHA1-Digest: H1Jl1mG1bn9VhZFIvnJt6BCW9Z4=
+
+Name: chrome/skin/lazarus-enable.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SXQyopATK3r6BrCMeKOhIA==
+SHA1-Digest: +NgHLeV0OiBoTuXgD+ZZM8J3zkw=
+
+Name: chrome/skin/lazarus-error.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sjMobG9fgJc8eAHnWyzeYw==
+SHA1-Digest: LudNbtFcxEgmQSYP/YhHgRSebdk=
+
+Name: chrome/skin/lazarus-loading.gif
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: dmnJcdFXJv88hxpU31wQ5g==
+SHA1-Digest: bhqF/aSjxAOTHeFV2um+CaAPgQk=
+
+Name: chrome/skin/lazarus-login.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 6T2ZhRWID9HZOQlcgpUAfA==
+SHA1-Digest: WfN7RMotAZBWT/KrNbvQ/UWLcq0=
+
+Name: chrome/skin/lazarus-logo.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: M0v9Q5lN2yNG3tnnQN7WDA==
+SHA1-Digest: FcRzfRPOf0kmUFMUUzpDwZhoG/U=
+
+Name: chrome/skin/lazarus-save.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: llTr57EHcBkdXPBdaXlXzw==
+SHA1-Digest: +0KWz7txvO6q3/j4dV7dhDO19Sg=
+
+Name: chrome/skin/lazarus-tiny.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: H+9qfoCahzLC1aMpkZH0sg==
+SHA1-Digest: BPk9403hwovk5yifaHvkvkso2zs=
+
+Name: chrome/skin/lazarus-update-beta.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: MC6BzMxIlSf0NFtrdYKtLw==
+SHA1-Digest: r7wUq4isTwFtMwWc05FpyYY0aFA=
+
+Name: chrome/skin/lazarus-update-stable.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FlgU7nCd9ikoAlUGBbkniQ==
+SHA1-Digest: uOMgKPmaVGXAblRA2QFU2Rmw2Sw=
+
+Name: chrome/skin/lazarus.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: gy2A9MT3pURFM2MiUw9hvw==
+SHA1-Digest: hztfieDg+Wi/A0dZBUqnOlVV2To=
+
+Name: chrome/skin/options.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7ivKRXwRi8jipBFalPYqrw==
+SHA1-Digest: TzEL7HRUk311pKfT7MmIixGG2ZU=
+
+Name: chrome/skin/options.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: RXUrMYCCJjgBrHUK14Cf8w==
+SHA1-Digest: Y3rkDkHFqynEuyXUBt+VTIzKlWw=
+
+Name: chrome/skin/password-reset.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Z5om+DEtiGOMQ2ZYPu7wAw==
+SHA1-Digest: GJjZEP+I3jAnpnjnEq9qm7zxazo=
+
+Name: chrome/skin/password.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: FhlKV05F4QZ8q5CCkSff2w==
+SHA1-Digest: l4ycVbP+VNy8N+SmAmAbCx8UvPQ=
+
+Name: chrome/skin/recover-form.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WfQ5WIo32sdwfXqzNUZpmg==
+SHA1-Digest: qXmyxafPlJHrE7sJaJI65e17DC8=
+
+Name: chrome/skin/recover-form.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9ra+PlMyqSZwXN3YE/0jNA==
+SHA1-Digest: I9q7pmnazpIK34Mj8RRBGiQPO8o=
+
+Name: chrome/skin/security-32.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kEdD7TIdDo39X8Q2+WJ0/Q==
+SHA1-Digest: C3uGUvgAYAMHBk6GSbQMgBDx+vg=
+
+Name: chrome/skin/template-save.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1B2M2Y8AsgTpgAmY7PhCfg==
+SHA1-Digest: 2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+
+Name: chrome/skin/text-manager.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 8Go/zOAgeKr5soeWLk2dhQ==
+SHA1-Digest: ZAkFWU2UqLsRlCDcjYta/K5/YIc=
+
+Name: chrome/skin/text-manager.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: IWFhj1R6LBI50ygQv6hfCw==
+SHA1-Digest: 9UFGBCbeIjiLcWbu+8VWNUkVlqs=
+
+Name: chrome/skin/text-recover.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Yt/dtYlhWBVm9aDgaiDwqA==
+SHA1-Digest: 1yC5c2ETf5IWPhM6Y+F4xN2BHAg=
+
+Name: chrome/skin/website.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Uy1iTO8CM8C+Xo9L+ZebLw==
+SHA1-Digest: 93MLsPKFn5TPZVU5mjAtnHKpsMQ=
+
+Name: defaults/preferences/prefs-lazarus.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5PYSDAJ7xmZpVh8jaVDt3w==
+SHA1-Digest: 5+Brfv+KY/XUOI2rO7fZrtbQZq4=
+
+Name: modules/aes.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VL/T9hDgnLo7CGuJA6CFlg==
+SHA1-Digest: tkWYwlzExocQ1EQulhGa15GvKRg=
+
+Name: modules/crypto.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NeJxG0KeMt9617++pQXKeA==
+SHA1-Digest: T/NJ08bApinGjvOqycoF4zD/gl4=
+
+Name: modules/global.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: VpmbVttWXG+xVJBytkOHpA==
+SHA1-Digest: uXFXJ4OhdTh5PMoEwcBoXHVaEt0=
+
+Name: modules/rsa.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Yer1fo3VClAGYS9BFuOa3A==
+SHA1-Digest: emKCVLMghhjBEHc6jnFH/vySoL8=
+

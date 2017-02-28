@@ -1,0 +1,37 @@
+<!ENTITY lazarus.restoreform.contextmenuitem.label "Obnovit formulář">
+<!ENTITY lazarus.restoretext.contextmenuitem.label "Obnovit text">
+<!ENTITY lazarus.enterpassword.contextmenuitem.label "Lazarus: Obnova formuláře: Přihlašování…">
+<!ENTITY lazarus.logout.contextmenuitem.label "Odhlásit se">
+<!ENTITY lazarus.statusbar.menuitem.options.label "Možnosti">
+<!ENTITY lazarus.statusbar.menuitem.options.tooltip "Přizpůsobit možnosti doplňku Lazarus">
+<!ENTITY lazarus.statusbar.menuitem.textmanager.label "Prohledat Lazarus…">
+<!ENTITY lazarus.statusbar.menuitem.textmanager.tooltip "Hledat ztracený text v databázi">
+<!ENTITY lazarus.statusbar.menuitem.website.label "Navštívit webovou stránku">
+<!ENTITY lazarus.statusbar.menuitem.website.tooltip "Navštívit webovou stránku doplňku Lazarus">
+<!ENTITY lazarus.statusbar.menuitem.faq.label "FAQ">
+<!ENTITY lazarus.statusbar.menuitem.faq.tooltip "Často kladené dotazy">
+<!ENTITY lazarus.statusbar.menuitem.donate.label "Přispět">
+<!ENTITY lazarus.statusbar.menuitem.donate.tooltip "Pomozte nám zlepšit Lazarus. Přispějte již dnes!">
+<!ENTITY lazarus.statusbar.menuitem.about.label "O doplňku Lazarus">
+<!ENTITY lazarus.statusbar.menuitem.about.tooltip "Informace o verzi">
+<!ENTITY lazarus.statusbar.menuitem.enablefordomain.label "Povolit Lazarus na této stránce">
+<!ENTITY lazarus.statusbar.menuitem.enablefordomain.tooltip "Znovu-povolit Lazarus na této stránce">
+<!ENTITY lazarus.statusbar.menuitem.disablefordomain.label "Zakázat Lazarus na této stránce">
+<!ENTITY lazarus.statusbar.menuitem.disablefordomain.tooltip "bránit doplňku Lazarus před ukládáním formulářů na této stránce">
+<!ENTITY lazarus.statusbar.menuitem.logout.label "Odhlásit se">
+<!ENTITY lazarus.statusbar.menuitem.logout.tooltip "Odhlásí se">
+<!ENTITY lazarus.statusbar.image.tooltip "Možnosti doplňku Lazarus">
+<!ENTITY lazarus.saveform.contextmenuitem.label "Uložit formulář jako šablonu">
+<!ENTITY lazarus.saveform.contextmenuitem.tooltip "Uložit současný stav tohoto formuláře jako šablonu">
+<!ENTITY lazarus.domaindisabled.contextmenuitem.label "Lazarus byl na této stránce zakázán">
+<!ENTITY lazarus.domaindisabled.contextmenuitem.tooltip "Lazarus byl na této stránce zakázán">
+<!ENTITY lazarus.privatebrowsing.contextmenuitem.label "Lazarus je zakázán">
+<!ENTITY lazarus.privatebrowsing.contextmenuitem.tooltip "Lazarus je v režimu anonymního prohlížení zakázán">
+<!ENTITY lazarus.icon.tooltip.enabled "Klikněte pro otevření dialogu Možnosti. Klikněte pravým tlačítkem pro více informací">
+<!ENTITY lazarus.icon.tooltip.disabledfordomain "Lazarus je pro tuto doménu zakázán. Klikněte pro znovu-povolení doplňku Lazarus pro tuto doménu">
+<!ENTITY lazarus.icon.tooltip.disabled "Lazarus je zakázán! Klikněte pro inicializaci softwarového bezpečnostního zařízení">
+<!ENTITY lazarus.icon.tooltip.privatebrowsing "Lazarus je zakázán v režimu anonymního prohlížení!">
+<!ENTITY lazarus.icon.tooltip.passwordrequired "Pro obnovení formulářů je vyžadováno heslo. Pro jeho zadání klikněte">
+<!ENTITY lazarus.icon.tooltip.generatingkeys "Generování šifrovacích klíčů…">
+<!ENTITY lazarus.update.stable.available "Byla vydána nová verze doplňku Lazarus. Pro stažení klikněte">
+<!ENTITY lazarus.update.beta.available "Byla vydána nová BETA verze doplňku Lazarus. Pro stažení klikněte">

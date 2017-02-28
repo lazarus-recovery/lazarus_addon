@@ -1,0 +1,11 @@
+<!ENTITY done "Готово">
+<!ENTITY delete.label "Удалить выбранное">
+<!ENTITY text.created "Создана">
+<!ENTITY text.recover "Восстановить">
+<!ENTITY text.text "Текст">
+<!ENTITY text.url "Адрес">
+<!ENTITY window.title "Lazarus: Поиск">
+<!ENTITY search.label "Поиск">
+<!ENTITY search.clear.label "Очистить">
+<!ENTITY search.description "Обратите внимание: Поиск даст результаты только при указании в запросе ЗАКОНЧЕННЫХ слов или фраз. (Это связано с использованием шифрования при индексировании поиска.)">
+<!ENTITY search.disabled.description "В настоящее время поиск отключён. Чтобы снова включить поиск снимите флажок «Отключить индексирование поиска» в настройках безопасности Lazarus">

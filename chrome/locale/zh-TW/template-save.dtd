@@ -1,0 +1,4 @@
+<!ENTITY lazarus.templatesave.title "Lazarus: 將表格儲存為範本">
+<!ENTITY lazarus.templatesave.save "儲存">
+<!ENTITY lazarus.templatesave.instructions "輸入這個範本的名稱">
+<!ENTITY template.autofill.label "當這個頁面載入時，自動填入這個表單">

@@ -1,0 +1,11 @@
+<!ENTITY done "完成">
+<!ENTITY delete.label "删除所选">
+<!ENTITY text.created "已创建">
+<!ENTITY text.recover "恢复">
+<!ENTITY text.text "文本">
+<!ENTITY text.url "网址">
+<!ENTITY window.title "Lazarus: 搜索">
+<!ENTITY search.label "搜索">
+<!ENTITY search.clear.label "清除">
+<!ENTITY search.description "请注意：因为搜索索引的加密，将只提供所搜索的完整字词的相关结果">
+<!ENTITY search.disabled.description "搜索目前已禁用。要重新启用搜索，在 Lazarus 安全性选项中取消选中“禁用文本搜索”复选框">

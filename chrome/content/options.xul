@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://lazarus/skin/options.css" type="text/css"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://lazarus/locale/options.dtd">
+
+<prefwindow id="lazarusOptions" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+    title="&window.title;" onload="init()" width="580">
+    
+    
+    <!--prefpane id="welcome-pane" label="&welcome.pane.title;" flex="1" image="chrome://lazarus/skin/lazarus-32.png">
+        <preferences />
+        <description class="header">&welcome.title;</description>
+        <description class="lazarus-welcome-message">&welcome.message;</description>
+    </prefpane-->
+    
+    <prefpane id="general-pane" label="&general.pane.title;" flex="1" image="chrome://lazarus/skin/general-options-32.png">
+        <preferences>
+            <preference id="extensions.lazarus.saveSearchForms" name="extensions.lazarus.saveSearchForms" type="bool"/>
+            <preference id="extensions.lazarus.savePasswordFields" name="extensions.lazarus.savePasswordFields" type="bool"/>
+            <preference id="extensions.lazarus.saveHiddenFields" name="extensions.lazarus.saveHiddenFields" type="bool"/>
+            <preference id="extensions.lazarus.expireSavedForms" name="extensions.lazarus.expireSavedForms" type="bool"/>
+            <preference id="extensions.lazarus.expireSavedFormsInterval" name="extensions.lazarus.expireSavedFormsInterval" type="int"/>
+            <preference id="extensions.lazarus.expireSavedFormsUnit" name="extensions.lazarus.expireSavedFormsUnit" type="int"/>
+            <preference id="extensions.lazarus.showInStatusbar" name="extensions.lazarus.showInStatusbar" type="bool"/>
+            <preference id="extensions.lazarus.showFormTextInSubMenu" name="extensions.lazarus.showFormTextInSubMenu" type="bool"/>
+            <preference id="extensions.lazarus.checkForUpdates" name="extensions.lazarus.checkForUpdates" type="bool"/>
+            <preference id="extensions.lazarus.checkForUpdatesBeta" name="extensions.lazarus.checkForUpdatesBeta" type="bool"/>
+            <preference id="extensions.lazarus.disableSearch" name="extensions.lazarus.disableSearch" type="bool"/>
+            <preference id="extensions.lazarus.showDonateNotification" name="extensions.lazarus.showDonateNotification" type="bool"/>
+            <preference id="extensions.lazarus.showContextMenuIcons" name="extensions.lazarus.showContextMenuIcons" type="bool"/>
+            <preference id="extensions.lazarus.enableInPrivateBrowsingMode" name="extensions.lazarus.enableInPrivateBrowsingMode" type="bool"/>
+            <preference id="extensions.lazarus.backupDatabase" name="extensions.lazarus.backupDatabase" type="bool"/>
+            <preference id="extensions.lazarus.replaceCreditCardNumbers" name="extensions.lazarus.replaceCreditCardNumbers" type="bool"/>
+        </preferences>
+        
+        <vbox class="pref-box" id="extensions-lazarus-saveSearchForms-box">
+            <checkbox id="extensions.lazarus.saveSearchForms" preference="extensions.lazarus.saveSearchForms" label="&saveSearchForms.label;" />
+            <description class="lazarus-description">&saveSearchForms.description;</description>
+        </vbox>
+        
+        <vbox class="pref-box">
+            <radiogroup id="extensions.lazarus.showFormTextInSubMenu" preference="extensions.lazarus.showFormTextInSubMenu">
+                <hbox>
+                <radio label="&useFormTextForSubmenuItems;" value="true" />
+                <radio label="&useTimeForSubmenuItems;" value="false" />
+                </hbox>
+            </radiogroup>
+            
+            <description class="lazarus-description">&showFormTextInSubMenu.description;</description>
+        </vbox>
+        
+        <vbox class="pref-box">
+            <checkbox id="extensions.lazarus.showContextMenuIcons" preference="extensions.lazarus.showContextMenuIcons" label="&showContextMenuIcons.label;" />
+            <description class="lazarus-description">&showContextMenuIcons.description;</description>
+        </vbox>
+        
+        <vbox class="pref-box">
+            <checkbox id="extensions.lazarus.showInStatusbar" preference="extensions.lazarus.showInStatusbar" label="&showInStatusbar.label;" />
+            <description class="lazarus-description">&showInStatusbar.description;</description>
+        </vbox>
+        
+        <vbox class="pref-box">
+            <checkbox id="extensions.lazarus.showDonateNotification" preference="extensions.lazarus.showDonateNotification" label="&showDonateNotification.label;" />
+            <description class="lazarus-description">&showDonateNotification.description;</description>
+        </vbox>
+        
+        <!-- removing due to mozilla policy of not allowing updates from anywhere except mozilla 
+        
+        <vbox class="pref-box">
+            <checkbox id="extensions.lazarus.checkForUpdates" preference="extensions.lazarus.checkForUpdates" label="&checkForUpdates.label;" oncommand="Lazarus.$('extensions.lazarus.checkForUpdatesBeta').disabled = !this.checked" />
+            <checkbox id="extensions.lazarus.checkForUpdatesBeta" preference="extensions.lazarus.checkForUpdatesBeta" label="&checkForUpdatesBeta.label;" />
+            <description class="lazarus-description">&checkForUpdates.description;</description>
+        </vbox>
+        -->
+        
+    </prefpane>
+  
+  
+    <prefpane id="security-pane" label="&security.pane.title;" flex="1" image="chrome://lazarus/skin/security-32.png">
+    
+        <vbox class="pref-box">
+            <checkbox id="extensions.lazarus.savePasswordFields" preference="extensions.lazarus.savePasswordFields" label="&savePasswordFields.label;" />
+            <description class="lazarus-description">&savePasswordFields.description;</description>
+        </vbox>
+				
+				<vbox class="pref-box">
+            <checkbox id="extensions.lazarus.replaceCreditCardNumbers" preference="extensions.lazarus.replaceCreditCardNumbers" label="&replaceCreditCardNumbers.label;" />
+            <description class="lazarus-description">&replaceCreditCardNumbers.description;</description>
+        </vbox>
+        
+        <!--vbox class="pref-box">
+            <checkbox id="extensions.lazarus.saveHiddenFields" preference="extensions.lazarus.saveHiddenFields" label="&saveHiddenFields.label;" />
+            <description class="lazarus-description">&saveHiddenFields.description;</description>
+        </vbox-->
+        
+        <vbox class="pref-box"> 
+            <hbox align="center">
+                <checkbox id="extensions-lazarus-expireSavedForms" preference="extensions.lazarus.expireSavedForms" oncommand="toggleExpireSaveForms(this.checked, true)" label="&expireSavedForms.label;" /> 
+                <textbox id="extensions-lazarus-expireSavedFormsInterval" preference="extensions.lazarus.expireSavedFormsInterval" class="lazarus-intbox"/>
+                <menulist id="extensions-lazarus-expireSavedFormsUnit" preference="extensions.lazarus.expireSavedFormsUnit" >
+                  <menupopup>
+                    <menuitem label="&minutes;" value="1" />
+                    <menuitem label="&hours;" value="60" />
+                    <menuitem label="&days;" value="1440" />
+                    <menuitem label="&weeks;" value="10080" />
+                  </menupopup>
+                </menulist>
+            </hbox>
+            <description class="lazarus-description">&expireSavedForms.description;</description>                            
+        </vbox>
+        
+        <vbox>
+            <hbox>
+                <checkbox id="usePassword" oncommand="onUsePassword(this)" label="&usePassword.label;" /> 
+                <spacer flex="1" />
+                <button id="changePassword" oncommand="openChangePasswordDialog()" label="&changePassword;" />
+                <button id="resetPassword" oncommand="openResetPasswordDialog()" label="&resetPassword;" />
+            </hbox>
+            <description class="lazarus-description">&changePassword.description;</description>
+            <description class="lazarus-description-important">&changePassword.description.extra;</description>
+        </vbox>
+        
+        <vbox class="pref-box">
+            <checkbox id="extensions.lazarus.disableSearch" preference="extensions.lazarus.disableSearch" label="&disableSearch.label;" />
+            <description class="lazarus-description">&disableSearch.description;</description>
+            <label class="lazarus-text-link" href="http://lazarus.interclue.com/faq.html#disable-search" value="&disableSearch.description.link;" />
+        </vbox>
+				
+				<vbox class="pref-box">
+            <checkbox id="extensions.lazarus.enableInPrivateBrowsingMode" preference="extensions.lazarus.enableInPrivateBrowsingMode" label="&enableInPrivateBrowsingMode.label;" />
+            <description class="lazarus-description">&enableInPrivateBrowsingMode.description;</description>
+        </vbox>
+        
+    </prefpane>
+    
+    <prefpane id="database-pane" label="&database.pane.title;" flex="1" image="chrome://lazarus/skin/database-32.png">
+        
+        <vbox id="db-description">
+          <label id="db-path" crop="end" />
+          <label id="db-size" />
+          <label id="db-backup" />
+          <checkbox id="extensions.lazarus.backupDatabase" preference="extensions.lazarus.backupDatabase" label="&backupDatabase.label;" />
+        </vbox>
+        
+        <vbox class="pref-box" id="text-manager-box">
+            <hbox>
+            <button label="&textManager.title;" oncommand="openTextManager()" />
+            <spacer flex="1" />
+            </hbox>
+            <description class="lazarus-description">&textManager.description;</description>
+        </vbox>
+        
+        <vbox class="pref-box">
+            <hbox>
+            <button id="extensions.lazarus.removeForms" label="&removeForms.title;" oncommand="if (enterPassword() &amp;&amp; confirm('&removeForms.confirm;')){removeForms()}" />
+            <spacer flex="1" />
+            </hbox>
+            <description class="lazarus-description">&removeForms.description;</description>
+        </vbox>
+        
+        <vbox class="pref-box" id="clean-database-box">
+            <hbox>
+            <button id="extensions.lazarus.cleanDatabase" label="&cleanDatabase.title;" oncommand="onCleanDatabase()" />
+            <progressmeter id="extensions.lazarus.cleanDatabaseProgress" mode="undetermined" hidden="true"/>
+            <spacer flex="1" />
+            </hbox>
+            <description class="lazarus-description">&cleanDatabase.description;</description>
+        </vbox>
+        
+        <vbox class="pref-box" id="restore-database-box">
+            <hbox>
+            <button id="extensions.lazarus.restoreDatabase" label="&restoreDatabase.title;" oncommand="onRestoreDatabase()" />
+            <spacer flex="1" />
+            </hbox>
+            <description class="lazarus-description">&restoreDatabase.description;</description>
+        </vbox>
+        
+        <vbox class="pref-box" id="delete-database-box">
+            <hbox>
+            <button id="extensions.lazarus.deleteDatabase" label="&deleteDatabase.title;" oncommand="onDeleteDatabase()" />
+            <spacer flex="1" />
+            </hbox>
+            <description class="lazarus-description">&deleteDatabase.description;</description>
+        </vbox>
+    
+    </prefpane>
+  
+    <script type="text/javascript" src="common.js"></script>
+    <script type="text/javascript" src="options.js"></script>
+    <script type="text/javascript" src="file.js"></script>
+
+</prefwindow>
+
+

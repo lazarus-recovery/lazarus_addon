@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://lazarus/skin/template-save.css" type="text/css"?>
+<!DOCTYPE dialog SYSTEM "chrome://lazarus/locale/template-save.dtd">
+
+<dialog id="lazarusTemplateSave" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+    title="&lazarus.templatesave.title;" onload="init()"
+    buttonlabelaccept="&lazarus.templatesave.save;"
+    ondialogaccept="return onOK();"
+    minwidth="300"
+    >
+    
+    <script type="text/javascript" src="common.js" />
+    <script type="text/javascript" src="template-save.js" />
+    
+    <description>&lazarus.templatesave.instructions;</description>
+    
+    <menulist id="template-name" editable="true" label="">
+        <menupopup id="template-names">
+            
+        </menupopup>
+    </menulist>
+    
+    <checkbox id="template-autofill" label="&template.autofill.label;" />
+    
+</dialog>
+
+

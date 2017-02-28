@@ -1,0 +1,58 @@
+<!ENTITY lazarus.restoreform.contextmenuitem.label "Återskapa formulär">
+<!ENTITY lazarus.restoretext.contextmenuitem.label "Återskapa text">
+<!ENTITY lazarus.enterpassword.contextmenuitem.label "Lazarus: Logga in…">
+<!ENTITY lazarus.logout.contextmenuitem.label "Logga ut">
+<!ENTITY lazarus.statusbar.menuitem.options.label "Inställningar…">
+<!ENTITY lazarus.statusbar.menuitem.options.tooltip "Justera dina inställningar för Lazarus">
+<!ENTITY lazarus.statusbar.menuitem.textmanager.label "Sök i Lazarus…">
+<!ENTITY lazarus.statusbar.menuitem.textmanager.tooltip "Sök efter förlorad text i databasen">
+<!ENTITY lazarus.statusbar.menuitem.website.label "Gå till webbplatsen">
+<!ENTITY lazarus.statusbar.menuitem.website.tooltip "Gå till Lazarus webbplats">
+<!ENTITY lazarus.statusbar.menuitem.faq.label "F.A.Q.">
+<!ENTITY lazarus.statusbar.menuitem.faq.tooltip "Vanliga frågor och svar">
+<!ENTITY lazarus.statusbar.menuitem.donate.label "Donera">
+<!ENTITY lazarus.statusbar.menuitem.donate.tooltip "Hjälp oss att göra Lazarus bättre. Donera idag!">
+<!ENTITY lazarus.statusbar.menuitem.about.label "Om Lazarus">
+<!ENTITY lazarus.statusbar.menuitem.about.tooltip "Versionsinformation">
+<!ENTITY lazarus.statusbar.menuitem.enablefordomain.label "Aktivera Lazarus på denna webbplats">
+<!ENTITY lazarus.statusbar.menuitem.enablefordomain.tooltip "Återaktivera Lazarus på denna webbplats">
+<!ENTITY lazarus.statusbar.menuitem.disablefordomain.label "Inaktivera Lazarus på denna webbplats">
+<!ENTITY lazarus.statusbar.menuitem.disablefordomain.tooltip "Förhindra att Lazarus sparar något formulär på denna webbplats">
+<!ENTITY lazarus.statusbar.menuitem.logout.label "Logga ut">
+<!ENTITY lazarus.statusbar.menuitem.logout.tooltip "Logga ut">
+<!ENTITY lazarus.statusbar.image.tooltip "Inställningar för Lazarus…">
+<!ENTITY lazarus.saveform.contextmenuitem.label "Spara formulär som mall…">
+<!ENTITY lazarus.saveform.contextmenuitem.tooltip "Spara det aktuella tillståndet för detta formulär som en mall">
+<!ENTITY lazarus.domaindisabled.contextmenuitem.label "Lazarus har inaktiverats på denna webbplats">
+<!ENTITY lazarus.domaindisabled.contextmenuitem.tooltip "Lazarus har inaktiverats på denna webbplats">
+<!ENTITY lazarus.privatebrowsing.contextmenuitem.label "Lazarus är inaktiverat">
+<!ENTITY lazarus.privatebrowsing.contextmenuitem.tooltip "Lazarus är inaktiverat i Privat surfning-läget">
+<!ENTITY lazarus.icon.tooltip.enabled "Klicka för att öppna dialogrutan &quot;Inställningar&quot;.
+
+
+
+
+
+
+Högerklicka för mer information">
+<!ENTITY lazarus.icon.tooltip.disabledfordomain "Lazarus är inaktiverat för denna domän.
+
+
+
+
+
+
+Klicka för att återaktivera Lazarus för denna domän">
+<!ENTITY lazarus.icon.tooltip.disabled "Lazarus är inaktiverat!">
+<!ENTITY lazarus.icon.tooltip.privatebrowsing "Lazarus är inaktiverat i Privat surfning-läget!">
+<!ENTITY lazarus.icon.tooltip.passwordrequired "Lösenord krävs för att återskapa formulär.
+
+
+
+
+
+
+Klicka för att ange lösenord">
+<!ENTITY lazarus.icon.tooltip.generatingkeys "Genererar krypteringsnycklar…">
+<!ENTITY lazarus.update.stable.available "En ny version av Lazarus har släppts. Klicka för att ladda ner">
+<!ENTITY lazarus.update.beta.available "En ny betaversion av Lazarus har släppts. Klicka för att ladda ner">

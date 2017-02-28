@@ -1,0 +1,12 @@
+<!ENTITY window.title "Lazarus: Formulärhanterare">
+<!ENTITY window.width "640">
+<!ENTITY window.height "480">
+<!ENTITY done "Klar">
+<!ENTITY delete.label "Ta bort markerade">
+<!ENTITY filter.label "Filter">
+<!ENTITY filter.clear.label "Rensa">
+<!ENTITY form.created "Skapat">
+<!ENTITY form.url "Formulärets plats">
+<!ENTITY form.savetype "Typ">
+<!ENTITY form.autofill "Autofyll">
+<!ENTITY form.recover "Återskapa">

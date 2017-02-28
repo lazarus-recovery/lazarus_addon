@@ -1,0 +1,69 @@
+<!-- initial window size in pixels -->
+<!ENTITY window.width "555">
+<!ENTITY window.height "470">
+<!ENTITY window.title "Lazarus: Obnova formulářů: Možnosti">
+<!ENTITY welcome.pane.title "Uvítání">
+<!ENTITY general.pane.title "Hlavní">
+<!ENTITY database.pane.title "Databáze">
+<!ENTITY minutes "minuty">
+<!ENTITY hours "hodiny">
+<!ENTITY days "dny">
+<!ENTITY weeks "týdnů">
+<!ENTITY welcome.title "Lazarus: Obnova formulářů">
+<!ENTITY welcome.message "Lazarus je navržen tak, aby běžel nenápadně na pozadí. Pak jeden den strávíte 30 minut vyplňováním důležitého formuláře a server, ještě před tím než ho stihnete odeslat spadne. Teď se Lazarus může předvést. Stačí kliknout pravým tlačítkem na formulář a stisknout 'Obnovit formulář' a všechna pole budou obnovena do stavu, v jakém byla před jejich odesláním.">
+<!ENTITY saveSearchForms.label "Ukládat vyhledávací formuláře">
+<!ENTITY saveSearchForms.description "Odškrtnutí této volby brání databázi uložených formulářů, aby byla plněna daty z vyhledávacích formulářů.
+
+
+Ukládání vyhledávacích formulářů je zpravidla nepoužitelné, protože vyhledávané fráze se často mění a ztracená vyhledávání lze snadno znovu zadat. 
+
+Pokročilé vyhledávací formuláře (formuláře s více jak 1 textovým polem, anebo velkým počtem ostatních voleb) budou stále ukládány.">
+<!ENTITY savePasswordFields.label "Ukládat hesla">
+<!ENTITY savePasswordFields.description "Ukládání hesel není doporučeno, protože to umožňuje každému s fyzickým  přístupem k vašemu počítači přistupovat k heslům, které jste zadali na webových stránkách. Ukládání hesel není doporučeno.">
+<!ENTITY replaceCreditCardNumbers.label "Nahrazovat čísla kreditních karet">
+<!ENTITY replaceCreditCardNumbers.description "Ve výchozím nastavení bude Lazarus nahrazovat čísla kreditních karet (každý řetězec 13—16 číslic za sebou) nulami, aby zabránil komukoli s fyzickým přístupem k vašemu počítači v získání jakýchkoliv podrobností o kreditní kartě, které jste mohli zadat do webových stránek. Pokud odškrtnete tuto volbu, Lazarus už nebude čísla nahrazovat, ale bude je ukládat a obnovovat jako jakýkoli jiný text.">
+<!ENTITY saveHiddenFields.label "Ukládat skrytá pole">
+<!ENTITY saveHiddenFields.description "Skrytá pole jsou často používány pro ukládání session informací. Tato informace může umožnit uživateli s fyzickým přístupem k vašemu počítači být automaticky přihlášen jako vy. Ukládání skrytých polí není doporučeno.">
+<!ENTITY disableSearch.label "Zakázat indexování vyhledávání">
+<!ENTITY disableSearch.description "Zakáže indexaci vašich uložených dat">
+<!ENTITY disableSearch.description.link "Proč by to kdokoli dělal?">
+<!ENTITY expireSavedForms.label "Odstranit uložené formuláře po">
+<!ENTITY expireSavedForms.description "Detaily formuláře jsou ukládány do databáze s tak mohou být získány i po pádu prohlížeče. Na jak dlouhou dobu mají být detaily formuláře ukládány.">
+<!ENTITY showInStatusbar.label "Zobrazovat ikonu ve stavovém řádku">
+<!ENTITY showInStatusbar.description "Chcete zobrazovat ikonu doplňku Lazarus ve stavovém řádku?">
+<!ENTITY showContextMenuIcons.label "Zobrazovat ikony v kontextové nabídce">
+<!ENTITY showContextMenuIcons.description "Chcete aby měly položky v nabídce Lazaru po stisknutí pravého tlačítka vedle sebe ikony?">
+<!ENTITY showDonateNotification.label "Zobrazovat oznámení o obnovení">
+<!ENTITY showDonateNotification.description "Měli bychom vám připomínat, že můžete na Lazarus přispět kdykoliv je obnoven velký formulář?">
+<!ENTITY checkForUpdates.label "Zkontrolovat aktualizace">
+<!ENTITY checkForUpdates.description "Chcete, aby Lazarus automaticky kontroloval dostupnost nových verzí?">
+<!ENTITY checkForUpdatesBeta.label "Zkontrolovat betaverze">
+<!ENTITY checkForUpdatesBeta.description "Mají se kontrolovat i betaverze?">
+<!ENTITY removeForms.title "Odebrat všechny uložené formuláře">
+<!ENTITY removeForms.description "Vymazat všechny uložené formuláře z databáze">
+<!ENTITY removeForms.confirm "Jste si jisti, že si přejete vymazat VŠECHNY uložené formuláře?\nTato akce je nevratná!">
+<!ENTITY removeForms.complete "Formuláře odebrány">
+<!ENTITY removeTemplates.title "Vymazat všechny uložené šablony">
+<!ENTITY removeTemplates.description "Vymazat všechny uložené šablony databáze">
+<!ENTITY removeTemplates.confirm "Jste si jisti, že si přejete vymazat VŠECHNY uložené šablony?\nTato akce je nevratná!">
+<!ENTITY removeTemplates.complete "Šablony odstraněny.">
+<!ENTITY cleanDatabase.title "Vyčistit databázi">
+<!ENTITY cleanDatabase.description "Odstraní prázdné záznamy z databáze a vyčistí strukturu databázového souboru. VEZMĚTE NA VĚDOMÍ: dokončení může chvíli trvat (zhruba 30 sekund)">
+<!ENTITY restoreDatabase.title "Obnovit databázi ze zálohy">
+<!ENTITY restoreDatabase.description "Obnoví databázi z poslední známé zálohy. Omlouváme se, ale tato akce vyžaduje restart prohlížeče :(">
+<!ENTITY deleteDatabase.title "Smazat databázi">
+<!ENTITY deleteDatabase.description "Smaže databázi Lazaru ze souborového systému! Tato akce vyžaduje restart prohlížeče :(">
+<!ENTITY security.pane.title "Bezpečnost">
+<!ENTITY useFormTextForSubmenuItems "Použít text">
+<!ENTITY useTimeForSubmenuItems "Používat v položkách nabídky čas">
+<!ENTITY showFormTextInSubMenu.description "Chcete zobrazit v položkách podnabídky první řádku uloženého formuláře nebo preferujete datum, kdy byl formulář uložen.">
+<!ENTITY usePassword.label "Vyžadovat heslo pro obnovu ormulářů.">
+<!ENTITY backupDatabase.label "Udržovat zálohy databáze">
+<!ENTITY changePassword "Změnit heslo">
+<!ENTITY changePassword.description "Nejlepší způsob zabezpečení vašich soukromých formulářových informaci je nastavit heslo Lazaru. Heslo bude třeba být zadáno jednou za sezení prohlížeče, při prvním pokusu o obnovení formuláře.">
+<!ENTITY changePassword.description.extra "Všechny formuláře budou ukládány bez ohledu na to, jestli bylo heslo zadáno nebo ne">
+<!ENTITY resetPassword "Obnovit heslo">
+<!ENTITY textManager.title "Prohledat Lazarus">
+<!ENTITY textManager.description "Hledá a obnoví data, dokonce i když původní formulář/stránka již nejsou dostupné.">
+<!ENTITY enableInPrivateBrowsingMode.label "Povolit Lazarus v režimu anonymního prohlížení">
+<!ENTITY enableInPrivateBrowsingMode.description "Někteří uživatelé vždy spouštějí Lazarus v režimu anonymního prohlížení, ale chtějí bít chráněni Lazarem, bezpečně ukládajícím jejich data. Pro tyto uživatele nabízíme možnost povolení Lazaru během režimu anonymního prohlížení. Při povolení této volby silně doporučujeme používání hesla Lazaru.">

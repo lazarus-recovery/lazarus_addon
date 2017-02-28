@@ -1,0 +1,6 @@
+<!ENTITY window.title "Lazarus: 卸载选项">
+<!ENTITY uninstallInfo "Lazarus: 卸载选项">
+<!ENTITY removeUserSettings "删除用户设置">
+<!ENTITY removeSavedForms "删除已保存的表单">
+<!ENTITY ok "确定">
+<!ENTITY unable.to.remove.db "Lazarus 已保存表单存储在您的配置文件目录的[lazarus.sqlite]文件中。由于 Firefox 的限制，我们无法在卸载过程中删除这个文件。所有的表单都将从该数据库中移除，但空的数据库文件仍将保留在您的配置文件目录。在 Lazarus 完全卸载后，它可以被安全的删除。">

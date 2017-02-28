@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://lazarus/skin/password-reset.css" type="text/css"?>
+<!DOCTYPE dialog SYSTEM "chrome://lazarus/locale/generate-keys.dtd" >
+<dialog id="lazarusGenerateKeys" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+    title="&window.title;" onload=""
+    buttons="accept,cancel"
+    ondialogaccept="return onAccept()"
+    ondialogcancel="">
+    
+    <script type="text/javascript" src="common.js" />
+    <script type="text/javascript" src="generate-keys.js" />
+    <script type="text/javascript">
+        var strings = {};
+        strings["keys-generated"] = '&keys.generated;';
+        strings["key-generation-error"] = '&key.generation.error;';
+        strings["password-not-entered"] = '&password.not.entered;';
+        strings["key-generation-cancelled"] = '&key.generation.cancelled;';
+    </script>
+    
+    <description>&generatekeys.description;</description>
+    <description>&generatekeys.description.extra;</description>
+    <progressmeter id="generate-keys-progress" mode="undetermined" style="visibility:hidden"/>
+    <description id="generate-keys-text" style="visibility:hidden">&generatekeys.generating;</description>
+    
+</dialog>
+
+

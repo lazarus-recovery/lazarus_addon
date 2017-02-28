@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://lazarus/locale/uninstall.dtd">
+<prefwindow id="lazarusUninstallOptions" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+    title="&window.title;" onload="init()"
+    buttons="accept">
+    <prefpane id="options">
+    <preferences>
+      <preference id="extensions.lazarus.uninstall.removeUserSettings" name="extensions.lazarus.uninstall.removeUserSettings" type="bool"/>
+      <preference id="extensions.lazarus.uninstall.removeSavedForms" name="extensions.lazarus.uninstall.removeSavedForms" type="bool"/>
+    </preferences>
+    
+    <vbox>
+        <description>&uninstallInfo;</description>
+    </vbox>
+    
+    <vbox>
+        <checkbox id="removeUserSettings" label="&removeUserSettings;" preference="extensions.lazarus.uninstall.removeUserSettings"/>
+        <checkbox id="removeSavedForms" preference="extensions.lazarus.uninstall.removeSavedForms" label="&removeSavedForms;" oncommand="toggleDBDescription()" />
+    </vbox>
+    
+    <vbox width="300">
+        <description flex="1" id="databaseDescription" minheight="100">&unable.to.remove.db;</description>
+    </vbox>
+    </prefpane>
+    
+    <script type="text/javascript" src="common.js" />
+    <script type="text/javascript" src="uninstall.js" />
+</prefwindow>
+
+

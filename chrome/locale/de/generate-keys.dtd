@@ -1,0 +1,8 @@
+<!ENTITY window.title "Lazarus: Verschlüsselungs-Key generieren">
+<!ENTITY generatekeys.description "Zu deiner Sicherheit fordert Lazarus, dass alle Formulardaten verschlüsselt werden, bevor sie in der lokalen Lazarus-Datenbank gespeichert werden. Die Erzeugung der Chiffrierschlüssel kann ein Weilchen dauern und erfordert, dass Sie sich beim Software Security Device von Firefox anmelden. Lazarus kann deine Formulare nicht speichern, solange die Schlüssel nicht erzeugt sind.">
+<!ENTITY generatekeys.description.extra "Verschlüsselungs-Key jetzt generieren?">
+<!ENTITY generatekeys.generating "Bitte warten, dies kann bis zu 30 Sekunden bis zur Fertigstellung dauern. Keys werden generiert…">
+<!ENTITY keys.generated "Verschlüsselungs-Key erfolgreich erstellt.">
+<!ENTITY key.generation.error "Leider ist etwas schiefgelaufen und wir konnten die Chiffrierschlüssel auf dieser Maschine nicht erzeugen. \nBitte melden Sie diesen Fehler an lazarus@interclue.com">
+<!ENTITY key.generation.cancelled "Soll Lazarus deaktiviert werden, bis Sie einen Verschlüsselungs-Key erstellen lassen möchten?">
+<!ENTITY password.not.entered "Das Master-Passwort ist zum Generieren der Verschlüsselungs-Keys erforderlich!">

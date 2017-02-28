@@ -1,0 +1,8 @@
+<!ENTITY window.title "Lazarus: Generování šifrovacích klíčů">
+<!ENTITY generatekeys.description "Pro vaši bezpečnost vyžaduje Lazarus aby byla všechna data před uložením do jeho místní databáze šifrována. Generování šifrovacích klíčů může chvilku trvat a vyžaduje vaše přihlášení do softwarového bezpečnostního zařízení Firefoxu. Lazarus nebude schopen ukládat vaše formuláře, dokud nebudou šifrovací klíče vygenerovány.">
+<!ENTITY generatekeys.description.extra "Generovat šifrovací klíče nyní?">
+<!ENTITY generatekeys.generating "Prosím čekejte, dokončení může zabrat až 30 sekund. Generování klíčů…">
+<!ENTITY keys.generated "Šifrovací klíče úspěšně vygenerovány.">
+<!ENTITY key.generation.error "Omlouváme se, ale něco se pokazilo a nebyli jsme schopni šifrovací klíče na tomto stroji vygenerovat. \nNahlaste prosím tuto chybu na lazarus@interclue.com">
+<!ENTITY key.generation.cancelled "Lazarus bude deaktivován dokud nezvolíte generování šifrovacích klíčů?">
+<!ENTITY password.not.entered "Pro vygenerování šifrovacích klíčů je vyžadováno hlavní heslo!">

@@ -1,0 +1,12 @@
+
+<!ENTITY window.title "Lazarus: Uninstall Options">
+
+<!ENTITY uninstallInfo "Lazarus: Uninstall Options">
+<!ENTITY removeUserSettings "Remove User Settings">
+<!ENTITY removeSavedForms "Remove Saved Forms">
+<!ENTITY ok "Ok">
+<!ENTITY unable.to.remove.db "Lazarus stores it's saved forms inside 'lazarus.sqlite' in your profile directory. 
+    due to limitations imposed by Firefox we are unable to delete this file during the uninstall process.
+    All forms will be removed from the database, but the empty database file will remain in your profile directory. 
+    It is safe to remove this file AFTER Lazarus has been fully uninstalled.">
+

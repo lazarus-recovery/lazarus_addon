@@ -1,0 +1,64 @@
+<!-- initial window size in pixels -->
+<!ENTITY window.width "530">
+<!ENTITY window.height "470">
+<!ENTITY window.title "Lazarus: 復原表單: 選項">
+<!ENTITY welcome.pane.title "歡迎">
+<!ENTITY general.pane.title "一般">
+<!ENTITY database.pane.title "資料庫">
+<!ENTITY minutes "分鐘">
+<!ENTITY hours "小時">
+<!ENTITY days "日">
+<!ENTITY weeks "週">
+<!ENTITY welcome.title "Lazarus: 復原表單">
+<!ENTITY welcome.message "Lazarus 將在背景安靜的執行。某天您可能會花 30 分鐘來填寫一張重要的表單，然後伺服器恰好在您送出表單前當機。這就是 Lazarus 的功用，只要對著表單按右鍵並按下 &quot;復原表單&quot;，所有的欄位資料就會自動復原。">
+<!ENTITY saveSearchForms.label "儲存搜尋表單">
+<!ENTITY saveSearchForms.description "勾銷這個選項將會避免資料庫記錄搜尋表單。因為搜尋的資料常不一樣，這些東西通常是不必要被存下來的，而且也很容易就可以重新輸入。進階的搜尋表單 (像是超過一個欄位，還有一些其他選項) 還是會被儲存起來。">
+<!ENTITY savePasswordFields.label "儲存密碼">
+<!ENTITY savePasswordFields.description "不建議您儲存密碼。這樣將會允許任何可以使用您電腦的人得知您的密碼，不推薦這麼做。">
+<!ENTITY replaceCreditCardNumbers.label "取代信用卡卡號">
+<!ENTITY replaceCreditCardNumbers.description "Lazarus 預設將會把信用卡卡號（任何連續 13~16 位的數字）取代成0，避免任何可以使用到您電腦的人取得您輸入到網頁的信用卡卡號。若您取消選擇此選項，Lazarus 將不會取代卡號，而會將其視為其他文字進行儲存與還原。">
+<!ENTITY saveHiddenFields.label "儲存隱藏欄位">
+<!ENTITY saveHiddenFields.description "隱藏的欄位通藏用來存放一些登入時期 (Session) 的資訊。這些資訊也可能會造成能使用您電腦的人使用您的帳號登入，不推薦這麼做。">
+<!ENTITY disableSearch.label "取消搜尋索引">
+<!ENTITY disableSearch.description "對您所儲存的資料停用索引">
+<!ENTITY disableSearch.description.link "為什麼會有人想要這樣做?">
+<!ENTITY expireSavedForms.label "在....後移除已儲存的表單">
+<!ENTITY expireSavedForms.description "表單資訊被存在一個資料庫裡，您希望他們要被留著多久？">
+<!ENTITY showInStatusbar.label "在狀態列顯示圖示">
+<!ENTITY showInStatusbar.description "您希望在狀態列顯示圖示嗎？">
+<!ENTITY showContextMenuIcons.label "於右鍵選單中顯示圖示">
+<!ENTITY showContextMenuIcons.description "您想要在右鍵選單當中的 Lazarus 項目前面顯示圖示嗎?">
+<!ENTITY showDonateNotification.label "顯示還原通知">
+<!ENTITY showDonateNotification.description "我們應該在大表單被還原時提醒您可以捐贈給 Lazarus 嗎?">
+<!ENTITY checkForUpdates.label "檢查更新">
+<!ENTITY checkForUpdates.description "您希望 Lazarus 自動檢查新版本嗎？">
+<!ENTITY checkForUpdatesBeta.label "檢查新的測試版">
+<!ENTITY checkForUpdatesBeta.description "也可以檢查新的測試版本。">
+<!ENTITY removeForms.title "移除所有已儲存的表單">
+<!ENTITY removeForms.description "從資料庫中刪除所有已儲存的表單資訊">
+<!ENTITY removeForms.confirm "您確定要移除所有的表單資訊？\n這個動作無法還原！">
+<!ENTITY removeForms.complete "表單資訊已移除。">
+<!ENTITY removeTemplates.title "移除所有已儲存的範本">
+<!ENTITY removeTemplates.description "從資料庫刪除所有已儲存的範本。">
+<!ENTITY removeTemplates.confirm "您確定要移除所有的表單範本？\n這個動作無法還原！">
+<!ENTITY removeTemplates.complete "表單範本已移除。">
+<!ENTITY cleanDatabase.title "清理資料庫">
+<!ENTITY cleanDatabase.description "移除資料庫當中的空記錄、並清理整個檔案結構。這可能需要一些時間 (約莫 30 秒)">
+<!ENTITY restoreDatabase.title "從備份還原資料庫">
+<!ENTITY restoreDatabase.description "從已知最近的備份還原資料庫。抱歉，這個行為需要重新啟動瀏覽器 :(">
+<!ENTITY deleteDatabase.title "刪除資料庫">
+<!ENTITY deleteDatabase.description "從您的檔案系統中刪除還原資料庫。抱歉，這個行為需要重新啟動瀏覽器 :(">
+<!ENTITY security.pane.title "安全性">
+<!ENTITY useFormTextForSubmenuItems "於選單項目中使用文字">
+<!ENTITY useTimeForSubmenuItems "於選單項目中使用時間">
+<!ENTITY showFormTextInSubMenu.description "您希望子選單項目顯示已儲存表單的第一行或是儲存表單的時間？">
+<!ENTITY usePassword.label "需要密碼才能還原表單">
+<!ENTITY backupDatabase.label "保留資料庫的備份">
+<!ENTITY changePassword "修改密碼">
+<!ENTITY changePassword.description "保持您私人表單安全最好的方式就是設定一組 Lazarus 密碼。將會在每次瀏覽器打開後，第一次要還原表單時要求您輸入此密碼。">
+<!ENTITY changePassword.description.extra "不論您有沒有輸入密碼，所有的表單都將仍然會被儲存下來。">
+<!ENTITY resetPassword "重設密碼">
+<!ENTITY textManager.title "搜尋 Lazarus">
+<!ENTITY textManager.description "就算原始表單/網頁已經不存在仍然搜尋並恢復資料">
+<!ENTITY enableInPrivateBrowsingMode.label "於私密瀏覽模式當中啟用 Lazarus">
+<!ENTITY enableInPrivateBrowsingMode.description "有些使用者總是使用隱私瀏覽模式執行 Firefox 但也想要讓 Lazarus 可以安全地儲存他們的資料。對於這些使用者，我們提供於隱私瀏覽模式啟用 Lazarus 的選項。若您啟用此選項，我們強烈建議使用 Lazarus 密碼。">

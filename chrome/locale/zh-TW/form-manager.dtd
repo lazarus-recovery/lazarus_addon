@@ -1,0 +1,12 @@
+<!ENTITY window.title "Lazarus: 表單管理員">
+<!ENTITY window.width "640">
+<!ENTITY window.height "480">
+<!ENTITY done "完成">
+<!ENTITY delete.label "刪除已選擇的">
+<!ENTITY filter.label "過濾器">
+<!ENTITY filter.clear.label "清除">
+<!ENTITY form.created "建立於">
+<!ENTITY form.url "表單網址">
+<!ENTITY form.savetype "類型">
+<!ENTITY form.autofill "自動輸入">
+<!ENTITY form.recover "復原">

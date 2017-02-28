@@ -1,0 +1,11 @@
+<!ENTITY done "Klar">
+<!ENTITY delete.label "Ta bort markerade">
+<!ENTITY text.created "Skapat">
+<!ENTITY text.recover "Återskapa">
+<!ENTITY text.text "Text">
+<!ENTITY text.url "URL">
+<!ENTITY window.title "Lazarus: Sök">
+<!ENTITY search.label "Sök">
+<!ENTITY search.clear.label "Rensa">
+<!ENTITY search.description "Var vänlig observera: Sökningar kommer endast att ge relevanta resultat om du söker på HELA ORD eller HELA FRASER (detta beror på krypteringen som används för sökindexet)">
+<!ENTITY search.disabled.description "Sökning är för närvarande inaktiverat. För att återaktivera sökningen, avmarkera kryssrutan &quot;Inaktivera textsökning&quot; i Lazarus säkerhetsinställningar">

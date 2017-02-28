@@ -1,0 +1,7 @@
+<!ENTITY about "О">
+<!ENTITY version "Версия:">
+<!ENTITY createdBy "Автор:">
+<!ENTITY iconsBy "Значки:">
+<!ENTITY translations "Переводчики:">
+<!ENTITY homepage "Домашняя страница:">
+<!ENTITY app.fullname "Lazarus: Form Recovery">
