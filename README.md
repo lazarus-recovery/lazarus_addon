@@ -10,3 +10,10 @@ Lazarus 2.3 uses RSA and AES hybrid encryption, so your form history is more pri
 
 ##status
 Currently we are working on removing the  Donation nag and removing dead links
+
+
+# History
+Forked from "v2.3.1-signed. Released August 4, 2011" to Github @lazarus-recovery on 2017-Feb-27.
+
+Earlier versions from original authors Karl Dearden and Seth Wagoner are at
+https://addons.mozilla.org/en-us/firefox/addon/lazarus-form-recovery/versions/
