@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://lazarus/skin/firefox-overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://lazarus/locale/lazarus.dtd">
+<overlay id="lazarus-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="text/javascript" src="lazarus-config.js"/>
+<script type="text/javascript" src="lazarus.js"/>
+<script type="text/javascript" src="lazarus-updates.js"/>
+<script type="text/javascript" src="common.js"/>
+<script type="text/javascript" src="crypto.js"/>
+<script type="text/javascript" src="event.js"/>
+<script type="text/javascript" src="file.js"/>
+<!-- <script type="text/javascript" src="debug.js"/> -->
+<script type="text/javascript" src="sqlite.js"/>
+<script type="text/javascript" src="init.js"/>
+
+<stringbundleset id="stringbundleset">
+    <stringbundle id="lazarus-strings" src="chrome://lazarus/locale/lazarus.properties"/>
+</stringbundleset>
+
+<!-- form context menu -->
+<popup id="contentAreaContextMenu">
+    <menuitem id="lazarus-enterpassword-contextmenuitem" label="&lazarus.enterpassword.contextmenuitem.label;" 
+        insertbefore="context-sep-undo" oncommand="Lazarus.showEnterPasswordDialog()" class="menuitem-iconic" image="chrome://lazarus/skin/lazarus-login.png" hidden="true" />
+    
+    <menu id="lazarus-restoretext-submenu" label="&lazarus.restoretext.contextmenuitem.label;" 
+        insertbefore="context-sep-undo" class="menu-iconic" image="chrome://lazarus/skin/lazarus.png" hidden="true" >
+        
+        <!-- to be populated with menuitems -->
+        <menupopup id="lazarus-restoretext-submenu-menupopup" />
+    </menu>
+    
+    
+    <menuitem id="lazarus-restoretextdisabled-contextmenuitem" label="&lazarus.restoretext.contextmenuitem.label;" 
+        insertbefore="context-sep-undo" oncommand="" disabled="true" class="menuitem-iconic" image="chrome://lazarus/skin/lazarus-disable.png" hidden="true"/>
+    
+    
+    <menuitem id="lazarus-restoreform-contextmenuitem" label="&lazarus.restoreform.contextmenuitem.label;" 
+        insertbefore="context-sep-undo" oncommand="Lazarus.onRestoreFormMenuItem(this)" class="menuitem-iconic" image="chrome://lazarus/skin/lazarus.png" hidden="true"/>
+    
+    <menu id="lazarus-restoreform-submenu" label="&lazarus.restoreform.contextmenuitem.label;" insertbefore="context-sep-undo" class="menu-iconic" image="chrome://lazarus/skin/lazarus.png" hidden="true">
+        <menupopup id="lazarus-restoreform-submenu-menupopup" >
+            <!-- to be populated with menuitems -->
+            <menuseparator id="lazarus-submenu-separator" />
+            <menuitem id="lazarus-submenu-menuitem-donate" oncommand="Lazarus.openLazarusWebsite('donate.html')" label="&lazarus.statusbar.menuitem.donate.label;" tooltiptext="&lazarus.statusbar.menuitem.donate.tooltip;" class="menuitem-iconic" image="chrome://lazarus/skin/donate.png" />
+        </menupopup>
+    </menu>
+    
+    <menuitem id="lazarus-domaindisabled-contextmenuitem" label="&lazarus.domaindisabled.contextmenuitem.label;" tooltiptext="&lazarus.domaindisabled.contextmenuitem.tooltip;"
+        insertbefore="context-sep-undo" oncommand="Lazarus.toggleCurrentDomain(true)" class="menuitem-iconic" image="chrome://lazarus/skin/lazarus-disabled.png" hidden="true" />
+
+    <menuitem id="lazarus-privatebrowsing-contextmenuitem" label="&lazarus.privatebrowsing.contextmenuitem.label;" tooltiptext="&lazarus.privatebrowsing.contextmenuitem.tooltip;"
+        insertbefore="context-sep-undo" oncommand="alert(Lazarus.getString('private.browsing.mode'))" class="menuitem-iconic" image="chrome://lazarus/skin/lazarus-disabled.png" hidden="true" />
+
+</popup>
+
+
+<!-- notification box -->
+<vbox id="appcontent">
+    <notificationbox id="lazarus-notification" />
+</vbox>
+
+
+
+<!-- Status bar items -->
+<statusbar id="status-bar">
+    <statusbarpanel id="lazarus-statusbarpanel" hidden="true" context="lazarus-statusbar-menupopup">
+        <image id="lazarus-statusbarpanel-image" src="chrome://lazarus/skin/lazarus.png" onclick="Lazarus.onStatusbarImageClick(event)" tooltip="lazarus-statusbaricon-tooltip"/>
+    </statusbarpanel>
+    
+    <!-- context menu for lazarus statusbar icon -->
+    <menupopup id="lazarus-statusbar-menupopup" position="before_end" onpopupshowing="Lazarus.onStatusbarMenuShowing(this)">
+        <menuitem class="menuitem-iconic" id="lazarus-statusbar-menuitem-test" oncommand="Lazarus.test()" label="test" hidden="true" />
+        <menuitem class="menuitem-iconic" id="lazarus-statusbar-menuitem-options" oncommand="Lazarus.openOptionsDialog()" label="&lazarus.statusbar.menuitem.options.label;" tooltiptext="&lazarus.statusbar.menuitem.options.tooltip;" image="chrome://lazarus/skin/options.png" />
+        
+				<menuitem class="menuitem-iconic" id="lazarus-statusbar-menuitem-textmanager" oncommand="Lazarus.openTextManager()" label="&lazarus.statusbar.menuitem.textmanager.label;" tooltiptext="&lazarus.statusbar.menuitem.textmanager.tooltip;" image="chrome://lazarus/skin/text-manager.png" />
+        
+        <menuseparator />  
+        <menuitem class="menuitem-iconic" id="lazarus-statusbar-menuitem-website" oncommand="Lazarus.openLazarusWebsite()" label="&lazarus.statusbar.menuitem.website.label;" tooltiptext="&lazarus.statusbar.menuitem.website.tooltip;" image="chrome://lazarus/skin/website.png" />
+        <menuitem class="menuitem-iconic" id="lazarus-statusbar-menuitem-faq" oncommand="Lazarus.openLazarusWebsite('faq.html')" label="&lazarus.statusbar.menuitem.faq.label;" tooltiptext="&lazarus.statusbar.menuitem.faq.tooltip;" image="chrome://lazarus/skin/faq.png" />
+        <menuitem class="menuitem-iconic" id="lazarus-statusbar-menuitem-donate" oncommand="Lazarus.openLazarusWebsite('donate.html')" label="&lazarus.statusbar.menuitem.donate.label;" tooltiptext="&lazarus.statusbar.menuitem.donate.tooltip;" image="chrome://lazarus/skin/donate.png" />
+        <menuitem class="menuitem-iconic" id="lazarus-statusbar-menuitem-about" oncommand="Lazarus.openAboutDialog()" label="&lazarus.statusbar.menuitem.about.label;" tooltiptext="&lazarus.statusbar.menuitem.about.tooltip;" image="chrome://lazarus/skin/about.png" />
+        <menuseparator id="lazarus-statusbar-menuitem-toggledomain-separator" />  
+        <menuitem class="menuitem-iconic" id="lazarus-statusbar-menuitem-enablefordomain" oncommand="Lazarus.toggleCurrentDomain(true)" label="&lazarus.statusbar.menuitem.enablefordomain.label;" tooltiptext="&lazarus.statusbar.menuitem.enablefordomain.tooltip;" image="chrome://lazarus/skin/lazarus-enable.png" hidden="true" />
+        <menuitem class="menuitem-iconic" id="lazarus-statusbar-menuitem-disablefordomain" oncommand="Lazarus.toggleCurrentDomain(false)" label="&lazarus.statusbar.menuitem.disablefordomain.label;" tooltiptext="&lazarus.statusbar.menuitem.disablefordomain.tooltip;" image="chrome://lazarus/skin/lazarus-disabled.png" hidden="true" />
+        <menuitem class="menuitem-iconic" id="lazarus-statusbar-menuitem-logout" oncommand="Lazarus.logout()" label="&lazarus.statusbar.menuitem.logout.label;" tooltiptext="&lazarus.statusbar.menuitem.logout.tooltip;" image="chrome://lazarus/skin/lazarus-disabled.png" hidden="" />
+        
+    </menupopup>
+</statusbar>
+
+<!-- tooltips -->
+<popupset id="mainPopupSet">
+    <!-- have to use separate tooltips for each of the various lazarus states
+    FF2 doesn't resize the original tooltip correctly, so text is cut off
+    -->
+    <tooltip id="lazarus-statusbaricon-tooltip-enabled" orient="vertical">
+        <description id="lazarus-statusbaricon-tooltip-title" value="Lazarus: 1.0.0" />
+    </tooltip>
+    
+    <tooltip id="lazarus-statusbaricon-tooltip-disabled" orient="vertical">
+        <description style="white-space: pre;">&lazarus.icon.tooltip.disabled;</description>
+    </tooltip>
+    
+    <tooltip id="lazarus-statusbaricon-tooltip-passwordrequired" orient="vertical">
+        <description style="white-space: pre;">&lazarus.icon.tooltip.passwordrequired;</description>
+    </tooltip>
+    
+    <tooltip id="lazarus-statusbaricon-tooltip-disabledfordomain" orient="vertical">
+        <description style="white-space: pre;">&lazarus.icon.tooltip.disabledfordomain;</description>
+    </tooltip>
+    
+    <tooltip id="lazarus-statusbaricon-tooltip-private-browsing" orient="vertical">
+        <description style="white-space: pre;">&lazarus.icon.tooltip.privatebrowsing;</description>
+    </tooltip>
+    
+    <tooltip id="lazarus-statusbaricon-tooltip-generatingkeys" orient="vertical">
+        <description style="white-space: pre;">&lazarus.icon.tooltip.generatingkeys;</description>
+    </tooltip>
+</popupset>
+
+</overlay>

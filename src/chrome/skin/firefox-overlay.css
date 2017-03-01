@@ -1,0 +1,11 @@
+
+/* notification bar */
+#lazarus-notification notification{
+	background-color: #FFFFE1;	
+	color: #000;
+	border-top: 1px solid #919191;
+}
+
+#lazarus-restoretext-submenu menuitem {
+	max-width: 250px;	
+}

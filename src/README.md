@@ -8,23 +8,6 @@ Lazarus works on ordinary web forms, WYSIWYG editors, and even AJAXified comment
 
 Lazarus 2.3 uses RSA and AES hybrid encryption, so your form history is more private and secure than ever! Lazarus also includes search functionality so you can recover text even if you can no longer find the original form you entered it into.
 
-##status
-Currently we are working on removing the  Donation nag and removing dead links.
-
-To use development version from Github, disable signature-signing to use add-ons not signed/downloaded directly from the Firefox Addons site:
-
-- https://github.com/5digits/dactyl/wiki/Disable-extension-signing-requirement-in-Firefox-49-or-later
-- http://www.ghacks.net/2016/08/14/override-firefox-add-on-signing-requirement/
-- http://www.ghacks.net/2015/06/19/how-to-disable-the-firefox-40-add-on-signing-requirement/
-
-## Files and Folders
-
-`.\src`: this is the Addon  
-`.\utils`: tools for developers  
-`.\notes`: self explanatory  
-`.\dist`: distribution packages (.xpi), ignored by source code management (git)
-
-
 ## History
 Forked from "v2.3.1-signed. Released August 4, 2011" to Github @lazarus-recovery on 2017-Feb-27.
 

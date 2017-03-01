@@ -1,0 +1,25 @@
+# declare chrome paths
+content	lazarus	            chrome/content/
+skin	lazarus	classic/1.0	chrome/skin/
+
+# register overlays
+overlay	chrome://browser/content/browser.xul	chrome://lazarus/content/firefox-overlay.xul
+overlay	chrome://browser/content/preferences/preferences.xul	chrome://lazarus/content/preferences-overlay.xul
+overlay	chrome://global/content/commonDialog.xul	chrome://lazarus/content/common-dialog-overlay.xul
+
+# removing sanitise option as of Fx 3.5+
+# overlay	chrome://browser/content/sanitize.xul	chrome://lazarus/content/sanitize-overlay.xul
+# overlay	chrome://browser/content/preferences/sanitize.xul	chrome://lazarus/content/preferences-sanitize-overlay.xul
+
+# locales
+locale	lazarus	de    chrome/locale/de/
+locale	lazarus	en-US	    chrome/locale/en-US/
+locale	lazarus	fr	    chrome/locale/fr/
+locale	lazarus	pt-PT	    chrome/locale/pt-PT/
+locale	lazarus	ru	    chrome/locale/ru/
+locale	lazarus	sv-SE	    chrome/locale/sv-SE/
+locale	lazarus	zh-TW	    chrome/locale/zh-TW/
+
+
+# and resources
+resource lazarus modules/

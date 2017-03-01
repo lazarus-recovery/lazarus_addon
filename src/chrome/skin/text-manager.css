@@ -1,0 +1,64 @@
+treechildren::-moz-tree-checkbox{
+  /* unchecked checkbox treecells */
+  list-style-image: url("chrome://lazarus/skin/checkbox-unchecked.png");
+}
+treechildren::-moz-tree-checkbox(checked){
+  /* checked checkbox treecells*/
+  list-style-image: url("chrome://lazarus/skin/checkbox-checked.png");
+}
+treechildren::-moz-tree-checkbox(lazarusdisabledcheckbox){
+  /* disabled checkbox treecells */
+  list-style-image: none;
+}
+
+
+/* make the form url look like a link */
+treechildren::-moz-tree-cell-text(lazarustextlink){
+	color: #00F;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+treechildren::-moz-tree-row(selected) { background-color: #ffa; }
+treechildren::-moz-tree-row(odd) { background-color: #eef; }
+treechildren::-moz-tree-row(odd, selected) { background-color: #ffa; }
+treechildren::-moz-tree-cell-text(selected) { color: #000; }
+treechildren::-moz-tree-cell-text(odd, selected) { color: #000; }
+
+
+
+#check {
+	min-width: 24px;
+}
+#created {
+	min-width: 10em;
+}
+#savetype {
+	min-width: 7em;
+}
+#autofill {
+	min-width: 24px;
+}
+#recoverForm {
+	min-width: 24px;
+}
+
+
+#message-box  {
+	color: #666;
+	border: 2px solid transparent;
+	background-color: transparent;
+	padding: 5px;
+	margin: 5px;
+	-moz-border-radius: 5px;	
+	-moz-pack: center;
+}
+
+#message-box.warning {
+	color: #FF0000;
+	border: 2px solid red;	
+	background-color: #ffeeee;
+}
+
+
+

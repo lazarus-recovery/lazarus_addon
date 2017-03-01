@@ -1,5 +1,0 @@
-
-<!ENTITY lazarus.templatesave.title "Lazarus: Save Form as Template">
-<!ENTITY lazarus.templatesave.save "Save">
-<!ENTITY lazarus.templatesave.instructions "Enter a name for this template">
-<!ENTITY template.autofill.label "Automatically fill in this form when this page is loaded">

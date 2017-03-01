@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://lazarus/skin/options.css" type="text/css"?>
+<!DOCTYPE prefwindow SYSTEM "chrome://lazarus/locale/options.dtd">
+
+<prefwindow id="lazarusUpdateExpires" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" 
+  title="&window.title;" width="580" height="200">
+  
+  <prefpane label="&security.pane.title;" flex="1" image="chrome://lazarus/skin/security-32.png">
+		
+		<preferences>
+			<preference id="extensions.lazarus.expireSavedForms" name="extensions.lazarus.expireSavedForms" type="bool"/>
+			<preference id="extensions.lazarus.expireSavedFormsInterval" name="extensions.lazarus.expireSavedFormsInterval" type="int"/>
+			<preference id="extensions.lazarus.expireSavedFormsUnit" name="extensions.lazarus.expireSavedFormsUnit" type="int"/>
+		</preferences>
+		
+		<vbox class="pref-box"> 
+      <hbox id="extensions-lazarus-expireSavedForms-box">
+        <checkbox id="extensions-lazarus-expireSavedForms" preference="extensions.lazarus.expireSavedForms" oncommand="toggleExpireSaveForms(this)" label="&expireSavedForms.label;" /> 
+        <textbox id="extensions-lazarus-expireSavedFormsInterval" preference="extensions.lazarus.expireSavedFormsInterval" class="lazarus-intbox"/>
+        <menulist id="extensions-lazarus-expireSavedFormsUnit" preference="extensions.lazarus.expireSavedFormsUnit" >
+          <menupopup>
+          <menuitem label="&minutes;" value="1" />
+          <menuitem label="&hours;" value="60" />
+          <menuitem label="&days;" value="1440" />
+          <menuitem label="&weeks;" value="10080" />
+          </menupopup>
+        </menulist>
+      </hbox>
+      <description class="lazarus-description">
+				To keep Lazarus and Firefox running smoothly we suggest you only keep saved data for a week or so. This prevents the database from growing too large and potentially slowing down Firefox.
+			</description>              
+    </vbox>
+    
+  </prefpane>
+  
+  <script type="text/javascript" src="common.js"></script>
+  <script type="text/javascript" src="file.js"></script>
+  <script type="text/javascript" src="update-expires.js"></script>
+
+</prefwindow>
+
+
