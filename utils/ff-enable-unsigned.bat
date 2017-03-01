@@ -7,9 +7,14 @@
   echo -- %* --
   if exist "%*\firefox.exe" (
     echo.   Found firefox.exe
-    copy config.js "%*\config.js"
-    copy config-prefs.js "%*\default\prefs\config-prefs.js"
+    copy "%~dp0\config.js" "%*\config.js"
+    copy "%~dp0\config-prefs.js" "%*\defaults\pref\config-prefs.js"
     ) else (
       echo.   Firefox.exe not found, skipping...
       )
   goto :eof
+
+:: Notes
+::
+:: Adapted from 
+::   https://github.com/5digits/dactyl/wiki/Disable-extension-signing-requirement-in-Firefox-49-or-later
