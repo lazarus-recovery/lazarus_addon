@@ -1,0 +1,1552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xar>
+ <toc>
+  <creation-time>2012-06-26T22:14:47</creation-time>
+  <checksum style="sha1">
+   <offset>0</offset>
+   <size>20</size>
+  </checksum>
+  <signature-creation-time>362441687.4</signature-creation-time>
+  <signature style="RSA">
+   <offset>20</offset>
+   <size>256</size>
+   <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <X509Data>
+     <X509Certificate>MIIFYjCCBEqgAwIBAgIIRZAq6gmQvU0wDQYJKoZIhvcNAQEFBQAwgZYxCzAJBgNVBAYTAlVT
+MRMwEQYDVQQKDApBcHBsZSBJbmMuMSwwKgYDVQQLDCNBcHBsZSBXb3JsZHdpZGUgRGV2ZWxv
+cGVyIFJlbGF0aW9uczFEMEIGA1UEAww7QXBwbGUgV29ybGR3aWRlIERldmVsb3BlciBSZWxh
+dGlvbnMgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMTIwNjIyMDM1MTExWhcNMTMwNjIy
+MDM1MTExWjBlMRowGAYKCZImiZPyLGQBAQwKOTRGNlhTSjhQSjE6MDgGA1UEAwwxU2FmYXJp
+IERldmVsb3BlcjogKDcyNTk5OEdLU1kpIGthcmxAaW50ZXJjbHVlLmNvbTELMAkGA1UEBhMC
+TlowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC9Z9IPrUrulPB6E4e8OGiwv9zd
+Epkao0j+HDe9inl7H8v+qrdwP/5k0zBWCqw1eAb8OMQsFgtdGyhAXQAq7CA+7w6kydsSA298
+pWQJ2+AgjzB3x1L9aQwHYEPkuHYp20k8ZLidwTHdYv7lUdIbxSoN+jYorGCoRwNejls2G+t1
+rNh2RVfgJ/SVWMG4x32iRugilj2Mc4DmsX8i+gUhcM8xPJqdjj7+Blpx/g7KJ4jcW12+xhLX
+0VOkWFQ7iJKa16wegwZZj6mXIAjIZIRiks3GmbHls1WGlFUShYCryNdDJl4aJyHTxprV2Hmj
+lXpLVRqHmnX/ifosB3hbU9ducW+dAgMBAAGjggHiMIIB3jA9BggrBgEFBQcBAQQxMC8wLQYI
+KwYBBQUHMAGGIWh0dHA6Ly9vY3NwLmFwcGxlLmNvbS9vY3NwLXd3ZHIwMjAdBgNVHQ4EFgQU
+HZm2qijnRDZFGaWFeFkWBNhxgcswDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBSIJxcJqbYY
+YIvs67r2R1nFUlSjtzCCAQ8GA1UdIASCAQYwggECMIH/BgkqhkiG92NkBQEwgfEwgcMGCCsG
+AQUFBwICMIG2DIGzUmVsaWFuY2Ugb24gdGhpcyBjZXJ0aWZpY2F0ZSBieSBhbnkgcGFydHkg
+YXNzdW1lcyBhY2NlcHRhbmNlIG9mIHRoZSB0aGVuIGFwcGxpY2FibGUgc3RhbmRhcmQgdGVy
+bXMgYW5kIGNvbmRpdGlvbnMgb2YgdXNlLCBjZXJ0aWZpY2F0ZSBwb2xpY3kgYW5kIGNlcnRp
+ZmljYXRpb24gcHJhY3RpY2Ugc3RhdGVtZW50cy4wKQYIKwYBBQUHAgEWHWh0dHA6Ly93d3cu
+YXBwbGUuY29tL2FwcGxlY2EvMA4GA1UdDwEB/wQEAwIHgDAXBgNVHSUBAf8EDTALBgkqhkiG
+92NkBAgwEwYKKoZIhvdjZAYBBQEB/wQCBQAwDQYJKoZIhvcNAQEFBQADggEBAKcDQgM0T+2N
+XPrAS1r+lFEYb15Zy48RqH188e7zDzlcB+sjTP1v7eTHB7l/ksSov+0Md/Pf6xNi+zDpeesY
+OiwP4Sl5WPq8mowCuMZ73Rybu7dqya6Ur7bp+BJqyxYWkzWXcTjcJNoF8yftenDlq65GYYwO
+1WsEkxoDpX37ehr6WmPccJft3ehoLSfDGhhqQd/symSsgR3rQqgzECt3Jap016+5HeBgkccN
+0qQ7PLpXt1p/RDL+yE/UqtQ+Vbeaq0XA4vT3KDyDwN8wedTN+lzwtjRAhKvgV8KNGP+3tPnQ
+UaQT9vaTX5p1osgYhZvl2yzlhpo5PVhZJVvjHfRcbe8=</X509Certificate>
+     <X509Certificate>MIIEIzCCAwugAwIBAgIBGTANBgkqhkiG9w0BAQUFADBiMQswCQYDVQQGEwJVUzETMBEGA1UE
+ChMKQXBwbGUgSW5jLjEmMCQGA1UECxMdQXBwbGUgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkx
+FjAUBgNVBAMTDUFwcGxlIFJvb3QgQ0EwHhcNMDgwMjE0MTg1NjM1WhcNMTYwMjE0MTg1NjM1
+WjCBljELMAkGA1UEBhMCVVMxEzARBgNVBAoMCkFwcGxlIEluYy4xLDAqBgNVBAsMI0FwcGxl
+IFdvcmxkd2lkZSBEZXZlbG9wZXIgUmVsYXRpb25zMUQwQgYDVQQDDDtBcHBsZSBXb3JsZHdp
+ZGUgRGV2ZWxvcGVyIFJlbGF0aW9ucyBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBAMo4VKbLVqrIJDlI6Yzu7F+4fyaRvDRTes58Y4Bh
+d2RepQcjtjn+UC0VVlhwLX7EbsFKhT4v8N6EGqFXya97GP9q+hUSSRUIGayq2yoy7ZZjaFIV
+PYyK7L9rGJXgA6wBfZcFZ84OhZU3au0Jtq5nzVFkn8Zc0bxXbmc1gHY2pIeBbjiP2CsVTnsl
+2Fq/ToPBjdKT1RpxtWCcnTNOVfkSWAyGuBYNweV3RY1QSLorLeSUheHoxJ3GaKWwo/xnfnC6
+AllLd0KRObn1zeFM78A7SIym5SFd/Wpqu6cWNWDS5q3zRinJ6MOL6XnAamFnFbLw/eVovGJf
+bs+Z3e8bY/6SZasCAwEAAaOBrjCBqzAOBgNVHQ8BAf8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB
+/zAdBgNVHQ4EFgQUiCcXCam2GGCL7Ou69kdZxVJUo7cwHwYDVR0jBBgwFoAUK9BpR5R2Cf70
+a40uQKb3R01/CF4wNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL3d3dy5hcHBsZS5jb20vYXBw
+bGVjYS9yb290LmNybDAQBgoqhkiG92NkBgIBBAIFADANBgkqhkiG9w0BAQUFAAOCAQEA2jIA
+lsVUlNM7gjdmfS5o1cPGuMsmjEiQzxMkakaOY9Tw0BMG3djEwTcV8jMTOSYtzi5VQOMLA6/6
+EsLnDSG41YDPrCgvzi2zTq+GGQTG6VDdTClHECP8bLsbmGtIieFbnd5G2zWFNe8+0OJYSzj0
+7XVaH1xwHVY5EuXhDRHkiSUGvdW0FY5e0FmXkOlLgeLfGK9EdB4ZoDpHzJEdOusjWv6lLZf3
+e7vWh0ZChetSPSayY6i0scqP9Mzis8hH4L+aWYP62phTKoL1fGUuldkzXfXtZcwxN8VaBOhr
+4eeIA0p1npsoy0pAiGVDdd3LOiUjxZ5X+C7O0qmSXnMuLyV1FQ==</X509Certificate>
+     <X509Certificate>MIIEuzCCA6OgAwIBAgIBAjANBgkqhkiG9w0BAQUFADBiMQswCQYDVQQGEwJVUzETMBEGA1UE
+ChMKQXBwbGUgSW5jLjEmMCQGA1UECxMdQXBwbGUgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkx
+FjAUBgNVBAMTDUFwcGxlIFJvb3QgQ0EwHhcNMDYwNDI1MjE0MDM2WhcNMzUwMjA5MjE0MDM2
+WjBiMQswCQYDVQQGEwJVUzETMBEGA1UEChMKQXBwbGUgSW5jLjEmMCQGA1UECxMdQXBwbGUg
+Q2VydGlmaWNhdGlvbiBBdXRob3JpdHkxFjAUBgNVBAMTDUFwcGxlIFJvb3QgQ0EwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDkkakJH5HbHkdQ6wXtXnmELes2oldMVeyLGYne
++Uts9QerIjAC6Bg++FAJ039BqJj50cpmnCRrEdCju+QbKsMflZ56DKRHi1vUFjczy8QPTc4U
+adHJGXL1XQ7Vf1+b8iUDulWPTV0N8WQ1IxVLFVkds5T39pyez1C6wVhQZ48ItCD3y6wsIG9w
+tj8BMIy3Q88PnT3zK0koGsj+zrW5DtleHNbLPbU6rfQPDgCSC7EhFi501TwN22IWq6NxkkdT
+VcGvL0Gz+PvjcM3mo0xFfh9Ma1CWQYnEdGILEINBhzOKgbEwWOxaBDKMaLOPHd5lc/9nXmW8
+Sdh2nzMUZaF3lMktAgMBAAGjggF6MIIBdjAOBgNVHQ8BAf8EBAMCAQYwDwYDVR0TAQH/BAUw
+AwEB/zAdBgNVHQ4EFgQUK9BpR5R2Cf70a40uQKb3R01/CF4wHwYDVR0jBBgwFoAUK9BpR5R2
+Cf70a40uQKb3R01/CF4wggERBgNVHSAEggEIMIIBBDCCAQAGCSqGSIb3Y2QFATCB8jAqBggr
+BgEFBQcCARYeaHR0cHM6Ly93d3cuYXBwbGUuY29tL2FwcGxlY2EvMIHDBggrBgEFBQcCAjCB
+thqBs1JlbGlhbmNlIG9uIHRoaXMgY2VydGlmaWNhdGUgYnkgYW55IHBhcnR5IGFzc3VtZXMg
+YWNjZXB0YW5jZSBvZiB0aGUgdGhlbiBhcHBsaWNhYmxlIHN0YW5kYXJkIHRlcm1zIGFuZCBj
+b25kaXRpb25zIG9mIHVzZSwgY2VydGlmaWNhdGUgcG9saWN5IGFuZCBjZXJ0aWZpY2F0aW9u
+IHByYWN0aWNlIHN0YXRlbWVudHMuMA0GCSqGSIb3DQEBBQUAA4IBAQBcNplMLXi37Yyb3PN3
+m/J20ncwT8EfhYOFG5k9RzfyqZtAjizUsZAS2L70c5vu0mQPy3lPNNiiPvl4/2vIB+x9OYOL
+UyDTOMSxv5pPCmv/K/xZpwUJfBdAVhEedNO3iyM7R6PVbyTi69G3cN8PReEnyvFteO3ntRcX
+qNx+IjXKJdXZD9Zr1KIkIxH3oayPc4FgxhtbCS+SsvhESPBgOJ4V9T0mZyCKM2r3DYLP3uuj
+L/lTaltkwGMzd/c6ByxW69oPIQ7aunMZT7XZNn/Bh1XZp5m5MkL72NVxnn6hUrcbvZNCJBIq
+xw8dtk2cXmPIS4AXUKqK1drk/NAJBzewdXUh</X509Certificate>
+    </X509Data>
+   </KeyInfo>
+  </signature>
+  <file id="1">
+   <ctime>2012-06-25T02:06:16Z</ctime>
+   <mtime>2012-06-25T02:06:16Z</mtime>
+   <atime>2012-06-25T02:06:16Z</atime>
+   <gid>0</gid>
+   <uid>0</uid>
+   <mode>0777</mode>
+   <deviceno>2</deviceno>
+   <inode>0</inode>
+   <type>directory</type>
+   <name>lazarus-safari.safariextension</name>
+   <file id="2">
+    <data>
+     <length>452</length>
+     <offset>276</offset>
+     <size>835</size>
+     <encoding style="application/x-gzip"/>
+     <archived-checksum style="sha1">3a31f47ae89ae7e5897a8a878a2a9de74e5faeae</archived-checksum>
+     <extracted-checksum style="sha1">994424aeb5e56be77047859289deba31a1c138ac</extracted-checksum>
+    </data>
+    <type>file</type>
+    <name>add-resources-to-chrome-manifest.py</name>
+   </file>
+   <file id="3">
+    <data>
+     <length>282</length>
+     <offset>728</offset>
+     <size>1511</size>
+     <encoding style="application/x-gzip"/>
+     <archived-checksum style="sha1">94baa65fab9fcccaef3484a8a64bf2f198b7e30f</archived-checksum>
+     <extracted-checksum style="sha1">d406c1ed88f6ea7bb6e696e659763cd6e082496c</extracted-checksum>
+    </data>
+    <type>file</type>
+    <name>background.html</name>
+   </file>
+   <file id="4">
+    <ctime>2012-06-25T01:43:43Z</ctime>
+    <mtime>2012-06-26T22:10:02Z</mtime>
+    <atime>2012-06-26T22:10:02Z</atime>
+    <gid>0</gid>
+    <uid>0</uid>
+    <mode>0777</mode>
+    <deviceno>2</deviceno>
+    <inode>0</inode>
+    <type>directory</type>
+    <name>css</name>
+    <file id="5">
+     <data>
+      <length>1141</length>
+      <offset>1010</offset>
+      <size>3462</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">aff65ecf4adff6e1d7281e68fc8afce9ad599ef2</archived-checksum>
+      <extracted-checksum style="sha1">ba19c10be6335d6be4b21e0593a98bd5efb85250</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>chrome-native-look.css</name>
+    </file>
+    <file id="6">
+     <data>
+      <length>430</length>
+      <offset>2151</offset>
+      <size>902</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">0e4a473986cb9b639fbefdb954bdb2a9e9b2b208</archived-checksum>
+      <extracted-checksum style="sha1">683aa25c88ab821421108772ebbc47b1a2e6c88a</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>disable-on-site.css</name>
+    </file>
+    <file id="7">
+     <data>
+      <length>114</length>
+      <offset>2581</offset>
+      <size>144</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">a0cadd8869124ca9fa52c118eb83ed32d9d3869f</archived-checksum>
+      <extracted-checksum style="sha1">55afd8e56c9b5bca022fe115ea3406beff204179</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>firefox-dialog.css</name>
+    </file>
+    <file id="8">
+     <data>
+      <length>127</length>
+      <offset>2695</offset>
+      <size>168</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">d2e5c681c39d4e330217f68c128a29be46bd7691</archived-checksum>
+      <extracted-checksum style="sha1">279d5ee8f20cd2d03975404168ae94741e122393</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>firefox-overlay.css</name>
+    </file>
+    <file id="9">
+     <data>
+      <length>752</length>
+      <offset>2822</offset>
+      <size>2495</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">7ccdfc4cadab0c1502070abf2095ccc1d58f6c53</archived-checksum>
+      <extracted-checksum style="sha1">bde6e702ebff08c3e8077a4a14bf17f70c035704</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>jquery.msg.css</name>
+    </file>
+    <file id="10">
+     <data>
+      <length>484</length>
+      <offset>3574</offset>
+      <size>1186</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">c8c7ed8ab33b4ed2cc36f65c8ce3bc29ec19c308</archived-checksum>
+      <extracted-checksum style="sha1">59bed2ab2c0d6be8d37067cac66763caae1163f0</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>login.css</name>
+    </file>
+    <file id="11">
+     <data>
+      <length>1681</length>
+      <offset>4058</offset>
+      <size>6201</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">3fdbf1d48680b7e422e0e868a29ec3fe5cf0f363</archived-checksum>
+      <extracted-checksum style="sha1">01961d791b15f05b53af6232dead034b41325e7c</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>options.css</name>
+    </file>
+    <file id="12">
+     <data>
+      <length>301</length>
+      <offset>5739</offset>
+      <size>517</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">b39b8bcc587cd836654549aa794b2948baa0e779</archived-checksum>
+      <extracted-checksum style="sha1">fe84304f88aecea61cff8fae68e1bc1b89eb73c6</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>reset.css</name>
+    </file>
+   </file>
+   <file id="13">
+    <data>
+     <length>502</length>
+     <offset>6040</offset>
+     <size>1731</size>
+     <encoding style="application/x-gzip"/>
+     <archived-checksum style="sha1">db21f2a2cd572418c54d3a4cd6dbfaf40d85fb1b</archived-checksum>
+     <extracted-checksum style="sha1">056696707379fd2bc2756d52b0d59170032648b8</extracted-checksum>
+    </data>
+    <type>file</type>
+    <name>disable-on-site.html</name>
+   </file>
+   <file id="14">
+    <data>
+     <length>294</length>
+     <offset>6542</offset>
+     <size>575</size>
+     <encoding style="application/x-gzip"/>
+     <archived-checksum style="sha1">06cf1307df0c651feb68bf01cc0230975c0297f5</archived-checksum>
+     <extracted-checksum style="sha1">1fe2f130ab2a724bdfe5809f3ebfa8fb7e5f347c</extracted-checksum>
+    </data>
+    <type>file</type>
+    <name>firefox-dialog.xul</name>
+   </file>
+   <file id="15">
+    <data>
+     <length>657</length>
+     <offset>6836</offset>
+     <size>1817</size>
+     <encoding style="application/x-gzip"/>
+     <archived-checksum style="sha1">f61b0cf34fcee7060b823a1e64ffe93ce7d45c30</archived-checksum>
+     <extracted-checksum style="sha1">e6da3dc612fc32d035041e9448e31685e474054f</extracted-checksum>
+    </data>
+    <type>file</type>
+    <name>firefox-overlay.xul</name>
+   </file>
+   <file id="16">
+    <data>
+     <length>5769</length>
+     <offset>7493</offset>
+     <size>5758</size>
+     <encoding style="application/x-gzip"/>
+     <archived-checksum style="sha1">3162b26a3ef05c0144999fcda3dc4b0dbc52efa2</archived-checksum>
+     <extracted-checksum style="sha1">fa30f593e48c91c08464049204b9181c96467915</extracted-checksum>
+    </data>
+    <type>file</type>
+    <name>Icon-128.png</name>
+   </file>
+   <file id="17">
+    <data>
+     <length>702</length>
+     <offset>13262</offset>
+     <size>691</size>
+     <encoding style="application/x-gzip"/>
+     <archived-checksum style="sha1">918802ed5a00fb8bc172eb8392a855e1b4de534a</archived-checksum>
+     <extracted-checksum style="sha1">f6446599b38bbd51ef1612c94e6ba6d265120706</extracted-checksum>
+    </data>
+    <type>file</type>
+    <name>Icon-16.png</name>
+   </file>
+   <file id="18">
+    <data>
+     <length>1219</length>
+     <offset>13964</offset>
+     <size>1208</size>
+     <encoding style="application/x-gzip"/>
+     <archived-checksum style="sha1">2343cf0341ec3271565607faddb458b33bb9dac7</archived-checksum>
+     <extracted-checksum style="sha1">8bbe0ef805ef14c46dc822c1d8d0ae3e1889b35b</extracted-checksum>
+    </data>
+    <type>file</type>
+    <name>Icon-32.png</name>
+   </file>
+   <file id="19">
+    <data>
+     <length>1937</length>
+     <offset>15183</offset>
+     <size>1926</size>
+     <encoding style="application/x-gzip"/>
+     <archived-checksum style="sha1">5728432d42929f4b1c6e8c07cfdcde833e9253c8</archived-checksum>
+     <extracted-checksum style="sha1">30c853518a1bb43e449120739fd1aca9adc03b04</extracted-checksum>
+    </data>
+    <type>file</type>
+    <name>Icon-48.png</name>
+   </file>
+   <file id="20">
+    <data>
+     <length>2506</length>
+     <offset>17120</offset>
+     <size>2495</size>
+     <encoding style="application/x-gzip"/>
+     <archived-checksum style="sha1">93270f9effd254ee16532bb2271294a33e0055b3</archived-checksum>
+     <extracted-checksum style="sha1">b4fe5d53716076352365da63c6da6260fdc0e1f1</extracted-checksum>
+    </data>
+    <type>file</type>
+    <name>Icon-64.png</name>
+   </file>
+   <file id="21">
+    <ctime>2012-06-25T01:43:44Z</ctime>
+    <mtime>2012-06-25T01:43:44Z</mtime>
+    <atime>2012-06-25T01:43:44Z</atime>
+    <gid>0</gid>
+    <uid>0</uid>
+    <mode>0777</mode>
+    <deviceno>2</deviceno>
+    <inode>0</inode>
+    <type>directory</type>
+    <name>images</name>
+    <file id="22">
+     <data>
+      <length>12857</length>
+      <offset>19626</offset>
+      <size>12979</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">3ce9c72344326845a53ba87c07a78d25c65a37d3</archived-checksum>
+      <extracted-checksum style="sha1">346342999478d0af983e79ca6440dbc6e1998623</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>button-green-small.png</name>
+    </file>
+    <file id="23">
+     <data>
+      <length>4058</length>
+      <offset>32483</offset>
+      <size>4047</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">e1f94229c9918ce07864726c5eaf25ad7b870368</archived-checksum>
+      <extracted-checksum style="sha1">896e006876c41feaa4d0af9c28bf24ad42efc110</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>close.png</name>
+    </file>
+    <file id="24">
+     <data>
+      <length>1845</length>
+      <offset>36541</offset>
+      <size>1834</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">1aef7d3956c8baf506bf52463f72c94d1740bb78</archived-checksum>
+      <extracted-checksum style="sha1">020c7a405772a34f2a5a8c3f271d0399a2b255d1</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>error-32.png</name>
+    </file>
+    <file id="25">
+     <data>
+      <length>2440</length>
+      <offset>38386</offset>
+      <size>2429</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">c58e641a19878a6a25c4ba6e814f700c1fe1ef51</archived-checksum>
+      <extracted-checksum style="sha1">3e01fd40751592dd9ee3a640c7354eb81e519b8f</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>info-32.png</name>
+    </file>
+    <file id="26">
+     <data>
+      <length>829</length>
+      <offset>40826</offset>
+      <size>818</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">873c1455f6b8218a07658a8bd9abf12eed09c843</archived-checksum>
+      <extracted-checksum style="sha1">162b093226b6429700eb8af1ed11beab4caa1f2f</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>lazarus-btn.png</name>
+    </file>
+    <file id="27">
+     <data>
+      <length>2985</length>
+      <offset>41655</offset>
+      <size>3509</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">f3483b290c786929733be21f60c58127820f57ea</archived-checksum>
+      <extracted-checksum style="sha1">c90f65641a1656de465343dbab64dd5a233123bc</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>loading-32.gif</name>
+    </file>
+    <file id="28">
+     <data>
+      <length>19802</length>
+      <offset>44640</offset>
+      <size>20769</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">04545df49186657091eaf26e84f3e9ebe547ab2e</archived-checksum>
+      <extracted-checksum style="sha1">a8848f71448d6ed942373ff2713af4c69d08bbda</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>loading-horizontal.gif</name>
+    </file>
+    <file id="29">
+     <data>
+      <length>5489</length>
+      <offset>64442</offset>
+      <size>10573</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">9e572d82f9a18e01e10124826a5a09e3f2f3a350</archived-checksum>
+      <extracted-checksum style="sha1">b6d51335ad86f7d38bdda78e6021782f98e3dfde</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>loading.gif</name>
+    </file>
+    <file id="30">
+     <data>
+      <length>822</length>
+      <offset>69931</offset>
+      <size>811</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">6e24579746b0d092080ac76b32d5c8053f80a4e2</archived-checksum>
+      <extracted-checksum style="sha1">ee1fc5d67e28bb387a72f9b40b90f8c85e8ead08</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>lock.png</name>
+    </file>
+    <file id="31">
+     <data>
+      <length>14054</length>
+      <offset>70753</offset>
+      <size>14043</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">67054d23e0d87acce1f0f918dd661f55cfcb5fb7</archived-checksum>
+      <extracted-checksum style="sha1">3c7ccaf662149b05ea53dd0f344410a76837f080</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>logo-large.png</name>
+    </file>
+    <file id="32">
+     <data>
+      <length>179</length>
+      <offset>84807</offset>
+      <size>184</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">1aa702ef4b5863947289696814935d2256395c7f</archived-checksum>
+      <extracted-checksum style="sha1">823fdf97c9c2e7e8bee2df1b24c13de39da4092e</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>menu-background.png</name>
+    </file>
+    <file id="33">
+     <data>
+      <length>196</length>
+      <offset>84986</offset>
+      <size>199</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">d03364ffdd0397bb18c8e00b650f69863664b079</archived-checksum>
+      <extracted-checksum style="sha1">88e9212c6d6a77f1d0d4ef24decb99e5df65f461</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>options-bg.png</name>
+    </file>
+    <file id="34">
+     <data>
+      <length>6134</length>
+      <offset>85182</offset>
+      <size>6123</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">710b233d2a6896d99c13d504fb9703dcf06dee40</archived-checksum>
+      <extracted-checksum style="sha1">85595a4884699ee0fe284f2cd69c6d513267cedc</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>star.png</name>
+    </file>
+    <file id="35">
+     <data>
+      <length>2675</length>
+      <offset>91316</offset>
+      <size>2664</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">1e2822f1c3ac080bac1f8567dda159ff044ca777</archived-checksum>
+      <extracted-checksum style="sha1">93fe8bb9d156f4627c1540190377d5e51b7ba2b0</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>success-32.png</name>
+    </file>
+    <file id="36">
+     <data>
+      <length>1423</length>
+      <offset>93991</offset>
+      <size>1412</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">31cc9d65d705894eb59751f8f107b528edc27a1b</archived-checksum>
+      <extracted-checksum style="sha1">e2f37d13c8814ce96ad6ed9b8acdc7456fedcd01</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>success.png</name>
+    </file>
+    <file id="37">
+     <data>
+      <length>1018</length>
+      <offset>95414</offset>
+      <size>1007</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">0f927335f9b13c6cf2e51be320e4938f2febd4ea</archived-checksum>
+      <extracted-checksum style="sha1">abea4544141190349be67f3cafdc46dc19738051</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>toolbar-icon-cancel.png</name>
+    </file>
+    <file id="38">
+     <data>
+      <length>420</length>
+      <offset>96432</offset>
+      <size>415</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">97afd4499bba79ed0522402b2d4d3f0d1d00a713</archived-checksum>
+      <extracted-checksum style="sha1">933072d6dfafa22200fc4223873f4064ca3367bd</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>toolbar-icon-disabled-safari.png</name>
+    </file>
+    <file id="39">
+     <data>
+      <length>714</length>
+      <offset>96852</offset>
+      <size>703</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">a9bfa06eacc054dfe35cbb7a494e39393beab21c</archived-checksum>
+      <extracted-checksum style="sha1">630f7ebd8cbd35933a59dbae605377e085045aca</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>toolbar-icon-disabled.png</name>
+    </file>
+    <file id="40">
+     <data>
+      <length>382</length>
+      <offset>97566</offset>
+      <size>379</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">8067f2263abfdd71deae02cdfcfde351412dfae3</archived-checksum>
+      <extracted-checksum style="sha1">a52bf840447ea05ecdd4c298e056a59ede76d61a</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>toolbar-icon-enabled-safari.png</name>
+    </file>
+    <file id="41">
+     <data>
+      <length>827</length>
+      <offset>97948</offset>
+      <size>816</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">100a2da8633be04b541bd4b4b3c5536382452e0f</archived-checksum>
+      <extracted-checksum style="sha1">d4cbe1bda26b353e17a5282b2fb10e9facb23754</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>toolbar-icon-enabled.png</name>
+    </file>
+    <file id="42">
+     <data>
+      <length>887</length>
+      <offset>98775</offset>
+      <size>876</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">f08e2234abd3eb63c6a3d72580aa1501161959d7</archived-checksum>
+      <extracted-checksum style="sha1">fbc4e7b21f078c598360a707fbc1cde71385bf3d</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>toolbar-icon-enabling.png</name>
+    </file>
+    <file id="43">
+     <data>
+      <length>995</length>
+      <offset>99662</offset>
+      <size>984</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">38d9462b1157f106b9fb9ca5c95eaa62047f540a</archived-checksum>
+      <extracted-checksum style="sha1">9f5da3f9178e2cd749a28fac5703f52e6eaf409b</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>toolbar-icon-locked.png</name>
+    </file>
+    <file id="44">
+     <data>
+      <length>895</length>
+      <offset>100657</offset>
+      <size>884</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">d1f2491ab37f6c3516a330b3519f6a70eccad1e8</archived-checksum>
+      <extracted-checksum style="sha1">70def81dc43acb951af5e3d3e281169e55479297</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>toolbar-icon-messages.png</name>
+    </file>
+    <file id="45">
+     <data>
+      <length>957</length>
+      <offset>101552</offset>
+      <size>946</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">0f5178916a3c623a4b84112a37362fba6835d9ed</archived-checksum>
+      <extracted-checksum style="sha1">97d45f0a3900d1790347d40afb0aab24f1d420b9</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>toolbar-icon-warning.png</name>
+    </file>
+    <file id="46">
+     <data>
+      <length>869</length>
+      <offset>102509</offset>
+      <size>858</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">7d99dfb681164c933243ffb6b1135772fe1842f8</archived-checksum>
+      <extracted-checksum style="sha1">d7ed49c882c4f30e0191cffb5cc680d39e4c5209</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>update.png</name>
+    </file>
+    <file id="47">
+     <data>
+      <length>1761</length>
+      <offset>103378</offset>
+      <size>1750</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">1f9c5dbc8e5c5a5970584fb679c6cfc0bc03eb33</archived-checksum>
+      <extracted-checksum style="sha1">3b9761b50c1e53519ec125eff6e6a44150139a8c</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>warning-32.png</name>
+    </file>
+    <file id="48">
+     <data>
+      <length>1013</length>
+      <offset>105139</offset>
+      <size>1002</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">841b401cd1e598fbc5985c6779f022eb47acdb1e</archived-checksum>
+      <extracted-checksum style="sha1">1a16300e3a002b9bc1087a634b81c9d73f7c7fc9</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>warning.png</name>
+    </file>
+   </file>
+   <file id="49">
+    <data>
+     <length>798</length>
+     <offset>106152</offset>
+     <size>2350</size>
+     <encoding style="application/x-gzip"/>
+     <archived-checksum style="sha1">4b514cc2581c21053198df8b74091ae509527eff</archived-checksum>
+     <extracted-checksum style="sha1">c07a5558a3f3069857dc07a213c2a0f000f912bf</extracted-checksum>
+    </data>
+    <type>file</type>
+    <name>Info.plist</name>
+   </file>
+   <file id="50">
+    <ctime>2012-06-25T01:43:43Z</ctime>
+    <mtime>2012-06-25T01:43:43Z</mtime>
+    <atime>2012-06-25T01:43:43Z</atime>
+    <gid>0</gid>
+    <uid>0</uid>
+    <mode>0777</mode>
+    <deviceno>2</deviceno>
+    <inode>0</inode>
+    <type>directory</type>
+    <name>jasmine</name>
+    <file id="51">
+     <ctime>2012-06-25T01:43:43Z</ctime>
+     <mtime>2012-06-25T01:43:43Z</mtime>
+     <atime>2012-06-25T01:43:43Z</atime>
+     <gid>0</gid>
+     <uid>0</uid>
+     <mode>0777</mode>
+     <deviceno>2</deviceno>
+     <inode>0</inode>
+     <type>directory</type>
+     <name>lib</name>
+     <file id="52">
+      <ctime>2012-06-25T01:43:43Z</ctime>
+      <mtime>2012-06-25T01:43:43Z</mtime>
+      <atime>2012-06-25T01:43:43Z</atime>
+      <gid>0</gid>
+      <uid>0</uid>
+      <mode>0777</mode>
+      <deviceno>2</deviceno>
+      <inode>0</inode>
+      <type>directory</type>
+      <name>jasmine-1.0.0</name>
+      <file id="53">
+       <data>
+        <length>1830</length>
+        <offset>106950</offset>
+        <size>6829</size>
+        <encoding style="application/x-gzip"/>
+        <archived-checksum style="sha1">e715d05bc4fea9ad664883dac7549b51145526e1</archived-checksum>
+        <extracted-checksum style="sha1">c340be22d0bcf4d47fc641acca712c9f05170fb2</extracted-checksum>
+       </data>
+       <type>file</type>
+       <name>jasmine-html.js</name>
+      </file>
+      <file id="54">
+       <data>
+        <length>743</length>
+        <offset>108780</offset>
+        <size>2120</size>
+        <encoding style="application/x-gzip"/>
+        <archived-checksum style="sha1">f79fc915ce25c8d9542018469842d8c8404b6326</archived-checksum>
+        <extracted-checksum style="sha1">cb64f0a0699827d95dfb5c02993c7eab9603feb9</extracted-checksum>
+       </data>
+       <type>file</type>
+       <name>jasmine.css</name>
+      </file>
+      <file id="55">
+       <data>
+        <length>14360</length>
+        <offset>109523</offset>
+        <size>64942</size>
+        <encoding style="application/x-gzip"/>
+        <archived-checksum style="sha1">4b3675277b0be16ec476d840443e5e4fb5b232a8</archived-checksum>
+        <extracted-checksum style="sha1">8b0c6febd10801d31e75d003a5d4b275fbefabc6</extracted-checksum>
+       </data>
+       <type>file</type>
+       <name>jasmine.js</name>
+      </file>
+      <file id="56">
+       <data>
+        <length>629</length>
+        <offset>123883</offset>
+        <size>1061</size>
+        <encoding style="application/x-gzip"/>
+        <archived-checksum style="sha1">3badcb76a2b8f798573132cbe631efff12f0457e</archived-checksum>
+        <extracted-checksum style="sha1">b942a55c36d7302602af15412d9df804fc2f9763</extracted-checksum>
+       </data>
+       <type>file</type>
+       <name>MIT.LICENSE</name>
+      </file>
+     </file>
+    </file>
+    <file id="57">
+     <ctime>2012-06-25T01:43:43Z</ctime>
+     <mtime>2012-06-25T01:43:43Z</mtime>
+     <atime>2012-06-25T01:43:43Z</atime>
+     <gid>0</gid>
+     <uid>0</uid>
+     <mode>0777</mode>
+     <deviceno>2</deviceno>
+     <inode>0</inode>
+     <type>directory</type>
+     <name>spec</name>
+     <file id="58">
+      <data>
+       <length>521</length>
+       <offset>124512</offset>
+       <size>1522</size>
+       <encoding style="application/x-gzip"/>
+       <archived-checksum style="sha1">3f218d48a3f9c7dd24bbd8355d6c69b5a9b73e3d</archived-checksum>
+       <extracted-checksum style="sha1">e85bb219c9fc42c42e98c9f1003f1acd5edba1c6</extracted-checksum>
+      </data>
+      <type>file</type>
+      <name>PlayerSpec.js</name>
+     </file>
+     <file id="59">
+      <data>
+       <length>150</length>
+       <offset>125033</offset>
+       <size>223</size>
+       <encoding style="application/x-gzip"/>
+       <archived-checksum style="sha1">fe2f2a22407bffba8d761445564d5b154ff7fa6f</archived-checksum>
+       <extracted-checksum style="sha1">2de0a1a27c5b01fc75ec62cdf86f999a1d834176</extracted-checksum>
+      </data>
+      <type>file</type>
+      <name>SpecHelper.js</name>
+     </file>
+    </file>
+    <file id="60">
+     <data>
+      <length>298</length>
+      <offset>125183</offset>
+      <size>816</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">75d23691085faf4ff9a7d83068a183c163a92349</archived-checksum>
+      <extracted-checksum style="sha1">d4472d57825b4ab58bee7b148475a232ad043cb6</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>SpecRunner.html</name>
+    </file>
+    <file id="61">
+     <ctime>2012-06-25T01:43:43Z</ctime>
+     <mtime>2012-06-25T01:43:43Z</mtime>
+     <atime>2012-06-25T01:43:43Z</atime>
+     <gid>0</gid>
+     <uid>0</uid>
+     <mode>0777</mode>
+     <deviceno>2</deviceno>
+     <inode>0</inode>
+     <type>directory</type>
+     <name>src</name>
+     <file id="62">
+      <data>
+       <length>197</length>
+       <offset>125481</offset>
+       <size>445</size>
+       <encoding style="application/x-gzip"/>
+       <archived-checksum style="sha1">72d1449322d32798e6c70f0dc0958f1311968d1b</archived-checksum>
+       <extracted-checksum style="sha1">fc6fe8fbacbcb6655b3e70e31fdc08b1a7ffb43d</extracted-checksum>
+      </data>
+      <type>file</type>
+      <name>Player.js</name>
+     </file>
+     <file id="63">
+      <data>
+       <length>128</length>
+       <offset>125678</offset>
+       <size>149</size>
+       <encoding style="application/x-gzip"/>
+       <archived-checksum style="sha1">017e44f922190c495b83ade9e58ebb369a1b996c</archived-checksum>
+       <extracted-checksum style="sha1">f92b09ce7a87df006ba9c648f196f6a651cacc68</extracted-checksum>
+      </data>
+      <type>file</type>
+      <name>Song.js</name>
+     </file>
+    </file>
+   </file>
+   <file id="64">
+    <ctime>2012-06-25T01:43:44Z</ctime>
+    <mtime>2012-06-26T22:12:40Z</mtime>
+    <atime>2012-06-26T22:12:40Z</atime>
+    <gid>0</gid>
+    <uid>0</uid>
+    <mode>0777</mode>
+    <deviceno>2</deviceno>
+    <inode>0</inode>
+    <type>directory</type>
+    <name>js</name>
+    <file id="65">
+     <data>
+      <length>12976</length>
+      <offset>125806</offset>
+      <size>51022</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">f11feaa2150be49458b6ec1ffb7c9c0b97854961</archived-checksum>
+      <extracted-checksum style="sha1">2468472c0a5424f667b9a89ff6d16b8a88c1dcef</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>aes.js</name>
+    </file>
+    <file id="66">
+     <data>
+      <length>674</length>
+      <offset>138782</offset>
+      <size>1560</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">6cc4395137c2b2e3d409d6eba2ff9f16e0b01a9d</archived-checksum>
+      <extracted-checksum style="sha1">681b054130ca1ba7ad3f854fad4ba58518490987</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>background-init.js</name>
+    </file>
+    <file id="67">
+     <data>
+      <length>12086</length>
+      <offset>139456</offset>
+      <size>55944</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">eceada2e8c1eaf6622874bf1a3846d2ad4e82a01</archived-checksum>
+      <extracted-checksum style="sha1">45062975544e4840e82c3989da73330eeb14de0c</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>background.js</name>
+    </file>
+    <file id="68">
+     <data>
+      <length>347</length>
+      <offset>151542</offset>
+      <size>601</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">7aa7d38d7825b32bb0c117d6f9cd6d68a6c7625b</archived-checksum>
+      <extracted-checksum style="sha1">371010a070380e49b334d25f8f9b6154973ced46</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>content-init.js</name>
+    </file>
+    <file id="69">
+     <data>
+      <length>14655</length>
+      <offset>151889</offset>
+      <size>53879</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">e1d9769c66dc6636b25931ab7fde15211678d2c4</archived-checksum>
+      <extracted-checksum style="sha1">f49692c7e08c7a17e6465e382617359c8bb0078f</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>content.js</name>
+    </file>
+    <file id="70">
+     <data>
+      <length>882</length>
+      <offset>166544</offset>
+      <size>2492</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">82b809edc78998d55f5a78da564dbb43a6b4efb7</archived-checksum>
+      <extracted-checksum style="sha1">428439022202995de7ceb6c29837a76fc5d64770</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>crypto.js</name>
+    </file>
+    <file id="71">
+     <data>
+      <length>2442</length>
+      <offset>167426</offset>
+      <size>9104</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">5682dc9cf08315bf12f3616b8878413a011c80b2</archived-checksum>
+      <extracted-checksum style="sha1">4a58bc8acd3748cc2abb932666b477dfe5c1b23c</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>db.js</name>
+    </file>
+    <file id="72">
+     <data>
+      <length>1695</length>
+      <offset>169868</offset>
+      <size>4760</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">72e681110d174db6055293d5cdd61203886b5baf</archived-checksum>
+      <extracted-checksum style="sha1">5b78c0e81d656592b2c99086499eccb3da0a0638</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>dialog.js</name>
+    </file>
+    <file id="73">
+     <data>
+      <length>799</length>
+      <offset>171563</offset>
+      <size>2134</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">07982b7abc1d714beeb8539d15ee8b3f0bea46e4</archived-checksum>
+      <extracted-checksum style="sha1">49c7e7924aa08a3845013a3aa2b4b43b1e46f5c4</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>disable-on-site.js</name>
+    </file>
+    <file id="74">
+     <data>
+      <length>299</length>
+      <offset>172362</offset>
+      <size>818</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">83c50b72be42875c43cab299783e4fb36c0d8fa6</archived-checksum>
+      <extracted-checksum style="sha1">15c8efa21aad0a3ba7a8e9f20b78d23fd3a75d91</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>event.js</name>
+    </file>
+    <file id="75">
+     <data>
+      <length>354</length>
+      <offset>172661</offset>
+      <size>753</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">e796570350e0d48c28287b9072943cc951d53aa5</archived-checksum>
+      <extracted-checksum style="sha1">3a0a9e45ca2e82374974b1e3b871cc7b2c6c88c6</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>firefox-dialog.js</name>
+    </file>
+    <file id="76">
+     <data>
+      <length>1996</length>
+      <offset>173015</offset>
+      <size>5467</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">6fbf942164bf744274508bedeccfb2bb9fcb432a</archived-checksum>
+      <extracted-checksum style="sha1">c81cd3b9fe2c01bfbc92c1f9e074754c1a8cc920</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>firefox-overlay.js</name>
+    </file>
+    <file id="77">
+     <data>
+      <length>4607</length>
+      <offset>175011</offset>
+      <size>15969</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">c6a00c0707810e8cb1235aec992e689ce11a6e34</archived-checksum>
+      <extracted-checksum style="sha1">2e3c55658068649c5bbb553b15d0f1564aa6293a</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>fix-undefined-frames.js</name>
+    </file>
+    <file id="78">
+     <data>
+      <length>359</length>
+      <offset>179618</offset>
+      <size>648</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">e7b4e1ac6b63d5db600e4f6dedc8c3ac857dca9f</archived-checksum>
+      <extracted-checksum style="sha1">87984e6575dbc881ccf9512af20e4c2677dd227d</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>fnv.js</name>
+    </file>
+    <file id="79">
+     <data>
+      <length>10</length>
+      <offset>179977</offset>
+      <size>2</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">625d80c8712284a21fa2286f25d4e53a4679ae50</archived-checksum>
+      <extracted-checksum style="sha1">ba8ab5a0280b953aa97435ff8946cbcbb2755a27</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>gevent.js</name>
+    </file>
+    <file id="80">
+     <data>
+      <length>33612</length>
+      <offset>179987</offset>
+      <size>94842</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">c9d24d2a810bde6c8468d576574d193f8b77b1b2</archived-checksum>
+      <extracted-checksum style="sha1">881a17148bea7a96d05063d035f74bd6353fbb3e</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>jquery.js</name>
+    </file>
+    <file id="81">
+     <data>
+      <length>1078</length>
+      <offset>213599</offset>
+      <size>3323</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">c98d72a05c76f19d7c1e94fa8d9881cfbf0f0661</archived-checksum>
+      <extracted-checksum style="sha1">be463493d7137c74f31bbb044b9de3219b911cbe</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>jquery.msg.js</name>
+    </file>
+    <file id="82">
+     <data>
+      <length>1410</length>
+      <offset>214677</offset>
+      <size>3054</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">9cf1dff802852aaa3173b29ebb994cf46b74eadc</archived-checksum>
+      <extracted-checksum style="sha1">62fd3633d2598f4eb8964ce60b2d92191fe27b40</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>lazarus-xhr-listener.js</name>
+    </file>
+    <file id="83">
+     <data>
+      <length>1170</length>
+      <offset>216087</offset>
+      <size>2722</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">7ca1aa05b96902656b8dfa2862e0011f68a06f6a</archived-checksum>
+      <extracted-checksum style="sha1">ab0984a1339b80ccb1dccb9554f767f1d4125a36</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>lazarus.js</name>
+    </file>
+    <file id="84">
+     <data>
+      <length>2179</length>
+      <offset>217257</offset>
+      <size>6683</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">bbadeba1025c8de46dde37e5a1f27b9d31fbe4f4</archived-checksum>
+      <extracted-checksum style="sha1">dbb62ca24cbc5127c3b4068ae8ad81a1e768cb58</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>locale.js</name>
+    </file>
+    <file id="85">
+     <data>
+      <length>2037</length>
+      <offset>219436</offset>
+      <size>5929</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">1110edfa4773fb52fbd8decaba0cfd011ba3729e</archived-checksum>
+      <extracted-checksum style="sha1">ce7a44279052b1865753ce7663e85fef6be222bb</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>logger.js</name>
+    </file>
+    <file id="86">
+     <data>
+      <length>241</length>
+      <offset>221473</offset>
+      <size>344</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">486cc2bd9c8aa0dac2e981cc9aaaa28f0dbffb63</archived-checksum>
+      <extracted-checksum style="sha1">1c16dca7d2df2c020f5c1b1a71b614a80890ebb7</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>login-init.js</name>
+    </file>
+    <file id="87">
+     <data>
+      <length>708</length>
+      <offset>221714</offset>
+      <size>1729</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">7bd5be8e06ef5ac31d02594712dac2951ac8f519</archived-checksum>
+      <extracted-checksum style="sha1">246287cd45e42f6f8aad8a9138526b21c5d23a91</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>login.js</name>
+    </file>
+    <file id="88">
+     <data>
+      <length>1740</length>
+      <offset>222422</offset>
+      <size>4990</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">a608755183a4eef2ff8a65fb47aeabba14192eb6</archived-checksum>
+      <extracted-checksum style="sha1">41ff71db423adf2ebaaf4f99fc3bc1b80e430c4d</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>menu.js</name>
+    </file>
+    <file id="89">
+     <data>
+      <length>706</length>
+      <offset>224162</offset>
+      <size>2008</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">2c948d4b32f759b181e80f86812bffaca2aa74a2</archived-checksum>
+      <extracted-checksum style="sha1">e8aae7922ce22fe46f34d24fb2350889885c231d</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>mouse.js</name>
+    </file>
+    <file id="90">
+     <data>
+      <length>318</length>
+      <offset>224868</offset>
+      <size>542</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">046c0a82f3e7b47f76c05204a2e7a78a96469848</archived-checksum>
+      <extracted-checksum style="sha1">914e4fefb6b344546d7431f8fb312ddc5a249336</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>options-init.js</name>
+    </file>
+    <file id="91">
+     <data>
+      <length>6325</length>
+      <offset>225186</offset>
+      <size>29158</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">48cc9fe158206c31a92d41f7b6d6ff0741593476</archived-checksum>
+      <extracted-checksum style="sha1">7c8aeb09589b0a815b6a192de775b233019c147d</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>options.js</name>
+    </file>
+    <file id="92">
+     <data>
+      <length>2522</length>
+      <offset>231511</offset>
+      <size>9378</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">3e8287e59adaebea53f5254770cbdb6438122255</archived-checksum>
+      <extracted-checksum style="sha1">3527d3cf9dd87fbdf58901d1c971b520dd2bf18c</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>platform-chrome.js</name>
+    </file>
+    <file id="93">
+     <data>
+      <length>6650</length>
+      <offset>234033</offset>
+      <size>26673</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">203dcab4e9a4b36cca3622834243717924cb3af8</archived-checksum>
+      <extracted-checksum style="sha1">79b7ac734ae3d36120e237b8bd208aa3814e7bf9</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>platform-firefox.js</name>
+    </file>
+    <file id="94">
+     <data>
+      <length>3364</length>
+      <offset>240683</offset>
+      <size>13398</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">d74163c6b8483eadaaa0afe54cff6647f8e488a3</archived-checksum>
+      <extracted-checksum style="sha1">375290512ddf05951b8f181eaec28894c75e5506</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>platform-safari.js</name>
+    </file>
+    <file id="95">
+     <data>
+      <length>742</length>
+      <offset>244047</offset>
+      <size>1917</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">d43fbeead721dc2627b583d7a119360f826bde55</archived-checksum>
+      <extracted-checksum style="sha1">cb900f687ee4c281f1b5cf5504d565432cc02fde</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>platform.js</name>
+    </file>
+    <file id="96">
+     <data>
+      <length>835</length>
+      <offset>244789</offset>
+      <size>2431</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">de78e3e4edf7c4d67e18b80b6a4ca3b66154f058</archived-checksum>
+      <extracted-checksum style="sha1">15075ba94e81264db7d1246fd9a6a99114e8459a</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>preferences.js</name>
+    </file>
+    <file id="97">
+     <data>
+      <length>393</length>
+      <offset>245624</offset>
+      <size>701</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">7f6cecd9ea476058cb6b7fedd27fa95969a824be</archived-checksum>
+      <extracted-checksum style="sha1">441a51af95b439873cfc1feb507fad8cb180e851</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>prefs.js</name>
+    </file>
+    <file id="98">
+     <data>
+      <length>688</length>
+      <offset>246017</offset>
+      <size>1938</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">90e1e9b3e5a3b6e772e6af6a5e084d6732346e10</archived-checksum>
+      <extracted-checksum style="sha1">34ee4ab820858ef2b516baa622f7554c3b9d6b99</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>profiler.js</name>
+    </file>
+    <file id="99">
+     <data>
+      <length>12806</length>
+      <offset>246705</offset>
+      <size>45438</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">43ba24b8b779b698eeae495dfa70c4233090e946</archived-checksum>
+      <extracted-checksum style="sha1">6acabd072bc6be5620f996da1dd80f6d70280c65</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>rsa.js</name>
+    </file>
+    <file id="100">
+     <data>
+      <length>6734</length>
+      <offset>259511</offset>
+      <size>18254</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">a1ab3e75ffa38b1c5bafdb957a7accde77d485ab</archived-checksum>
+      <extracted-checksum style="sha1">dcae45d3ae7f36012cc5b8a3df552625deb86a40</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>sjcl.js</name>
+    </file>
+    <file id="101">
+     <data>
+      <length>4254</length>
+      <offset>266245</offset>
+      <size>13508</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">6038b411430318319535c32d599fd3acc3ff5b94</archived-checksum>
+      <extracted-checksum style="sha1">15096b063cb0327cd398786eacd8a766fde0dfe9</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>strings.js</name>
+    </file>
+    <file id="102">
+     <data>
+      <length>5961</length>
+      <offset>270499</offset>
+      <size>23636</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">957d45ea4cf17b22b5d4c7d606316c54e0489893</archived-checksum>
+      <extracted-checksum style="sha1">d902272e1882041c95563d1cbab34fdffb71ba81</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>sync.js</name>
+    </file>
+    <file id="103">
+     <data>
+      <length>987</length>
+      <offset>276460</offset>
+      <size>2724</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">8c0f4d2479f25bf264771ca5151f6fe2f2eb85db</archived-checksum>
+      <extracted-checksum style="sha1">7de27c07456d05af42657efbed4eb68abee324ca</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>updates.js</name>
+    </file>
+    <file id="104">
+     <data>
+      <length>5464</length>
+      <offset>277447</offset>
+      <size>18749</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">4f31997905ead65f8513936aacb13890a14f859b</archived-checksum>
+      <extracted-checksum style="sha1">a1eb3d55fb783f1d3dddd1e47f13ab31069778bd</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>utils.js</name>
+    </file>
+    <file id="105">
+     <data>
+      <length>632</length>
+      <offset>282911</offset>
+      <size>1359</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">e1a74b5c2d4f96d3a495cfdedae7461919755aa9</archived-checksum>
+      <extracted-checksum style="sha1">966e57136e21d967ab73d5260e07ad25eb6382fd</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>worker2-loader.js</name>
+    </file>
+    <file id="106">
+     <data>
+      <length>817</length>
+      <offset>283543</offset>
+      <size>1926</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">45399aa19e6c33be63f22b16a6c07dabcf3ce623</archived-checksum>
+      <extracted-checksum style="sha1">b68418d45018e36665e4121f47d1b5c01ac0163b</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>worker2.js</name>
+    </file>
+   </file>
+   <file id="107">
+    <data>
+     <length>1408</length>
+     <offset>284360</offset>
+     <size>4472</size>
+     <encoding style="application/x-gzip"/>
+     <archived-checksum style="sha1">b143ab931a87d32226f0afbe825c82a5633b9469</archived-checksum>
+     <extracted-checksum style="sha1">b789818276991e807185c893200293679e07a8de</extracted-checksum>
+    </data>
+    <type>file</type>
+    <name>kfile.py</name>
+   </file>
+   <file id="108">
+    <data>
+     <length>460</length>
+     <offset>285768</offset>
+     <size>1625</size>
+     <encoding style="application/x-gzip"/>
+     <archived-checksum style="sha1">f418f5281308b68b9af2c7fb9d78cee922c3f3e8</archived-checksum>
+     <extracted-checksum style="sha1">ca56020c56528fafcd405079366429dc9cf019ee</extracted-checksum>
+    </data>
+    <type>file</type>
+    <name>login.html</name>
+   </file>
+   <file id="109">
+    <data>
+     <length>1210</length>
+     <offset>286228</offset>
+     <size>4652</size>
+     <encoding style="application/x-gzip"/>
+     <archived-checksum style="sha1">9ab22433839f1541486d1a2c2fd956f824bb0641</archived-checksum>
+     <extracted-checksum style="sha1">5da16e2116273eb2ffd8c34b18682476f58eac84</extracted-checksum>
+    </data>
+    <type>file</type>
+    <name>manifest.json</name>
+   </file>
+   <file id="110">
+    <data>
+     <length>2355</length>
+     <offset>287438</offset>
+     <size>13398</size>
+     <encoding style="application/x-gzip"/>
+     <archived-checksum style="sha1">52ca2810564c026583b4356dd4e7a74bec5781f8</archived-checksum>
+     <extracted-checksum style="sha1">7fb964a5012215b3bf902c3eb22486853cbdae35</extracted-checksum>
+    </data>
+    <type>file</type>
+    <name>options.html</name>
+   </file>
+   <file id="111">
+    <data>
+     <length>251</length>
+     <offset>289793</offset>
+     <size>402</size>
+     <encoding style="application/x-gzip"/>
+     <archived-checksum style="sha1">b77e84ede3f37ec5d7c07f4e0ea5baf4071d6fed</archived-checksum>
+     <extracted-checksum style="sha1">25a204bf21981d95d9760f754943c41cfa8ba8eb</extracted-checksum>
+    </data>
+    <type>file</type>
+    <name>Settings.plist</name>
+   </file>
+   <file id="112">
+    <ctime>2012-06-25T01:43:42Z</ctime>
+    <mtime>2012-06-25T01:43:43Z</mtime>
+    <atime>2012-06-25T01:43:43Z</atime>
+    <gid>0</gid>
+    <uid>0</uid>
+    <mode>0777</mode>
+    <deviceno>2</deviceno>
+    <inode>0</inode>
+    <type>directory</type>
+    <name>unit-tests</name>
+    <file id="113">
+     <data>
+      <length>179</length>
+      <offset>290044</offset>
+      <size>290</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">17f56ef805beb97563255f0b887e4d959b978b64</archived-checksum>
+      <extracted-checksum style="sha1">89af51bb93a458a67fb27c7aabfe866fb0cebffd</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>background.spec.js</name>
+    </file>
+    <file id="114">
+     <data>
+      <length>1042</length>
+      <offset>290223</offset>
+      <size>5039</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">0caeb6c270bcc66b8222fddc17438dfc6a432f43</archived-checksum>
+      <extracted-checksum style="sha1">75fc344757e6bf75a1bcd32b7dfe17c7c547dc5c</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>crypto.spec.js</name>
+    </file>
+    <file id="115">
+     <data>
+      <length>1804</length>
+      <offset>291265</offset>
+      <size>9101</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">96deac5adbf3777f9cac565422992dfac36ebe09</archived-checksum>
+      <extracted-checksum style="sha1">bc5f5960203cae77785ae0893c5e0bda8c07248f</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>db.spec.js</name>
+    </file>
+    <file id="116">
+     <data>
+      <length>178</length>
+      <offset>293069</offset>
+      <size>328</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">bf273cccc0b84784388194edc203d5a199474304</archived-checksum>
+      <extracted-checksum style="sha1">3cc44c475e7df02e6b07cdc82a5ea34b80d94d42</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>fibonacci.js</name>
+    </file>
+    <file id="117">
+     <data>
+      <length>439</length>
+      <offset>293247</offset>
+      <size>872</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">7323068c6b2671579f8d0158b102967621c4e442</archived-checksum>
+      <extracted-checksum style="sha1">8c74ce6ce3f30d89af48cc8882ec9728a47324ad</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>init.js</name>
+    </file>
+    <file id="118">
+     <data>
+      <length>837</length>
+      <offset>293686</offset>
+      <size>3858</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">a136dbd13283adb1b657cb645ce077b245daf998</archived-checksum>
+      <extracted-checksum style="sha1">95f9d8a7563f004ce9326a9b8c13432462c62fcc</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>locale.spec.js</name>
+    </file>
+    <file id="119">
+     <data>
+      <length>589</length>
+      <offset>294523</offset>
+      <size>2172</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">263319e0a078f17579734b32edeaf62b785fed22</archived-checksum>
+      <extracted-checksum style="sha1">9f727e4399c95abc6977d7027de758859e1655ce</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>prefs.spec.js</name>
+    </file>
+    <file id="120">
+     <data>
+      <length>926</length>
+      <offset>295112</offset>
+      <size>2622</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">cd36bed167c429204cf1fc53ba429bf1dc58b52b</archived-checksum>
+      <extracted-checksum style="sha1">5aa7763f19283063eb5bfd9854616a8efab4226a</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>utils.spec.js</name>
+    </file>
+    <file id="121">
+     <data>
+      <length>681</length>
+      <offset>296038</offset>
+      <size>2343</size>
+      <encoding style="application/x-gzip"/>
+      <archived-checksum style="sha1">2559b39deef0e20c86a37fd8e059483c955ac779</archived-checksum>
+      <extracted-checksum style="sha1">262a3266af93617f757f53e67895edf341cbe6dc</extracted-checksum>
+     </data>
+     <type>file</type>
+     <name>worker.spec.js</name>
+    </file>
+   </file>
+   <file id="122">
+    <data>
+     <length>460</length>
+     <offset>296719</offset>
+     <size>2292</size>
+     <encoding style="application/x-gzip"/>
+     <archived-checksum style="sha1">c2104be9c93a156d21bf2b2cb5d45e822d5f1e3b</archived-checksum>
+     <extracted-checksum style="sha1">65d35ae0f7726f7cb468c4a026f2c4cd3381e03c</extracted-checksum>
+    </data>
+    <type>file</type>
+    <name>unit-tests.html</name>
+   </file>
+  </file>
+ </toc>
+</xar>
