@@ -1,25 +1,37 @@
-<?xml version='1.0' encoding='utf-8'?>
-<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+ xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
     <em:id>lazarus@interclue.com</em:id>
     <em:type>2</em:type>
     <em:name>Lazarus: Form Recovery</em:name>
-    <em:version>2.3.1-signed</em:version>
+    <em:version>3.2</em:version>
     <em:creator>Karl Dearden</em:creator>
-    <em:description>Recover lost forms with a single click</em:description>
-    <em:aboutURL>chrome://lazarus/content/about.xul</em:aboutURL>
-    <em:optionsURL>chrome://lazarus/content/options.xul</em:optionsURL>
-    <em:iconURL>chrome://lazarus/skin/lazarus-32.png</em:iconURL>
-    <em:homepageURL>http://lazarus.interclue.com/</em:homepageURL>
-    
+    <em:description>Autosaves everything you type so you can easily recover from form-killing timeouts, crashes and network errors.</em:description>
+    <em:iconURL>chrome://lazarus/content/Icon-48.png</em:iconURL>
+    <em:icon64URL>chrome://lazarus/content/Icon-64.png</em:icon64URL>
+		<em:optionsURL>chrome://lazarus/content/options.html</em:optionsURL>
+		<em:optionsType>3</em:optionsType>
+    <em:homepageURL>http://getlazarus.com/</em:homepageURL>
+    <em:updateURL>http://getlazarus.com/updates/update-check.php?platform=firefox&amp;channel=stable</em:updateURL>
+    <em:updateKey>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHi7Z6PVzqclZYfbJp/qFpGhQokoRqoh6O/44hbYmZw9nbZhRLNlfuflM4+Hew9UVooVZrkX84iCHRWmqJDmPdCB/QAFaXeQCcpay0L6POPzBMLiIB3hYBVY7r0DnnNnHY6m+F7V6wDmSIZ/C+rNxI6BuFqLRqyoZazwnCRzVRgwIDAQAB</em:updateKey>
     <!-- Firefox -->
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- firefox -->
-        <em:minVersion>3.0</em:minVersion>
-        <em:maxVersion>7.*</em:maxVersion>
+        <em:minVersion>3.5</em:minVersion>
+        <em:maxVersion>*</em:maxVersion>
       </Description>
     </em:targetApplication>
+    
+    <!-- SeaMonkey -->
+		<em:targetApplication>
+			<Description>
+				<em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+				<em:minVersion>2</em:minVersion>
+				<em:maxVersion>*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
 	
   </Description>
 </RDF>

@@ -1,0 +1,10 @@
+window, 
+dialog {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+.dialog-button-box {
+  display: none;
+}

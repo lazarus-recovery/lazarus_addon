@@ -1,4 +1,0 @@
-<!ENTITY lazarus.templatesave.title "Lazarus: Сохранение форм в качестве шаблонов">
-<!ENTITY lazarus.templatesave.save "Сохранить">
-<!ENTITY lazarus.templatesave.instructions "Введите имя для этого шаблона">
-<!ENTITY template.autofill.label "Автоматически заполнять эту форму при загрузке этой страницы">

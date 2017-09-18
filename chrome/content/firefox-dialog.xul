@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://lazarus/content/css/firefox-dialog.css" type="text/css"?>
+<dialog id="lazarus-dialog" 
+   xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+   ondialogaccept="return false;"
+   onload="Lazarus.FirefoxDialog.init()">
+  
+  <script type="text/javascript" src="js/lazarus.js"></script>
+	<script type="text/javascript" src="js/firefox-dialog.js"></script>
+  <iframe id="lazarus-dialog-iframe" flex="1"></iframe>
+</dialog>

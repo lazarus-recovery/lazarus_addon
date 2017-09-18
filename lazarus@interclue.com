@@ -1,1 +1,1 @@
-P:\var\www\lazarus\xpi
+C:\Users\Karl\Dropbox\lazarus-3\lazarus-beta\lazarus-firefox
