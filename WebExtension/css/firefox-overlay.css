@@ -1,0 +1,5 @@
+/* :::::::: main toolbar icon ::::::::::::::: */
+
+#lazarus-toolbar-button {
+	list-style-image: url("chrome://lazarus/content/images/toolbar-icon-disabled.png");
+}

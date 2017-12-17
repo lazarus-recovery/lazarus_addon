@@ -1,4 +1,0 @@
-<!ENTITY lazarus.templatesave.title "Lazarus: Uložit formulář jako šablonu">
-<!ENTITY lazarus.templatesave.save "Uložit">
-<!ENTITY lazarus.templatesave.instructions "Zadejte jméno pro tuto šablonu">
-<!ENTITY template.autofill.label "Automaticky vyplnit tento formulář po načtení stránky">
