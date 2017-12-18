@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Karl Dearden</string>
+	<key>Builder Version</key>
+	<string>534.57.2</string>
+	<key>CFBundleDisplayName</key>
+	<string>Lazarus: Form Recovery</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.interclue.lazarus</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.2</string>
+	<key>CFBundleVersion</key>
+	<string>3.2</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Database Quota</key>
+		<real>104857600</real>
+		<key>Global Page</key>
+		<string>background.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>lazarus-toolbar-item-command</string>
+				<key>Identifier</key>
+				<string>lazarus-toolbar-item</string>
+				<key>Image</key>
+				<string>images/toolbar-icon-disabled-safari.png</string>
+				<key>Label</key>
+				<string>Lazarus: Form Recovery</string>
+				<key>Palette Label</key>
+				<string>Lazarus: Form Recovery</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>Start</key>
+			<array>
+				<string>js/jquery.js</string>
+				<string>js/lazarus.js</string>
+				<string>js/logger.js</string>
+				<string>js/menu.js</string>
+				<string>js/locale.js</string>
+				<string>js/strings.js</string>
+				<string>js/utils.js</string>
+				<string>js/mouse.js</string>
+				<string>js/dialog.js</string>
+				<string>js/content.js</string>
+				<string>js/platform.js</string>
+				<string>js/platform-safari.js</string>
+				<string>js/content-init.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Autosaves everything you type so you can easily recover from crashes and network errors.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://lazarus.interclue.com/updates/update-check.php?platform=safari&amp;channel=stable</string>
+	<key>Website</key>
+	<string>http://lazarus.interclue.com/</string>
+</dict>
+</plist>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<overlay id="lazarus-options-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-<script type="text/javascript" src="common.js"/>
-<script type="text/javascript" src="common-dialog-overlay.js"/>
-</overlay>

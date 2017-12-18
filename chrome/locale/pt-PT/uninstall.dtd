@@ -1,6 +1,0 @@
-<!ENTITY window.title "Lazarus: Opções de Desinstalação">
-<!ENTITY uninstallInfo "Lazarus: Opções de Desinstalação">
-<!ENTITY removeUserSettings "Apagar Configurações do Utilizador">
-<!ENTITY removeSavedForms "Apagar Formulários Gravados">
-<!ENTITY ok "OK">
-<!ENTITY unable.to.remove.db "O Lazarus armazena os seus formulários guardados na base de dados 'lazarus.sqlite', que está na sua pasta de perfil. Devido a limitações impostas pelo Firefox, não é possível apagar este documento no decorrer do processo de instalação. Todos os formulários serão apagados da base de dados, mas permanecerá uma base de dados vazia na sua pasta de perfil. É perfeitamente seguro apagar este documento DEPOIS de o Lazarus ter sido desinstalado.">

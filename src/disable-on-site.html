@@ -1,0 +1,40 @@
+<html>
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>{disableOnSite.title}</title>
+  <link type="text/css" rel="stylesheet" href="css/disable-on-site.css"/>  
+  <link type="text/css" rel="stylesheet" href="css/jquery.msg.css"/>  
+  
+  <script type="text/javascript" src="js/jquery.js" ></script>
+  <script type="text/javascript" src="js/jquery.msg.js"></script>
+  <script type="text/javascript" src="js/lazarus.js"></script>
+	<script type="text/javascript" src="js/logger.js"></script>
+	<script type="text/javascript" src="js/utils.js"></script>
+  <script type="text/javascript" src="js/locale.js"></script>
+  <script type="text/javascript" src="js/strings.js"></script>
+  <script type="text/javascript" src="js/dialog.js"></script>
+  
+  <script type="text/javascript" src="js/platform.js" ></script>
+  <script type="text/javascript" src="js/platform-chrome.js" ></script>
+  <!-- <script type="text/javascript" src="js/platform-firefox.js" ></script> -->
+  <script type="text/javascript" src="js/platform-safari.js" ></script>
+  
+  <script type="text/javascript" src="js/disable-on-site.js" ></script>
+</head>
+<body>
+<div id="container">
+  <h1>{disableOnSite.title}</h1>
+  <form id="disable-on-site-form" action="#">
+    <p>{disableOnSite.question,html}</p>
+    <p>
+      <input id="remove-existing-forms" type="checkbox" checked="true" />
+      <label for="remove-existing-forms">{disableOnSite.removeExistingForms}</label>
+    </p>
+    <div class="buttons">
+      <input id="btn-disable-on-site" type="submit" value="{disableOnSite.btn.disable}"/>
+      <input id="cancel" type="button" value="{generic.cancel}"/>
+    </div>
+  </form>
+</div>
+</body>
+</html>

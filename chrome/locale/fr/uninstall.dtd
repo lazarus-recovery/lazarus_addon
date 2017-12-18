@@ -1,6 +1,0 @@
-<!ENTITY window.title "Lazarus : options de désinstallation">
-<!ENTITY uninstallInfo "Lazarus : options de désinstallation">
-<!ENTITY removeUserSettings "Supprimer les paramètres utilisateur">
-<!ENTITY removeSavedForms "Supprimer les formulaires enregistrés">
-<!ENTITY ok "OK">
-<!ENTITY unable.to.remove.db "Lazarus stocke ses formulaires enregistrés dans le fichier &apos;lazarus.sqlite&apos; dans votre dossier de profil. Pour cause de fonctionnalités limitées de Firefox, nous ne pouvons supprimer ce fichier au cours du processus de désinstallation. Tous les formulaires seront supprimés de la base de données mais cette base de donnée vide restera dans votre dossier de profil. Il serait bon de supprimer manuellement ce fichier APRÈS QUE Lazarus a été complètement supprimé.">

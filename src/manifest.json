@@ -1,0 +1,98 @@
+{
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*", 
+        "https://*/*"
+      ], 
+      "all_frames": true, 
+      "run_at": "document_idle", 
+      "js": [
+        "js/fix-undefined-frames.js", 
+        "js/lazarus.js", 
+        "js/logger.js", 
+        "js/menu.js", 
+        "js/locale.js", 
+        "js/strings.js", 
+        "js/utils.js", 
+        "js/mouse.js", 
+        "js/dialog.js", 
+        "js/content.js", 
+        "js/platform.js", 
+        "js/platform-chrome.js", 
+        "js/content-init.js"
+      ]
+    }
+  ], 
+  "browser_action": {
+    "default_icon": "images/toolbar-icon-disabled.png", 
+    "default_title": "Lazarus: Form Recovery"
+  }, 
+  "name": "Lazarus: Form Recovery", 
+  "icons": {
+    "128": "Icon-128.png", 
+    "32": "Icon-32.png", 
+    "48": "Icon-48.png", 
+    "16": "Icon-16.png"
+  }, 
+  "web_accessible_resources": [
+    "background.html", 
+    "disable-on-site.html", 
+    "login.html", 
+    "manifest-2.json", 
+    "manifest.json", 
+    "options.html",
+    "unit-tests.html", 
+    "css/chrome-native-look.css", 
+    "css/disable-on-site.css", 
+    "css/firefox-dialog.css", 
+    "css/firefox-overlay.css", 
+    "css/jquery.msg.css", 
+    "css/login.css", 
+    "css/options.css", 
+    "css/reset.css", 
+    "images/button-green-small.png", 
+    "images/close.png", 
+    "images/error-32.png", 
+    "images/info-32.png", 
+    "images/lazarus-btn.png", 
+    "images/loading-32.gif", 
+    "images/loading-horizontal.gif", 
+    "images/loading.gif", 
+    "images/lock.png", 
+    "images/logo-large.png", 
+    "images/menu-background.png", 
+    "images/options-bg.png", 
+    "images/star.png", 
+    "images/success-32.png", 
+    "images/success.png", 
+    "images/toolbar-icon-cancel.png", 
+    "images/toolbar-icon-disabled-safari.png", 
+    "images/toolbar-icon-disabled.png", 
+    "images/toolbar-icon-enabled-safari.png", 
+    "images/toolbar-icon-enabled.png", 
+    "images/toolbar-icon-enabling.png", 
+    "images/toolbar-icon-locked.png", 
+    "images/toolbar-icon-warning.png", 
+    "images/update.png", 
+    "images/warning-32.png", 
+    "images/warning.png"
+  ], 
+  "manifest_version": 2, 
+  "version": "3.2.2.689", 
+  // "options_page": "options.html", 
+  "options_ui": {
+    "page": "options.html",
+    "browser_style": false,
+    "open_in_tab": true
+  },
+  "background": {
+    "page": "background.html"
+  }, 
+  "permissions": [
+    "http://*/*", 
+    "https://*/*", 
+    "tabs"
+  ], 
+  "description": "Autosaves everything you type so you can easily recover from form-killing timeouts, crashes and network errors."
+}

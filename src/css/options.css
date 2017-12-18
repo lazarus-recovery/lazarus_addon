@@ -1,0 +1,354 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* --default fonts & colors -- */
+body, table, #container {
+	color: #444;
+	font-family: Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+
+body {
+  background: #eee url('../images/options-bg.png') repeat-x;
+}
+
+#container {
+  position: relative;
+  width: 860px;
+  margin: 0px 0px 0px 110px;
+}
+
+#header {
+  height: 90px;
+  padding: 17px 0px 3px 20px;
+}
+#header h1 {
+  padding: 0;
+  margin: 0;
+}
+#header h1 a {
+  width: 380px;
+  height: 90px;
+  background-image: url('../images/logo-large.png');
+}
+
+#content {
+  margin-top: 20px;
+}
+
+
+a.button-large {
+	display: block;
+	width: 175px;
+	background: url('../images/button-green-small.png') no-repeat;
+	height: 48px;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 12px;
+	color: #000;
+	font-size: 15px;
+	font-weight: bold;
+}
+a[href].button-large {
+  color: #000;
+}
+a.button-large:hover {
+	background-position: 0px -80px;
+	color: #008;
+}
+a[href].button-large:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.ir {
+  display: block;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+}
+
+#header .lazarus-pro-link {
+  position: absolute;
+  top: 42px;
+  right: 0px;
+  display: block;
+}
+
+.lazarus-pro-link span {
+  height: 64px;
+  display: block;
+  padding-right: 64px;
+  background: url('../images/star.png') no-repeat top right;
+  white-space: nowrap;
+  width: 144px;
+  line-height: 93px;
+  margin-top: -37px;
+}
+
+#container h2 { 
+  margin-top: 10px;
+}
+#container h2, 
+#container h3 {
+  color: #444;
+  text-shadow: #fff -1px -1px;
+}
+
+
+#version-info {
+  position: absolute;
+  top: 18px;
+  color: #FFE65B;
+  display: block;
+  width: 375px;
+  text-align: right;
+  text-transform: capitalize;
+}
+.version-info {
+  text-transform: capitalize;
+}
+
+#update-check {
+  position: absolute;
+  top: 117px;
+  right: 0px;
+}
+
+.field {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.field label {
+  display: block;
+  float: left;
+  width: 150px;
+  height: 20px;
+  line-height: 20px;
+}
+.field input:not([type]), 
+.field input[type="text"], 
+.field input[type=password]{
+  display: block;
+  float: left;
+  width: 250px;
+  height: 20px;
+}
+.field textarea {
+  width: 250px;
+  height: 80px;
+}
+.field input[type=checkbox]{
+  width: auto;
+  float: left;
+}
+.field input[type=number]{
+  width: 50px;
+  text-align: right;
+}
+.field-checkbox label {
+  width: auto;
+}
+.buttons {
+  display: block;
+  text-align: right;
+}
+.buttons input {
+  min-width: 80px;
+}
+
+#encryption-password-box {
+  width: 410px;
+}
+
+#sync-create-account-box {
+  width: 410px;
+}
+
+#sync-login-box {
+  width: 410px;
+}
+
+
+/* updates */
+#update-check {
+  min-height: 24px;
+  display: block;
+  float: left;
+  padding-right: 30px;
+  background: no-repeat top right;
+}
+#update-check.loading {
+  background-image: url('../images/loading.gif');
+}
+#update-check.success {
+  background-image: url('../images/success.png');
+}
+#update-check.error {
+  background-image: url('../images/warning.png');
+}
+#update-check.update {
+  background-image: url('../images/update.png');
+}
+a[href] {
+  color: #335EA8;
+  text-decoration: none;
+}
+a[href]:hover {
+  text-decoration: underline;
+}
+
+input[type=text].sync-key {
+  font-family: monospace;
+  font-size: 15px;
+  width: 280px;
+  text-align: center;
+}
+
+#status {
+  float: left;
+  height: 26px;
+  line-height: 26px;
+  padding: 0px 25px;
+  border: 1px solid transparent;
+  color: #339;
+  border-color: #339;
+  background: #eef url('../images/info.png') no-repeat 4px 4px;
+  display: none;
+}
+
+
+#status.loading {
+  color: #339;
+  border-color: #339;
+  background-color: #eef;
+  background-image: url('../images/loading.gif');
+}
+
+#status.error {
+  color: #F00;
+  border-color: #F00;
+  background-color: #fee;
+  background-image: url('../images/warning.png');
+}
+
+.message {
+  padding: 10px 10px 10px 52px;
+  min-height: 32px;
+	font-size: 16px;
+	color: #339;
+	z-index: 99999;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #339;
+  background: #eef url('../images/info-32.png') no-repeat 10px 10px;
+  margin-bottom: 10px;
+}
+.warning {
+  color: #935103;
+  border-color: #935103;
+  background-color: #ffe;
+  background-image: url('../images/warning-32.png');
+}
+.error {
+  color: #D00;
+  border-color: #D00;
+  background-color: #fee;
+  background-image: url('../images/error-32.png');
+}
+.message.error a {
+  color: #800;
+}
+
+.message a {
+  color: #00f;
+  cursor: pointer;
+}
+.message a:hover {
+  text-decoration: underline;
+}
+.sync-login-warning {
+  display: none;
+}
+.sync-button {
+  padding: 5px;
+}
+.sync-button button {
+  min-width: 200px;
+}
+#options-saved-msg {
+  background: #efe url('../images/success.png') no-repeat 10px center;
+  padding: 10px 10px 10px 40px;
+  border: 1px solid #080;
+  border-radius: 5px;
+  color: #080;
+  font-weight: bold;
+  position: fixed;
+  top: 155px;
+  left: 810px;
+  display: none;
+}
+
+#overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  background: rgba(0, 0, 0, 0.6) url('../images/loading-horizontal.gif') no-repeat center center;
+  z-index: 99999;
+}
+
+.section {
+/* border-bottom: 1px solid #aaa; */
+}
+.section-important {
+  border-radius: 12px;
+  margin: 30px 0px;
+  background: #d8d8d8;
+  box-shadow: #fff -1px -1px 1px;
+}
+.section-box {
+  padding: 20px 40px;
+}
+.section-box h2,
+.section-box h3 {
+  margin-left: -20px;
+}
+
+.setting-section {
+  padding: 20px 0px;
+  xborder-bottom: 1px solid #ddd;
+}
+
+#disabled-domains-list {
+  width: 350px;
+}
+#disabled-domains-list li {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  white-space: nowrap;
+  padding: 3px;
+}
+#disabled-domains-list li:hover {
+  background: #ddd;
+}
+#disabled-domains-list li button {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+}
+#disabled-domains-list li:hover button {
+  visibility: visible;
+}
+
+#sync-messages:not(:empty){
+  margin-top: 40px;
+}
+#sync-setup-box.message.error > h3 {
+  margin-left: 0px;
+}

@@ -1,4 +1,0 @@
-<!ENTITY lazarus.templatesave.title "Lazarus: 保存表单为模板">
-<!ENTITY lazarus.templatesave.save "保存">
-<!ENTITY lazarus.templatesave.instructions "请为此模板命名">
-<!ENTITY template.autofill.label "此页面载入完成后自动填写此表单">
