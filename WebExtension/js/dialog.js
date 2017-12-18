@@ -65,25 +65,25 @@ ns.dialog(url, callback, {modal:true});
     
     self.settings = ns.Utils.extend(ns.dialog.defaults, options);
     
-    if (Lazarus.platform.id == 'firefox'){
-      //firefox's security restrictions prevent us from opening a chrome:// iframe 
-      //within a webpage, so instead we'll have to use a popup dialog box :(
-      var params = {
-        url: url
-      };  
-      var features = ["chrome", "dialog", "centerscreen", "resizable=yes"];
-      features.push("innerWidth="+ self.settings.width);
-      features.push("innerHeight="+ self.settings.height);
-      if (self.settings.modal){
-        features.push("modal");
-      }
+    // if (Lazarus.platform.id == 'firefox'){
+    //   //firefox's security restrictions prevent us from opening a chrome:// iframe 
+    //   //within a webpage, so instead we'll have to use a popup dialog box :(
+    //   var params = {
+    //     url: url
+    //   };  
+    //   var features = ["chrome", "dialog", "centerscreen", "resizable=yes"];
+    //   features.push("innerWidth="+ self.settings.width);
+    //   features.push("innerHeight="+ self.settings.height);
+    //   if (self.settings.modal){
+    //     features.push("modal");
+    //   }
       
-      window.openDialog("chrome://lazarus/content/firefox-dialog.xul", "", features.join(","), params).focus();
-      setTimeout(function(){
-        self.settings.callback(params.returnVal);
-      }, 1)
-      return;
-    }
+    //   window.openDialog("chrome://lazarus/content/firefox-dialog.xul", "", features.join(","), params).focus();
+    //   setTimeout(function(){
+    //     self.settings.callback(params.returnVal);
+    //   }, 1)
+    //   return;
+    // }
     
     
     //setup message passing between the frames

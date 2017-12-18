@@ -6,7 +6,7 @@ var Lazarus = {
   
   updateChannel: "stable",
   
-	build: 688,
+	build: 689,
   
   databaseVersion: 2,
   

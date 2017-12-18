@@ -29,6 +29,12 @@
 
     init: function () {
 
+      window.addEventListener("unload", function (e) {
+        Lazarus.adapter.connect(function (db) {
+          db.close();
+        });
+      });
+
       Lazarus.Event.addListener('stateChange', Lazarus.Background.onStateChange);
 
       Lazarus.Background.setState(Lazarus.STATE_LOADING);
@@ -38,7 +44,7 @@
           Lazarus.Background.initHashSeed(function () {
             Lazarus.Background.initEncryption(function () {
               Lazarus.Background.loadAutosaves();
-              Lazarus.Sync.init();
+              //Lazarus.Sync.init();
               Lazarus.Background.setState(Lazarus.STATE_ENABLED);
               Lazarus.Background.initialized = true;
               Lazarus.addURLListener(Lazarus.Background.urlListener);
