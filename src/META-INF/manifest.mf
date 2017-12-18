@@ -52,8 +52,8 @@ SHA1-Digest: Qa+sxhxwf4JlzmnBAvTa6Dzw9mk=
 
 Name: manifest.json
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: 8oIsE4mLTK8y2tCffPYc0w==
-SHA1-Digest: nyt/tpXAhL0GgFQ7p3Nhe/6g/i0=
+MD5-Digest: EiKeOYEhaN6KakjLHIRNcg==
+SHA1-Digest: igFcQ7XLlqI8235mtzt0pcEDoc4=
 
 Name: options.html
 Digest-Algorithms: MD5 SHA1
@@ -302,8 +302,8 @@ SHA1-Digest: VjTouAwINqiZKJrddAeukbzZc4Q=
 
 Name: js/background.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: dUOxwMxmx82UhMezw2gxjg==
-SHA1-Digest: Byyve73U7HcIwwlD8swe7207P80=
+MD5-Digest: dhrK7728kS5nEkl1Tu6EbA==
+SHA1-Digest: bhsaI1oGJILbwzXdB//YRBaO6bc=
 
 Name: js/content-init.js
 Digest-Algorithms: MD5 SHA1
@@ -322,8 +322,8 @@ SHA1-Digest: QoQ5AiICmV3nzrbCmDenb8XWR3A=
 
 Name: js/db-adapter.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: yciJjzNeRcPUHeOATSVcvQ==
-SHA1-Digest: 6yFIZ2qLk1coLBwPmUvx/BbeY20=
+MD5-Digest: CcmBhuHiuihRYOpxGBx0XQ==
+SHA1-Digest: 6FM3VPX9go8pn12En7nhjLmLnY4=
 
 Name: js/db.js
 Digest-Algorithms: MD5 SHA1
@@ -332,8 +332,8 @@ SHA1-Digest: Sli8is03SMwqu5MmZrR33+XBsjw=
 
 Name: js/dialog.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: VRdF/U1p8PaQ2djT5ozWBw==
-SHA1-Digest: f9XV3KLsEPlDu5hBN/CJx6Ji3So=
+MD5-Digest: 9bTj2tWqnRV/JYnSxE8zIQ==
+SHA1-Digest: /vTw8MDPoFxdkkZTi5in5MPYB00=
 
 Name: js/disable-on-site.js
 Digest-Algorithms: MD5 SHA1
@@ -387,8 +387,8 @@ SHA1-Digest: Yv02M9JZj064lkzmCy2SGR/ie0A=
 
 Name: js/lazarus.js
 Digest-Algorithms: MD5 SHA1
-MD5-Digest: +Q+lMWjmDcBQ78IGCWoowA==
-SHA1-Digest: bFWaxfSc8rr4ryK6mH7gtmC+QCg=
+MD5-Digest: NFnZoZ6wVtqSethrk8NNyQ==
+SHA1-Digest: imAbrixl3j6XRVvBVyFDnVMthrg=
 
 Name: js/locale.js
 Digest-Algorithms: MD5 SHA1

@@ -40,14 +40,14 @@ ns.dialog(url, callback, {modal:true});
       left: 0,
       width: '100%',
       height: '100%',
-      zIndex: 99998
+      "z-index": 99998
     },
         
     frameStyle: {
       position: 'fixed',
       left: '50%',
       top: '50%',
-      zIndex: 99999
+      "z-index": 99999,
     }
   }
   

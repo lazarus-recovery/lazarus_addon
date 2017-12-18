@@ -79,8 +79,7 @@
     "images/warning.png"
   ], 
   "manifest_version": 2, 
-  "version": "3.2.2.689", 
-  // "options_page": "options.html", 
+  "version": "3.2.2.692", 
   "options_ui": {
     "page": "options.html",
     "browser_style": false,
@@ -93,6 +92,5 @@
     "http://*/*", 
     "https://*/*", 
     "tabs"
-  ], 
-  "description": "Autosaves everything you type so you can easily recover from form-killing timeouts, crashes and network errors."
+  ]
 }

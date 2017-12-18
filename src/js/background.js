@@ -29,12 +29,6 @@
 
     init: function () {
 
-      window.addEventListener("unload", function (e) {
-        Lazarus.adapter.connect(function (db) {
-          db.close();
-        });
-      });
-
       Lazarus.Event.addListener('stateChange', Lazarus.Background.onStateChange);
 
       Lazarus.Background.setState(Lazarus.STATE_LOADING);
@@ -543,7 +537,7 @@
         var tFormFields = schema.table('form_fields');
         var tFields = schema.table('fields');
 
-        db.select().from(tFields)
+        db.select(tFields.encryption, tFields.value, tForms.lastModified).from(tFields)
           .innerJoin(tFormFields, tFormFields.fieldId.eq(tFields.id))
           .innerJoin(tForms, tForms.id.eq(tFormFields.formId))
           .where(lf.op.and(tFields.type.in(['textarea', 'contenteditable', 'iframe']), tFields.domainId.eq(args.domainId), tFields.value.neq(''), tForms.status.eq(0)))
@@ -557,7 +551,8 @@
             var found = {};
 
             for (var i = 0; i < results.length; i++) {
-              var field = results[i];
+              var field = results[i]["fields"];
+              field.lastModified = results[i]["forms"].lastModified;
               //console.log("fetchSavedText", field);
               field.text = Lazarus.Background.decrypt(field.value, field.encryption);
               //ignore empty text, and only show distinct values
@@ -647,7 +642,9 @@
 
             //we'll need to decrypt the values
             for (var i = 0; i < results.length; i++) {
-              var field = results[i];
+              var field = results[i]["fields"];
+              field.formId = results[i]["form_fields"].formId;
+              field.lastModified = results[i]["forms"].lastModified;
               field.text = Lazarus.Background.decrypt(field.value, field.encryption);
               if (field.text) {
                 found[field.formId] = field;
@@ -758,9 +755,11 @@
                   .innerJoin(tFormFields, tFormFields.fieldId.eq(tFields.id))
                   .where(tForms.id.eq(formId)).exec().then(function (results) {
                     //Lazarus.adapter.exe("SELECT fields.id, name, type, value, domainId, encryption FROM fields INNER JOIN form_fields ON fields.id = fieldId WHERE formId = {formId}", { formId: formId }, function (rs) {
-                    info.fields = results[0];
-                    for (var i = 0; i < info.fields.length; i++) {
-                      info.fields[i].value = Lazarus.Background.decrypt(info.fields[i].value, info.fields[i].encryption);
+                    info.fields = [];
+                    for (var i = 0; i < results.length; i++) {
+                      var field = results[i]["fields"];
+                      field.value = Lazarus.Background.decrypt(field.value, field.encryption);
+                      info.fields.push(field);
                     }
                     callback(info);
                   });
@@ -1200,7 +1199,7 @@
           //Lazarus.adapter.exe("UPDATE fields SET status = 1, lastModified = " + now + " WHERE domainId = {domainId}", { domainId: domainId }, function (rs) {
           db.update(tFields)
             .set(tFields.status, 1)
-            .set(tFields, lastModified, now)
+            .set(tFields.lastModified, now)
             .where(tFields.domainId.eq(domainId)).exec()
             .then(function () {
               var tForms = schema.table('forms');

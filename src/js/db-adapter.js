@@ -48,7 +48,7 @@
 			if (self.db)
 				callback(self.db);
 			else
-				self.schemaBuilder.connect().then(function(db) {
+				self.schemaBuilder.connect({storeType: lf.schema.DataStoreType.INDEXED_DB}).then(function(db) {
 					self.db = db;
 					callback(db);
 				}).catch(function(err){
