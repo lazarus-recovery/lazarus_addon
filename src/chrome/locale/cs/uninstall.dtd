@@ -1,6 +1,0 @@
-<!ENTITY window.title "Lazarus: Možnosti odinstalace">
-<!ENTITY uninstallInfo "Lazarus: Možnosti odinstalace">
-<!ENTITY removeUserSettings "Odstranit uživatelské nastavení">
-<!ENTITY removeSavedForms "Odstranit uložené formuláře">
-<!ENTITY ok "Ok">
-<!ENTITY unable.to.remove.db "Lazarus ukládá své uložené formuláře do souboru 'lazarus.sqlite' ve vaší složce s profilem. Kvůli omezením způsobených prohlížečem nemůžeme během odinstalace tento soubor odstranit. Veškeré formuláře byly z databáze vymazány, ale prázdný databázový soubor zůstal. Kvůli bezpečí tento soubor odstraňte PO úplné odinstalaci doplňku.">
