@@ -1,3 +1,5 @@
+_Changelog prior to the github project to get Lazarus working on Firefox v52 and newer, so before 2017_
+
 == 2.3 ==
 
 * Removed show onupdate page as a workaround for a particular Firefox 4 bug
