@@ -30,8 +30,8 @@ var Lazarus = {
   },
   
   //various states of the addon
-  //we're using strings here instead of integers so the log files make more sence.
-  //all code should still use the variables here instaed of hard coded string though
+  //we're using strings here instead of integers so the log files make more sense.
+  //all code should still use the variables here instead of hard coded string though
   STATE_UNINITIALIZED: 'uninitialized',
   STATE_LOADING: 'loading',
   STATE_ENABLED: 'enabled',

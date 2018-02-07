@@ -8,7 +8,7 @@ var retVal = undefined;
 
 function runTest(title, testFn, assertion){
 	
-	//force ALL functions to be asyncronouus
+	//force ALL functions to be asynchronous
 	it(title, function(){
 	
 		this.addMatchers({

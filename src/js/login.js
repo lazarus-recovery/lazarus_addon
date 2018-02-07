@@ -6,7 +6,7 @@ Lazarus.Login = {
 		Lazarus.getPref('debugMode', function(debugMode){
 
 			Lazarus.logger = new Lazarus.Logger('[lazarus]', debugMode);
-			Lazarus.logger.log("initalizing login page");
+			Lazarus.logger.log("initializing login page");
 			
       Lazarus.locale.localiseDOM(document);
 			

@@ -48,7 +48,7 @@ describe("Locale", function(){
 	}, "Replace 1 string");
   
   
-  runTest("should return a regional string if avaialable", function(){
+  runTest("should return a regional string if available", function(){
     Lazarus.locale.setLocale('es-XX');
 		retVal = Lazarus.locale.getString("test.title2");
     Lazarus.locale.setLocale('en');

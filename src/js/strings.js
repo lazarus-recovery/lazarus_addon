@@ -26,7 +26,7 @@ Lazarus.locale.strings['en'] = {
   "generic.hours": "hours",
   "generic.days": "days",
   "generic.or": "or",
-  "generic.error.msg": "Sorry, an error occured and Lazarus was unable to complete the action",
+  "generic.error.msg": "Sorry, an error occurred and Lazarus was unable to complete the action",
   
   "elapsed.never": "never", 
   "elapsed.none": "now", 
@@ -179,7 +179,7 @@ Lazarus.locale.strings['en'] = {
   "error.emailRequired": "Email is required",
   "error.passwordRequired": "Password is required",
   "error.passwordsDoNotMatch": "Passwords do not match",
-	"error.server": "Error: Sorry, an error occured and the server cannot perform the required function. '{errMsg}'",
+	"error.server": "Error: Sorry, an error occurred and the server cannot perform the required function. '{errMsg}'",
 	"error.cannot.find.form": "Error: Cannot find form",
   "error.domain.required": "Domain is required",
   

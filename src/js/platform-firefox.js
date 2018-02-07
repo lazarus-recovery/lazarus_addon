@@ -133,7 +133,7 @@ Firefox specific functionality
 
 
     /**
-    * reset all preferneces back to their default values
+    * reset all preferences back to their default values
     **/
     Lazarus.resetPrefs = function(callback){
       
@@ -368,7 +368,7 @@ Firefox specific functionality
       
       self.filepath = filepath;
       
-      //are we allowed multiple connetcions to this database?
+      //are we allowed multiple connections to this database?
       self.useSharedCache = (typeof useSharedCache == "undefined") ? true : useSharedCache;
       
       //mozIStorageService
@@ -572,7 +572,7 @@ Firefox specific functionality
       * return a query that is safe to run
       */
       self.formatQuery = function(query, replacements){
-        //dont re-format queries passed twice
+        //don't re-format queries passed twice
         if (!replacements){
           return query;
         }

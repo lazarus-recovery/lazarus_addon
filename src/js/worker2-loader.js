@@ -5,7 +5,7 @@ this.onmessage = function(evt){
 
 	var callbackInfo = evt.data;
   
-  //inport the scripts to load
+  //import the scripts to load
   for(var i=0; i<callbackInfo.importScripts.length; i++){
     try {
       importScripts(callbackInfo.importScripts[i]);

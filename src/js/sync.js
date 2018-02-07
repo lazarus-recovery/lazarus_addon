@@ -140,7 +140,7 @@ Lazarus.Sync = {
               }
               else {
                 //this database has never been synced, but we have sync credentials (userId, syncKey)
-                //therefore the primary sync must have already occured (unless the primary sync failed due to server problems)
+                //therefore the primary sync must have already occurred (unless the primary sync failed due to server problems)
                 Lazarus.Sync.setupSecondarySync();
               }
             }, 0)
@@ -317,7 +317,7 @@ Lazarus.Sync = {
                         Lazarus.logger.log('Sync: merging '+ updatedRecords.length +' records from server...');
                         Lazarus.Sync.mergeUpdatedRecords(updatedRecords, prefs.syncKey, function(){
                           Lazarus.logger.log('Sync: mergeUpdatedRecords complete');
-                          //update is actually successfull, phew!
+                          //update is actually successful, phew!
                           Lazarus.Background.setSetting('lastSyncTime', Lazarus.Sync.syncTime, function(){
                             Lazarus.Sync.removeDeletedRecords(function(){
                               Lazarus.Sync.syncTime = Lazarus.Utils.timestamp();
@@ -617,7 +617,7 @@ Lazarus.Sync = {
         
         if (!response.errors){
           //server sent an invalid response
-          Lazarus.logger.error("callAPI unrecognised response object", url, response);
+          Lazarus.logger.error("callAPI unrecognized response object", url, response);
           response.errors = [{
             id: 'sync.error.unrecognisedObject',
             msg: 'Server responded with an unrecognised response object'

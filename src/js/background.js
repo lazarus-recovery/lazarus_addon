@@ -305,7 +305,7 @@
       //console.log('converting '+ expiredAutosaves.length +' autosaves to submitted forms');
       Lazarus.Utils.callAsyncs(Lazarus.Background.saveForm, expiredAutosaves, function () {
 
-        //if there are stioll autosaves in the queue, then set timer to check again
+        //if there are still autosaves in the queue, then set timer to check again
         if (nonExpiredAutosaveCount > 0) {
           //console.log("restarting saveExpiredAutosavesTimer");
           Lazarus.Background.saveExpiredAutosavesTimer = setTimeout(function () {
@@ -399,7 +399,7 @@
           formInfo.domainId = Lazarus.Background.hash(formInfo.domain);
           formInfo.formId = Lazarus.Background.generateFormId(formInfo);
 
-          //save domain info. We can do this syncronusly, as it doens't actually matter if this info is saved or not
+          //save domain info. We can do this synchronously, as it doesn't actually matter if this info is saved or not
           //(only used for search, and that's not currently implemented)
           Lazarus.adapter.connect(function (db) {
             var schema = db.getSchema();
@@ -727,7 +727,7 @@
       if (typeof formId == "string" && formId.indexOf('autosave:') === 0) {
         formId = formId.replace('autosave:', '');
         //look for the autosave
-        //hmmm, there a chance here that the autosaved form will have been saved to the permenent store.
+        //hmmm, there a chance here that the autosaved form will have been saved to the permanent store.
         if (Lazarus.Background.autosaves[formId]) {
           var formInfo = Lazarus.Background.autosaves[formId];
           callback(formInfo);
@@ -851,7 +851,7 @@
     initEncryption: function (callback) {
       //generate an RSA public/private key pair in case the user wants more serious security
       callback = callback || function () { };
-      Lazarus.logger.log("initalizing rsa key pair");
+      Lazarus.logger.log("initializing rsa key pair");
 
       Lazarus.Background.getSetting("publicKey", function (packedPublicKey) {
         var publicKey = Lazarus.Crypto.unpack(packedPublicKey);
@@ -1075,7 +1075,7 @@
       else {
         //XXX FIXME: can't we just detect the privateKey? callback(!Lazarus.Background.privateKey)?
         Lazarus.Background.initEncryption(function () {
-          //if after re-initalizing the keys we still don't have a privateKey,
+          //if after re-initializing the keys we still don't have a privateKey,
           //then the private key must be encrypted
           Lazarus.Background.privateKey ? callback(false) : callback(true);
         })
@@ -1307,7 +1307,7 @@
         Lazarus.getExtensionInfo(function (currInfo) {
           Lazarus.Background.runUpdateScripts(function () {
             //ALWAYS save the new version info (if something goes wrong during the update process then
-            //do dont want to keep on firing onupdate each time the browser starts)
+            //do don't want to keep on firing onupdate each time the browser starts)
             Lazarus.setPref("prevVersion", currInfo.version, function () {
               //first install?
               prefs.currVersion = currInfo.version;

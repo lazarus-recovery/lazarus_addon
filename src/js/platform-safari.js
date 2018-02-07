@@ -87,7 +87,7 @@ Safari specific functionality
 
 
     /**
-    * reset all preferneces back to their default values
+    * reset all preferences back to their default values
     **/
     Lazarus.resetPrefs = function(callback){
       
@@ -122,7 +122,7 @@ Safari specific functionality
     Lazarus.platformInitBackground = function(){
       gEvent.init("background");
     }
-    //platform specific initalization code for the content page 
+    //platform specific initialization code for the content page 
     Lazarus.platformInitContent = function(){
       gEvent.init("content");
       Lazarus.Content.initDoc(document);

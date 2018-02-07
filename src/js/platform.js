@@ -58,7 +58,7 @@
     //return TRUE is browser is currently in private browsing mode
     isPrivateBrowsingEnabled: function(){
       //Chrome and Safari have a built in UI to enable and disable addons for private browsing mode
-      //so if our code is running then either private browsing is off, or the user has specifiaclly enabled the addon
+      //so if our code is running then either private browsing is off, or the user has specifically enabled the addon
       //during private browsing sessions
       return false;
     }

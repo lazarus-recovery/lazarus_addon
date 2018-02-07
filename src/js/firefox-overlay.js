@@ -2,7 +2,7 @@
 firefox is a tad different from all the rest, so here's what we're going to do.
 the "background page" that all the other addons have, is going to be faked by adding
 an iframe to the background.html page in firefox (it's a hidden window that's only loaded once whenever firefox is loaded)
-the iframe will load chrome://lazarus/content/background.html and we'll run all our background (priviledged) code from there
+the iframe will load chrome://lazarus/content/background.html and we'll run all our background (privileged) code from there
 
 Other platforms have limited priviledged "content" scripts that run within their own isolated world with the context of a given page
 In firefox we'll fake that by using "Lazarus.Content.initDoc()" and passing in the document to add our events to
@@ -67,7 +67,7 @@ Lazarus.logger = new Lazarus.Logger('[lazarus]', Lazarus.Logger.LOG_LEVEL_ERRORS
 				//add an iframe to the document that will load all of our code
         //this will prevent any conflict with other extensions and makes the background page 
         //behave much like a background page in a Chrome/Safari extension.
-        //NOTE: this needs to be a priviledged iframe (type != "content")
+        //NOTE: this needs to be a privileged iframe (type != "content")
 				var iframe = doc.createElement('iframe');
 				iframe.setAttribute('name', 'lazarus-background-window');
 				//Safari doesn't fire an onload event when it loads background.html from it's cache

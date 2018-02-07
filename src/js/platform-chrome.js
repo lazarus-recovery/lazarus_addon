@@ -77,7 +77,7 @@ Google Chrome specific functionality
 
 
     /**
-    * reset all preferneces back to their default values
+    * reset all preferences back to their default values
     **/
     Lazarus.resetPrefs = function (callback) {
 
@@ -158,7 +158,7 @@ Google Chrome specific functionality
       response.success = false;
 
       if (request.cmd == "call-background") {
-        //is the function to call syncronous or asyncronous?
+        //is the function to call synchronous or asynchronous?
         var callbackInfo = request;
         var args;
         var segments = callbackInfo.funcName.split(/\./g);

@@ -177,10 +177,10 @@
 		},
 		
 		/**
-		* calls an array of asyncronous functions and then calls callback when they have all finished
+		* calls an array of asynchronous functions and then calls callback when they have all finished
 		* functions are called in series, the second function waiting for the first function to finish before being called
-		* NOTE: the last argument of ALL the functions must be the callback and should be left out of the arguments array (if that makes sence)
-		* NOTE: fns should return only one paramenter to it's callback with the results of the asyncronous function
+		* NOTE: the last argument of ALL the functions must be the callback and should be left out of the arguments array (if that makes sense)
+		* NOTE: fns should return only one parameter to it's callback with the results of the asynchronous function
 		* IMPORTANT: args should be an array of arrays where the internal arrays are the arguments to pass to an individual function
     **/
 		callAsyncs: function(fns, args, finalCallback){
@@ -573,7 +573,7 @@
       html = html.replace(/<(\/)?(div|p)>/ig, '\n');
       //strip all other tags
       text = Utils.stripTags(html);
-      //replace mutiple line breaks with two line breaks
+      //replace multiple line breaks with two line breaks
       text = text.replace(/[\r\n][\r\n\s]*[\r\n]/g, '\n\n');
       return Utils.trim(text);
     },
@@ -621,7 +621,7 @@
             
             //http://en.wikipedia.org/wiki/Country_code_top-level_domain
             //all domains *should* either end in a 2 letter tld (google.co.nz, google.com.au) or none (google.com) for american sites
-            //that should be preceeded by a generic tld (.com, .net, .school, .name, etc)
+            //that should be preceded by a generic tld (.com, .net, .school, .name, etc)
             //and then the basedomain
             var m = domain.match(/[^\.]+\.[^\.]+(\.\w{2})?$/);
             //if we cant figure it out then return the whole domain
