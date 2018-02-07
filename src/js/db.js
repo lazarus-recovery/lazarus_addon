@@ -160,7 +160,7 @@
 		* return a query that is safe to run
 		*/
 		self.formatQuery = function(query, replacements){
-      //dont re-format queries passed twice
+      //don't re-format queries passed twice
       if (!replacements){
         return query;
       }

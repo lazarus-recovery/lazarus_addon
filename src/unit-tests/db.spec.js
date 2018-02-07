@@ -56,7 +56,7 @@ describe("Database", function() {
 	}, 'test');
 	
 	runTest("getStr() should return an empty string if the record doesn't exist", function(){
-		db.getStr("SELECT textField FROM test WHERE textField='non-existant'", function(str){
+		db.getStr("SELECT textField FROM test WHERE textField='non-existent'", function(str){
 			retVal = str;
 		})
 	}, '');

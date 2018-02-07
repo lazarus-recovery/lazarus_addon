@@ -9,7 +9,7 @@ Lazarus.DisableOnSite = {
 		Lazarus.getPref('debugMode', function(debugMode){
 
 			Lazarus.logger = new Lazarus.Logger('[lazarus]', debugMode);
-			Lazarus.logger.log("initalizing DisableOnSite page");
+			Lazarus.logger.log("initializing DisableOnSite page");
 			
       var params = Lazarus.Utils.decodeQuery(document.location.search)
       

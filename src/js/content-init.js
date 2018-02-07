@@ -1,6 +1,6 @@
 
-//internal extension pages are also initalised by the content scripts
-//but they sholdn't be, rather they should initalise themselves 
+//internal extension pages are also initialized by the content scripts
+//but they shouldn't be, rather they should initialize themselves 
 if (document.URL.match(/^http(s)?:/i)){
 	
 	if (Lazarus.platform.id == "safari"){
@@ -11,7 +11,7 @@ if (document.URL.match(/^http(s)?:/i)){
 		//replace with the correct log level
 		Lazarus.logger = new Lazarus.Logger('[lazarus]', debugMode);
 
-		Lazarus.logger.log("initalizing content");
+		Lazarus.logger.log("initializing content");
 		Lazarus.Content.init();
 		//NOTE: document is NOT fully loaded when this script runs
 		Lazarus.Content.initDoc(document);

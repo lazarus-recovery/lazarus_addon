@@ -57,7 +57,7 @@
 		};
 
 		self.initDatabase = function (callback) {
-			Lazarus.logger.log("initalizing database...");
+			Lazarus.logger.log("initializing database...");
 			if (self.lf === true) {
 				self.schemaBuilder = lf.schema.create('lazarus3');
 				

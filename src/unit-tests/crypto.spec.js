@@ -1,6 +1,6 @@
 
 
-var testStr = "tesing 1,2,3...";
+var testStr = "testing 1,2,3...";
 var unicodeStr = ""; //"\u2660\u2663\u2665\u2666\u041F\u0440\u0430\u0301\u0432\u0434\u0430";
 
 

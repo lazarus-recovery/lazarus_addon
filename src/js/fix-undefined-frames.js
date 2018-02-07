@@ -81,16 +81,16 @@ evt.detail.addEventListener(doc, 'click', function(clickEvt){
 Firstly we need some definitions:
 
 * "content script": This is the script added by the chrome extension API (ref: http://code.google.com/chrome/extensions/content_scripts.html)
-  it has priviledges (window.chrome.extension) and can run *some* chrome API functions (eg window.chrome.extension.getURL())
+  it has privileges (window.chrome.extension) and can run *some* chrome API functions (eg window.chrome.extension.getURL())
   but due to this bug (http://code.google.com/p/chromium/issues/detail?id=20773) 
   this script CANNOT see the contentWindow of a dynamically generated blank iframe.
   
 
-* "content document": A "normal" (non-blank) webpage. This has no priviledges (window.chrome.extension === undefined), 
+* "content document": A "normal" (non-blank) webpage. This has no privileges (window.chrome.extension === undefined), 
   but it CAN see the contentWindow of a dynamically generated blank iframe.
   
 * "injected script": A script added to a content document (via a <script type="text/javascript" /> tag) 
-  The script runs with no elevated priviledges and runs in the content documents isolated world
+  The script runs with no elevated privileges and runs in the content documents isolated world
 
 * "blank document": The DOM document of an about:blank page
 
@@ -291,7 +291,7 @@ of the iframe. Phew!
     
     
     onAddEventListener: function(evt){
-      //adds an event listener into the "unpriviledged" context of this document
+      //adds an event listener into the "unprivileged" context of this document
       var detail = evt.detail;
       detail.target.addEventListener(detail.type, detail.listener, detail.useCapture);
       log("onAddEventListener", evt);
@@ -303,7 +303,7 @@ of the iframe. Phew!
       log("propagateEvent", origEvent, parentDoc);
       
       //figure out what type of event it is, so we can properly clone it and all it's properties
-      //NOTE: we need to use win.EventConstructor not EventConstructor because the event was created in the non-priviledged window (win)
+      //NOTE: we need to use win.EventConstructor not EventConstructor because the event was created in the non-privileged window (win)
       var eventDetails = {
         data: doc.URL,
         origEvent: origEvent,
@@ -385,7 +385,7 @@ of the iframe. Phew!
   
   
   //FRAK: gmail (https://mail.google.com/mail/ca/u/0/?shva=1#drafts/1372665a64174e27) is giving me access to a chrome.extension code
-  // I can actually run chrome.extension.sendMessage from this unpriviledged page! This is not a good thing?
+  // I can actually run chrome.extension.sendMessage from this unprivileged page! This is not a good thing?
   // Further investigation says that this page is a webapp build in to chrome by default.
   // Ok, we're going to have to do a little bit of checking here
   var script = document.getElementById('fixundefinedframes-script');

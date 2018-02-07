@@ -618,7 +618,7 @@
       //and close the lazarus menu if it's open,
       //unless the menu now has the focus
       if (field.ownerDocument.lazarusMenu){
-        //hmmm, hiding the menu immedately is causing some click events not to fire,
+        //hmmm, hiding the menu immediately is causing some click events not to fire,
         setTimeout(field.ownerDocument.lazarusMenu.hide, 1);
       }
     },
@@ -958,7 +958,7 @@
             //TODO: show loading icon for this menuitem
             Lazarus.callBackground("Lazarus.Background.fetchForm", [rec.formId, function(formInfo){
               if (formInfo){
-                //prevent the onmouseout handler (which will fire when the menu dissapears) from restoring the original text
+                //prevent the onmouseout handler (which will fire when the menu disappears) from restoring the original text
                 form.lazarusOrigFormInfo = null;
                 Lazarus.Content.restoreForm(form, formInfo, onRestoreForm);
               }
@@ -1073,7 +1073,7 @@
           else {
             Lazarus.Content.setFieldValue(field, text);
           }
-          //prevent the onmouseout handler (which will fire when the menu dissapears) from restoring the original text
+          //prevent the onmouseout handler (which will fire when the menu disappears) from restoring the original text
           field.lazarusOrigValue = null;
           Lazarus.Content.unhighlightField(field);
           menu.hide();

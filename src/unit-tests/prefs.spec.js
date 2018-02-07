@@ -67,10 +67,10 @@ describe("Prefs", function(){
 	
 	it("should throw an error if we attempt to retrieve a value for a key that doesn't exist", function(){
 		expect(function(){
-			Lazarus.getPref("non.existant.preference", function(val){
+			Lazarus.getPref("non.existent.preference", function(val){
 				retVal = val;
 			});
-		}).toThrow("Unknown preference 'non.existant.preference'");
+		}).toThrow("Unknown preference 'non.existent.preference'");
 	})
 	
 	runTest("should be able to reset all values back to their defaults", function(){

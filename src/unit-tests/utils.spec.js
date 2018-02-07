@@ -49,7 +49,7 @@ describe("Utils", function() {
   
   //callAsyncs(fns, args, finalCallback)
   
-  runTest("callAsyncs should call multiple asyncronous methods one after the other", function(){
+  runTest("callAsyncs should call multiple asynchronous methods one after the other", function(){
     var s = '';
     var funcs = [
       function(callback){

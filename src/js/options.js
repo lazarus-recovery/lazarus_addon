@@ -14,7 +14,7 @@ Lazarus.Options = {
 		Lazarus.getPref('debugMode', function(debugMode){
 
 			Lazarus.logger = new Lazarus.Logger('[lazarus]', debugMode);
-			Lazarus.logger.log("initalizing options page");
+			Lazarus.logger.log("initializing options page");
       
       Lazarus.locale.setStrings({
         'app.platform': Lazarus.platform.id,
@@ -187,7 +187,7 @@ Lazarus.Options = {
       if (domains.length){
         $('#disabled-domains-info').text(Lazarus.locale.getString("options.disabledDomains.info"));
         for(var i=0; i<domains.length; i++){
-          //wrap in anonomous function so variables don't change when next item in array is processed
+          //wrap in anonymous function so variables don't change when next item in array is processed
           (function(){
             var domain = domains[i];
             var $li = $('<li class="domain" />').appendTo('#disabled-domains-list');
@@ -225,7 +225,7 @@ Lazarus.Options = {
         }
       }
       else {
-        //no messsages, do nothing
+        //no messages, do nothing
       }
     }]);
   },
@@ -351,7 +351,7 @@ Lazarus.Options = {
       else {
         //if they are attempting to remove the existing password 
         //then they'll need to enter it to start with
-        //for now, we'll re-check the checkbox, and uncheck it if they are successfull 
+        //for now, we'll re-check the checkbox, and uncheck it if they are successful 
         $('#encryption-checkbox').attr('checked', true);
         
         Lazarus.callBackground("Lazarus.Background.isPasswordSet", [function(passwordSet){

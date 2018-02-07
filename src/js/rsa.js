@@ -790,7 +790,7 @@
 		return r;
 	}
 
-	// (public) true iff nth bit is set
+	// (public) true if nth bit is set
 	function bnTestBit(n) {
 		var j = Math.floor(n/this.DB);
 		if(j >= this.t) return(this.s!=0);
