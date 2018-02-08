@@ -4,12 +4,12 @@ The "[Lazarus: Form Recovery][0]" extension is broken on Firefox newer than Augu
 The rebuilding project is currently coordinated by Adam Robertson, @sierracircle. If you would like to donate, send to Paypal at adam@sierracircle.org, with a note about what it's for. The funds gathered to date have been used to hire a freelancer on UpWork - 
 [Migrate Firefox xul to Updated Firefox Addon (WebExtension)][1]
 
-See [Releases][2] for current testing versions.
+See [Releases][2] for current testing versions. If you have any further questions or any issues, feel free to join the [Discord Server][3]
 
 [0]: https://addons.mozilla.org/en-US/firefox/addon/lazarus-form-recovery/
 [1]: https://www.upwork.com/job/Migrate-Firefox-xul-Updated-Firefox-Addon-WebExtension_~015ad6184394b002b9/
 [2]: https://github.com/lazarus-recovery/original_ff/releases
-
+[3]: https://discord.gg/Qz4NPHA
 
 
 ## Files and Folders
@@ -21,7 +21,7 @@ See [Releases][2] for current testing versions.
 
 -----
 
-# Lazarus: Form Recovery
+# Lazarus:Add Form Recovery
 
 Recover lost forms with a single clickEver had one of those "oh $*#@" moments when you realize you've just lost half an hour of your life because something went wrong while you were entering stuff into a web form and there doesn't seem to be any way to recover it? If so, you need Lazarus. If not, install it anyway, before disaster strikes!
 
