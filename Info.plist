@@ -75,8 +75,8 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>http://lazarus.interclue.com/updates/update-check.php?platform=safari&amp;channel=stable</string>
+	<string>http://lazarus.EXAMPLE.com/updates/update-check.php?platform=safari&amp;channel=stable</string>
 	<key>Website</key>
-	<string>http://lazarus.interclue.com/</string>
+	<string>http://lazarus.EXAMPLE.com/</string>
 </dict>
 </plist>

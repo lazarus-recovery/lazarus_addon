@@ -52,7 +52,7 @@ Lazarus.Updates = {
   
   
   "624": function(callback){
-    //if the user has syncing enabled, then we need to get them to switch sync servers (to http://lazarus-sync.com/)
+    //if the user has syncing enabled, then we need to get them to switch sync servers (to http://lazarus-sync.EXAMPLE.com/)
     //this will require them to setup a new sync account.
     Lazarus.getPrefs(["syncEnabled" , "syncEmail"], function(prefs){
       if (prefs.syncEnabled){

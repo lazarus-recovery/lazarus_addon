@@ -9,9 +9,10 @@ Firefox specific functionality
     
     Lazarus.baseURI = "chrome://lazarus/content/";
 
-    Lazarus.extensionId = "lazarus@interclue.com";
+    Lazarus.extensionId = "lazarus@interclue.EXAMPLE.com";
+		//SEC-CHECK-SEE-#9 - what can this be changed to? is a url valid?
 
-    Lazarus.preferencePrefix = "extensions.lazarus.";
+		Lazarus.preferencePrefix = "extensions.lazarus.";
 
     
     //additional prefs for Firefox

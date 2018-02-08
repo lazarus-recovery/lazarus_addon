@@ -11,22 +11,22 @@ var Lazarus = {
   databaseVersion: 2,
   
   //location of sync server
-  SYNC_SERVER: 'http://lazarus-sync.com/api/v2',
+  SYNC_SERVER: 'http://lazarus-sync.EXAMPLE.com/api/v2',
   // testing
   //SYNC_SERVER: 'http://localhost/lazarus/lazarus-3/sync/api/beta',
   
-  URL_UPDATE_CHECK: 'http://getlazarus.com/updates/update-check.php?platform={platform}&version={version}&channel={updateChannel}&format=json',
+  URL_UPDATE_CHECK: 'http://getlazarus.EXAMPLE.com/updates/update-check.php?platform={platform}&version={version}&channel={updateChannel}&format=json',
   
-  URL_SYNC_INFO: 'http://getlazarus.com/Sync',
+  URL_SYNC_INFO: 'http://getlazarus.EXAMPLE.com/Sync',
   
   URL_ONINSTALL: {
-    'stable': 'http://getlazarus.com/First_Run',
-    'beta': 'http://getlazarus.com/First_Run',
+    'stable': 'http://getlazarus.EXAMPLE.com/First_Run',
+    'beta': 'http://getlazarus.EXAMPLE.com/First_Run',
   },
   
   URL_ONUPDATE: {
-    'stable': 'http://getlazarus.com/Lazarus-Has-Been-Updated',
-    'beta': 'http://getlazarus.com/Lazarus-Beta-Has-Been-Updated'
+    'stable': 'http://getlazarus.EXAMPLE.com/Lazarus-Has-Been-Updated',
+    'beta': 'http://getlazarus.EXAMPLE.com/Lazarus-Beta-Has-Been-Updated'
   },
   
   //various states of the addon
