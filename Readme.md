@@ -1,23 +1,15 @@
 # Status
 The "[Lazarus: Form Recovery][0]" extension is broken on Firefox newer than August 2017. There is work underway to rebuild the extension to work on current and future versions of Firefox.
 
-The rebuilding project is currently coordinated by Adam Robertson, @sierracircle. If you would like to donate, send to Paypal at adam@sierracircle.org, with a note about what it's for. The funds gathered to date have been used to hire a freelancer on UpWork - 
-[Migrate Firefox xul to Updated Firefox Addon (WebExtension)][1]
+The rebuilding project is currently coordinated by Adam Robertson, @sierracircle. If you would like to donate, send to Paypal at adam@sierracircle.org, with a note about what it's for. The funds gathered to date were used to hire [a freelancer on UpWork][1]. That contract is finished and now Lazarus can be installed and used, though not without problems. There is more to do before it's solid again. See **[Issues][4]** for current status.
 
 See [Releases][2] for current testing versions. If you have any further questions or any issues, feel free to join the [Discord Server][3]
 
 [0]: https://addons.mozilla.org/en-US/firefox/addon/lazarus-form-recovery/
 [1]: https://www.upwork.com/job/Migrate-Firefox-xul-Updated-Firefox-Addon-WebExtension_~015ad6184394b002b9/
-[2]: https://github.com/lazarus-recovery/original_ff/releases
+[2]: https://github.com/lazarus-recovery/lazarus_addon/releases
 [3]: https://discord.gg/Qz4NPHA
-
-
-## Files and Folders
-
-`.\src`: this is the Addon  
-`.\utils`: tools for developers  
-`.\notes`: self explanatory  
-`.\dist`: distribution packages (.xpi), ignored by source code management (git)
+[4]: https://github.com/lazarus-recovery/lazarus_addon/issues
 
 -----
 
@@ -33,9 +25,11 @@ Lazarus 2.3 uses RSA and AES hybrid encryption, so your form history is more pri
 
 
 ## History
-**2017-Dec-16**: first somewhat usable release from the rebooted development effort  
+**2017-Dec-16**: first somewhat usable release from the rebooted development effort (see [Releases](https://github.com/lazarus-recovery/lazarus_addon/releases))  
 
 **2017-Feb-27**: Forked from "v2.3.1-signed. Released August 4, 2011" to Github @lazarus-recovery on 2017-Feb-27.
 
 Earlier versions from original authors Karl Dearden and Seth Wagoner are at
 https://addons.mozilla.org/en-us/firefox/addon/lazarus-form-recovery/versions/
+
+Changelog prior to 2016: [old-changelog.md](old-changelog.md)
